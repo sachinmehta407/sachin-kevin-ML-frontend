@@ -12,7 +12,7 @@ export function KpiStat({
   icon?: ReactNode;
 }) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-white/60 bg-white/80 p-3.5 shadow-soft backdrop-blur-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-lift">
+    <div className="group relative overflow-hidden rounded-2xl border border-border/60 bg-surface/80 p-3.5 shadow-soft backdrop-blur-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-lift">
       <div className="absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-violet via-blue to-teal opacity-90" />
       <div className="flex items-center justify-between gap-2">
         <span className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">{label}</span>

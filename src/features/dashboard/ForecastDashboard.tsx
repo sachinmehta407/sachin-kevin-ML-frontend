@@ -108,7 +108,7 @@ export function ForecastDashboard() {
               filtered mock data.
             </p>
           </div>
-          <div className="rounded-xl border border-border/70 bg-white/80 px-3.5 py-2.5 text-xs text-muted shadow-soft backdrop-blur">
+          <div className="rounded-xl border border-border/70 bg-surface/80 px-3.5 py-2.5 text-xs text-muted shadow-soft backdrop-blur">
             Corpus:{' '}
             <span className="font-mono font-semibold text-ink">
               {forecastRecords.length.toLocaleString()}

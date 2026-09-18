@@ -4,17 +4,32 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#08080F',
-        muted: '#5F5F78',
-        border: '#E1E1EB',
-        surface: '#FFFFFF',
-        canvas: '#F3F4F9',
-        violet: { DEFAULT: '#5346D3', soft: '#EFEDFF' },
-        blue: { DEFAULT: '#2563EB', soft: '#E8F0FF' },
-        teal: { DEFAULT: '#0B8F82', soft: '#DFF5F1' },
-        amber: { DEFAULT: '#B86E08', soft: '#FBF0DC' },
-        coral: { DEFAULT: '#D44545', soft: '#FCEAEA' },
-        rail: '#0A0A12',
+        ink: 'rgb(var(--color-ink) / <alpha-value>)',
+        muted: 'rgb(var(--color-muted) / <alpha-value>)',
+        border: 'rgb(var(--color-border) / <alpha-value>)',
+        surface: 'rgb(var(--color-surface) / <alpha-value>)',
+        canvas: 'rgb(var(--color-canvas) / <alpha-value>)',
+        violet: {
+          DEFAULT: 'rgb(var(--color-violet) / <alpha-value>)',
+          soft: 'rgb(var(--color-violet-soft) / <alpha-value>)',
+        },
+        blue: {
+          DEFAULT: 'rgb(var(--color-blue) / <alpha-value>)',
+          soft: 'rgb(var(--color-blue-soft) / <alpha-value>)',
+        },
+        teal: {
+          DEFAULT: 'rgb(var(--color-teal) / <alpha-value>)',
+          soft: 'rgb(var(--color-teal-soft) / <alpha-value>)',
+        },
+        amber: {
+          DEFAULT: 'rgb(var(--color-amber) / <alpha-value>)',
+          soft: 'rgb(var(--color-amber-soft) / <alpha-value>)',
+        },
+        coral: {
+          DEFAULT: 'rgb(var(--color-coral) / <alpha-value>)',
+          soft: 'rgb(var(--color-coral-soft) / <alpha-value>)',
+        },
+        rail: 'rgb(var(--color-rail) / <alpha-value>)',
       },
       fontFamily: {
         sans: ['"Plus Jakarta Sans"', 'ui-sans-serif', 'sans-serif'],
@@ -22,10 +37,10 @@ export default {
         mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
       },
       boxShadow: {
-        soft: '0 1px 2px rgba(8,8,15,.04), 0 10px 28px -14px rgba(8,8,15,.14)',
-        lift: '0 4px 12px rgba(8,8,15,.06), 0 20px 48px -20px rgba(83,70,211,.28)',
-        glow: '0 0 0 1px rgba(83,70,211,.2), 0 14px 36px -12px rgba(83,70,211,.4)',
-        inset: 'inset 0 1px 0 rgba(255,255,255,.65)',
+        soft: 'var(--shadow-soft)',
+        lift: 'var(--shadow-lift)',
+        glow: 'var(--shadow-glow)',
+        inset: 'var(--shadow-inset)',
       },
       keyframes: {
         'fade-up': {

@@ -11,13 +11,15 @@ export function AppShell() {
   const [drawer, setDrawer] = useState(false);
   const theme = useAppStore((s) => s.theme);
   useEffect(() => {
-    const resolved =
-      theme === 'system'
-        ? matchMedia('(prefers-color-scheme: dark)').matches
-          ? 'dark'
-          : 'light'
-        : theme;
-    document.documentElement.dataset.theme = resolved;
+    const media = matchMedia('(prefers-color-scheme: dark)');
+    const apply = () => {
+      const resolved =
+        theme === 'system' ? (media.matches ? 'dark' : 'light') : theme;
+      document.documentElement.dataset.theme = resolved;
+    };
+    apply();
+    media.addEventListener('change', apply);
+    return () => media.removeEventListener('change', apply);
   }, [theme]);
 
   return (

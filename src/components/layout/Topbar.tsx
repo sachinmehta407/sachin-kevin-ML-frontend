@@ -31,7 +31,7 @@ export function Topbar({ onMenu }: { onMenu: () => void }) {
   const Icon = theme === 'dark' ? Moon : theme === 'light' ? Sun : Monitor;
 
   return (
-    <header className="sticky top-0 z-20 flex h-16 items-center gap-3 border-b border-border/50 bg-white/65 px-4 backdrop-blur-2xl md:px-8">
+    <header className="sticky top-0 z-20 flex h-16 items-center gap-3 border-b border-border/50 bg-surface/65 px-4 backdrop-blur-2xl md:px-8">
       <button
         onClick={onMenu}
         className="rounded-xl p-2 text-muted transition hover:bg-canvas lg:hidden"
@@ -50,18 +50,18 @@ export function Topbar({ onMenu }: { onMenu: () => void }) {
         <button
           type="button"
           onClick={() => setAssistantOpen(true)}
-          className="flex items-center gap-2 rounded-xl border border-border/60 bg-white/80 px-3 py-2 text-xs font-bold text-ink shadow-soft transition hover:border-violet/35 hover:text-violet"
+          className="flex items-center gap-2 rounded-xl border border-border/60 bg-surface/80 px-3 py-2 text-xs font-bold text-ink shadow-soft transition hover:border-violet/35 hover:text-violet"
         >
           <span className="relative">
             <Bot size={15} className="text-violet" />
-            <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 rounded-full bg-teal ring-2 ring-white" />
+            <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 rounded-full bg-teal ring-2 ring-surface" />
           </span>
           <span className="hidden sm:inline">Assistant</span>
         </button>
         <button
           onClick={cycle}
           title={`Theme: ${theme}`}
-          className="rounded-xl border border-border/60 bg-white/80 p-2.5 text-muted shadow-soft transition hover:text-violet"
+          className="rounded-xl border border-border/60 bg-surface/80 p-2.5 text-muted shadow-soft transition hover:text-violet"
         >
           <Icon size={17} />
         </button>

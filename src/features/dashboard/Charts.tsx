@@ -27,6 +27,7 @@ import {
   YAxis,
   ZAxis,
 } from 'recharts';
+import { chartGrid, chartTick, chartTickSm, chartTooltipStyle } from '../../lib/chartTheme';
 import { DirectionSlice, MonthSeriesPoint } from '../../lib/metrics';
 
 const COLORS = {
@@ -77,10 +78,10 @@ export function AreaChartView({ data }: { data: MonthSeriesPoint[] }) {
               <stop offset="100%" stopColor={COLORS.forecast} stopOpacity={0.02} />
             </linearGradient>
           </defs>
-          <CartesianGrid strokeDasharray="3 3" stroke="#E4E4EE" />
-          <XAxis dataKey="month" tick={{ fontSize: 11 }} />
-          <YAxis tick={{ fontSize: 11 }} />
-          <Tooltip />
+          <CartesianGrid strokeDasharray="3 3" stroke={chartGrid} />
+          <XAxis dataKey="month" tick={chartTick} />
+          <YAxis tick={chartTick} />
+          <Tooltip contentStyle={chartTooltipStyle} />
           <Legend />
           <Area type="monotone" dataKey="actual" name="Actual" stroke={COLORS.actual} fill="url(#areaActual)" strokeWidth={2} />
           <Area type="monotone" dataKey="forecast" name="Forecast" stroke={COLORS.forecast} fill="url(#areaForecast)" strokeWidth={2} />
@@ -100,10 +101,10 @@ export function BarChartView({
     <ChartCard title="Bar Chart" subtitle="Actual vs forecast by region">
       <ResponsiveContainer>
         <BarChart data={data}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#E4E4EE" />
-          <XAxis dataKey="name" tick={{ fontSize: 11 }} />
-          <YAxis tick={{ fontSize: 11 }} />
-          <Tooltip />
+          <CartesianGrid strokeDasharray="3 3" stroke={chartGrid} />
+          <XAxis dataKey="name" tick={chartTick} />
+          <YAxis tick={chartTick} />
+          <Tooltip contentStyle={chartTooltipStyle} />
           <Legend />
           <Bar dataKey="actual" name="Actual" fill={COLORS.actual} radius={[6, 6, 0, 0]} />
           <Bar dataKey="forecast" name="Forecast" fill={COLORS.forecast} radius={[6, 6, 0, 0]} />
@@ -123,11 +124,11 @@ export function BubbleChartView({
     <ChartCard title="Bubble Chart" subtitle="Actual vs forecast · bubble size = error magnitude">
       <ResponsiveContainer>
         <ScatterChart margin={{ top: 8, right: 12, bottom: 8, left: 8 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#E4E4EE" />
-          <XAxis type="number" dataKey="actual" name="Actual" tick={{ fontSize: 11 }} />
-          <YAxis type="number" dataKey="forecast" name="Forecast" tick={{ fontSize: 11 }} />
+          <CartesianGrid strokeDasharray="3 3" stroke={chartGrid} />
+          <XAxis type="number" dataKey="actual" name="Actual" tick={chartTick} />
+          <YAxis type="number" dataKey="forecast" name="Forecast" tick={chartTick} />
           <ZAxis type="number" dataKey="size" range={[60, 400]} name="Error size" />
-          <Tooltip cursor={{ strokeDasharray: '3 3' }} />
+          <Tooltip cursor={{ strokeDasharray: '3 3' }} contentStyle={chartTooltipStyle} />
           <Scatter name="SKUs" data={data} fill={COLORS.forecast} fillOpacity={0.65} />
         </ScatterChart>
       </ResponsiveContainer>
@@ -147,7 +148,7 @@ export function DoughnutChartView({ data }: { data: DirectionSlice[] }) {
               <Cell key={i} fill={palette[i % palette.length]} />
             ))}
           </Pie>
-          <Tooltip />
+          <Tooltip contentStyle={chartTooltipStyle} />
           <Legend />
         </PieChart>
       </ResponsiveContainer>
@@ -166,7 +167,7 @@ export function PieChartView({ data }: { data: Array<{ name: string; value: numb
               <Cell key={i} fill={PIE_COLORS[i % PIE_COLORS.length]} />
             ))}
           </Pie>
-          <Tooltip />
+          <Tooltip contentStyle={chartTooltipStyle} />
           <Legend />
         </PieChart>
       </ResponsiveContainer>
@@ -180,10 +181,10 @@ export function LineChartView({ data }: { data: MonthSeriesPoint[] }) {
     <ChartCard title="Line Chart" subtitle="Actual vs forecast trend lines">
       <ResponsiveContainer>
         <LineChart data={data}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#E4E4EE" />
-          <XAxis dataKey="month" tick={{ fontSize: 11 }} />
-          <YAxis tick={{ fontSize: 11 }} />
-          <Tooltip />
+          <CartesianGrid strokeDasharray="3 3" stroke={chartGrid} />
+          <XAxis dataKey="month" tick={chartTick} />
+          <YAxis tick={chartTick} />
+          <Tooltip contentStyle={chartTooltipStyle} />
           <Legend />
           <Line type="monotone" dataKey="actual" name="Actual" stroke={COLORS.actual} strokeWidth={2.5} dot={false} />
           <Line type="monotone" dataKey="forecast" name="Forecast" stroke={COLORS.forecast} strokeWidth={2.5} dot={false} />
@@ -199,11 +200,11 @@ export function MixedChartView({ data }: { data: MonthSeriesPoint[] }) {
     <ChartCard title="Mixed Chart Types" subtitle="Bars for volume + line for WAPE %">
       <ResponsiveContainer>
         <ComposedChart data={data}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#E4E4EE" />
-          <XAxis dataKey="month" tick={{ fontSize: 11 }} />
-          <YAxis yAxisId="left" tick={{ fontSize: 11 }} />
-          <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 11 }} />
-          <Tooltip />
+          <CartesianGrid strokeDasharray="3 3" stroke={chartGrid} />
+          <XAxis dataKey="month" tick={chartTick} />
+          <YAxis yAxisId="left" tick={chartTick} />
+          <YAxis yAxisId="right" orientation="right" tick={chartTick} />
+          <Tooltip contentStyle={chartTooltipStyle} />
           <Legend />
           <Bar yAxisId="left" dataKey="forecast" name="Forecast" fill={COLORS.forecast} radius={[4, 4, 0, 0]} />
           <Bar yAxisId="left" dataKey="actual" name="Actual" fill={COLORS.actual} radius={[4, 4, 0, 0]} />
@@ -240,6 +241,7 @@ export function PolarAreaChartView({
           </RadialBar>
           <Legend />
           <Tooltip
+            contentStyle={chartTooltipStyle}
             formatter={(value, _name, item) => [
               value,
               (item?.payload as { name?: string } | undefined)?.name ?? 'Region',
@@ -263,9 +265,9 @@ export function RadarChartView({
     <ChartCard title="Radar Chart" subtitle="Model score comparison · higher is better">
       <ResponsiveContainer>
         <RadarChart data={data}>
-          <PolarGrid stroke="#E4E4EE" />
-          <PolarAngleAxis dataKey="metric" tick={{ fontSize: 11 }} />
-          <PolarRadiusAxis angle={30} domain={[0, 100]} tick={{ fontSize: 10 }} />
+          <PolarGrid stroke={chartGrid} />
+          <PolarAngleAxis dataKey="metric" tick={chartTick} />
+          <PolarRadiusAxis angle={30} domain={[0, 100]} tick={chartTickSm} />
           {models.map((m, i) => (
             <Radar
               key={m}
@@ -278,7 +280,7 @@ export function RadarChartView({
             />
           ))}
           <Legend />
-          <Tooltip />
+          <Tooltip contentStyle={chartTooltipStyle} />
         </RadarChart>
       </ResponsiveContainer>
     </ChartCard>
@@ -295,11 +297,11 @@ export function ScatterChartView({
     <ChartCard title="Scatter Chart" subtitle="Each point is an evaluated actual vs forecast pair">
       <ResponsiveContainer>
         <ScatterChart margin={{ top: 8, right: 12, bottom: 8, left: 8 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#E4E4EE" />
-          <XAxis type="number" dataKey="actual" name="Actual" tick={{ fontSize: 11 }} />
-          <YAxis type="number" dataKey="forecast" name="Forecast" tick={{ fontSize: 11 }} />
+          <CartesianGrid strokeDasharray="3 3" stroke={chartGrid} />
+          <XAxis type="number" dataKey="actual" name="Actual" tick={chartTick} />
+          <YAxis type="number" dataKey="forecast" name="Forecast" tick={chartTick} />
           <ZAxis range={[50, 50]} />
-          <Tooltip cursor={{ strokeDasharray: '3 3' }} />
+          <Tooltip cursor={{ strokeDasharray: '3 3' }} contentStyle={chartTooltipStyle} />
           <Scatter name="Evaluated points" data={data} fill={COLORS.teal} fillOpacity={0.75} />
         </ScatterChart>
       </ResponsiveContainer>

@@ -7,7 +7,7 @@ export function StageBanner({ stage, prerequisite }: { stage: AppStageId; prereq
   if (status !== 'locked') return null;
   return (
     <div className="mb-5 flex gap-3 rounded-2xl border border-amber/20 bg-amber-soft/90 p-4 text-sm text-amber shadow-soft">
-      <div className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-white/60 text-amber">
+      <div className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-surface/60 text-amber">
         <LockKeyhole size={18} />
       </div>
       <div>

@@ -16,6 +16,8 @@ const titles: Record<string, string> = {
   '/experiments': 'Experiments',
   '/ensemble': 'Ensemble builder',
   '/overrides': 'Business overrides',
+  '/template-lab': 'Template lab',
+  '/forecast-assembly': 'Forecast assembly',
   '/template-compare': 'Template comparison',
   '/approval': 'Approval',
   '/versions': 'Forecast versions',

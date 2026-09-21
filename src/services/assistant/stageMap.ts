@@ -13,6 +13,8 @@ const PATH_TO_STAGE: Array<{ match: RegExp; id: AppStageId; label: string }> = [
   { match: /^\/experiments/, id: 'experiments', label: 'Experiments' },
   { match: /^\/ensemble/, id: 'ensemble', label: 'Ensemble Forecast' },
   { match: /^\/overrides/, id: 'overrides', label: 'Forecast Overrides' },
+  { match: /^\/template-lab/, id: 'template-lab', label: 'Template Lab' },
+  { match: /^\/forecast-assembly/, id: 'forecast-assembly', label: 'Forecast Assembly' },
   { match: /^\/template-compare/, id: 'template-compare', label: 'Template Compare' },
   { match: /^\/approval/, id: 'approval', label: 'Approval' },
   { match: /^\/versions/, id: 'versions', label: 'Forecast Versions' },

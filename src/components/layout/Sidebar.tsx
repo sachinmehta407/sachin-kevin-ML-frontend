@@ -53,6 +53,8 @@ const groups = [
     'DECISION',
     [
       ['Overrides', '/overrides', SlidersHorizontal, 'overrides'],
+      ['Template lab', '/template-lab', Layers3, 'template-lab'],
+      ['Forecast assembly', '/forecast-assembly', Blend, 'forecast-assembly'],
       ['Template compare', '/template-compare', FileDiff, 'template-compare'],
       ['Approval', '/approval', CheckCircle2, 'approval'],
       ['Versions', '/versions', Database, 'versions'],

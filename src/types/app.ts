@@ -11,8 +11,8 @@ export type ApprovalStatus = 'draft' | 'pending' | 'approved' | 'rejected';
 export type AppStageId =
   | 'overview' | 'ingestion' | 'quality' | 'standardization' | 'eda'
   | 'model-selection' | 'training' | 'dashboard' | 'segment-performance'
-  | 'experiments' | 'ensemble' | 'overrides' | 'template-compare'
-  | 'approval' | 'versions';
+  | 'experiments' | 'ensemble' | 'overrides' | 'template-lab' | 'forecast-assembly'
+  | 'template-compare' | 'approval' | 'versions';
 
 export interface DemoFile {
   id: string;

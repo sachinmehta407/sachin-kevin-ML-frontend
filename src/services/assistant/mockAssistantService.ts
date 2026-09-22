@@ -143,12 +143,12 @@ function matchAnswer(question: string, context: AssistantContext): string {
 
   if (q.includes('demo file') || q.includes('sales_202')) {
     return context.demoLoaded
-      ? 'Loaded mock files cover Jan 2023–Sep 2025 across three annual extracts. They are treated as one sequential history for append + dedupe in this demo.'
-      : 'No files are loaded yet. Use Load demo files to populate Sales_2023 / 2024 / 2025 mock metadata.';
+      ? 'Loaded Olist mock files cover Sep 2016–Aug 2018 across customers, orders, order_items, products, payments, reviews, sellers, and geolocation. Joined into monthly demand facts for this demo.'
+      : 'No files are loaded yet. Use Load demo files to populate the Olist Brazilian e-commerce datasets.';
   }
 
   if (q.includes('critical') || (q.includes('quality') && q.includes('issue'))) {
-    return 'The critical mock issue is Incomplete recent week (partial latest week volume). High issues include missing sales and extreme spikes. Accept/Reject/Modify decisions stay in browser state while you navigate.';
+    return 'The critical mock issue is sparse recent months (Aug 2018 thin volume). High issues include missing delivery timestamps and unknown product categories. Accept/Reject/Modify decisions stay in browser state while you navigate.';
   }
 
   if (q.includes('accept') || q.includes('reject') || q.includes('decision')) {
@@ -203,11 +203,11 @@ function matchAnswer(question: string, context: AssistantContext): string {
   }
 
   if (q.includes('under-forecast') || q.includes('under forecast') || q.includes('over-forecast') || q.includes('over forecast') || q.includes('bias')) {
-    return 'Under-forecast means Forecast < Actual; over-forecast means Forecast > Actual. Segment & Bias highlights categories/regions with persistent directional error (mock: Apparel / West often flagged). Use Products Requiring Attention for highest error %.';
+    return 'Under-forecast means Forecast < Actual; over-forecast means Forecast > Actual. Segment & Bias highlights categories/regions with persistent directional error (mock: Computers Accessories / Southeast often flagged). Use Products Requiring Attention for highest error %.';
   }
 
   if (q.includes('worst') && q.includes('categor')) {
-    return 'In the mock portfolio, promotional/volatile categories (e.g. Apparel / Electronics-like segments) show higher WAPE than staples. Open Segment & Bias or Dashboard → Accuracy by Category with filters applied.';
+    return 'In the Olist mock portfolio, promotional/volatile categories (e.g. Computers Accessories / Health Beauty) show higher WAPE than staples like Stationery. Open Segment & Bias or Dashboard → Accuracy by Category with filters applied.';
   }
 
   if (q.includes('experiment') || q.includes('default with')) {

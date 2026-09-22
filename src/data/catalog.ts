@@ -1,53 +1,17 @@
+import { olistProductCatalogSeed } from './olist';
+
 export interface ProductDef {
   category: string;
   product: string;
   skus: string[];
 }
 
-export const PRODUCT_CATALOG: ProductDef[] = [
-  {
-    category: 'Rings',
-    product: 'Diamond Ring Classic',
-    skus: ['SKU-1001', 'SKU-1002'],
-  },
-  {
-    category: 'Rings',
-    product: 'Gold Band Essential',
-    skus: ['SKU-1003', 'SKU-1004'],
-  },
-  {
-    category: 'Necklaces',
-    product: 'Pearl Strand Aura',
-    skus: ['SKU-2001', 'SKU-2002'],
-  },
-  {
-    category: 'Necklaces',
-    product: 'Silver Pendant Nova',
-    skus: ['SKU-2003'],
-  },
-  {
-    category: 'Earrings',
-    product: 'Hoop Luxe Pair',
-    skus: ['SKU-3001', 'SKU-3002'],
-  },
-  {
-    category: 'Earrings',
-    product: 'Stud Crystal Mini',
-    skus: ['SKU-3003'],
-  },
-  {
-    category: 'Bracelets',
-    product: 'Tennis Link Bracelet',
-    skus: ['SKU-4001', 'SKU-4002'],
-  },
-  {
-    category: 'Watches',
-    product: 'Chrono Steel Watch',
-    skus: ['SKU-5001', 'SKU-5002'],
-  },
-];
+/** Product catalog derived from Olist products + EN category translation */
+export const PRODUCT_CATALOG: ProductDef[] = olistProductCatalogSeed.map(
+  ({ category, product, skus }) => ({ category, product, skus }),
+);
 
-export const CATEGORIES = [...new Set(PRODUCT_CATALOG.map((p) => p.category))];
+export const CATEGORIES = [...new Set(PRODUCT_CATALOG.map((p) => p.category))].sort();
 
 export function productsForCategory(category: string): string[] {
   if (category === 'All Categories') {

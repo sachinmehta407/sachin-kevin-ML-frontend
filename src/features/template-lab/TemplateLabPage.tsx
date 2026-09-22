@@ -10,9 +10,31 @@ import { PageHeader, tableClass, tdClass, thClass } from '../../components/ui/Pa
 import { useAppStore } from '../../store/useAppStore';
 import type { JewelleryCategory, JewelleryCity, JewelleryRegion, TemplateScope } from '../../types/jewellery';
 
-const CATEGORIES: JewelleryCategory[] = ['Bridal', 'Rings', 'Earrings', 'Necklaces'];
-const REGIONS: JewelleryRegion[] = ['North', 'South', 'East', 'West'];
-const CITIES: JewelleryCity[] = ['Mumbai', 'Delhi', 'Bengaluru', 'Chennai', 'Kolkata', 'Hyderabad'];
+const CATEGORIES: JewelleryCategory[] = [
+  'Health Beauty',
+  'Housewares',
+  'Furniture Decor',
+  'Stationery',
+  'Bed Bath Table',
+  'Computers Accessories',
+  'Sports Leisure',
+  'Garden Tools',
+];
+const REGIONS: JewelleryRegion[] = [
+  'Southeast',
+  'South',
+  'Northeast',
+  'North',
+  'Central-West',
+];
+const CITIES: JewelleryCity[] = [
+  'Sao Paulo',
+  'Rio De Janeiro',
+  'Curitiba',
+  'Belo Horizonte',
+  'Brasilia',
+  'Niteroi',
+];
 const MODEL_OPTIONS = ['XGBoost', 'LightGBM', 'SARIMA', 'Prophet', 'TFT', 'Holt-Winters'];
 
 const statusTone = {
@@ -36,7 +58,7 @@ export function TemplateLabPage() {
   } = useAppStore();
 
   const [name, setName] = useState('Template — new scoped experiment');
-  const [description, setDescription] = useState('Scoped AutoML run for a jewellery slice.');
+  const [description, setDescription] = useState('Scoped AutoML run for an Olist category / region slice.');
   const [categories, setCategories] = useState<JewelleryCategory[]>([]);
   const [regions, setRegions] = useState<JewelleryRegion[]>([]);
   const [cities, setCities] = useState<JewelleryCity[]>([]);
@@ -84,8 +106,8 @@ export function TemplateLabPage() {
       />
       <PageHeader
         eyebrow="Decision · Template Lab"
-        title="Jewellery template experiments"
-        description="Template 1 covers all 1,000 SKUs. Create scoped templates (category, city, region, SKU) to improve weak slices without rebuilding everything."
+        title="Olist template experiments"
+        description="Template 1 covers all Olist SKUs. Create scoped templates (category, city, region, SKU) to improve weak slices without rebuilding everything."
         actions={
           <Button onClick={continueNext}>
             Continue to assembly
@@ -227,10 +249,10 @@ export function TemplateLabPage() {
           </CardTitle>
           <ol className="space-y-3 text-sm text-ink">
             <li className="rounded-xl bg-canvas/80 p-3">
-              <strong>1. Default AutoML</strong> — Template 1 predicts all 1,000 SKUs (baseline).
+              <strong>1. Default AutoML</strong> — Template 1 predicts all Olist SKUs (baseline).
             </li>
             <li className="rounded-xl bg-canvas/80 p-3">
-              <strong>2. Improve a slice</strong> — e.g. Bridal only (200 SKUs) with Template 2.
+              <strong>2. Improve a slice</strong> — e.g. Health Beauty only with Template 2.
             </li>
             <li className="rounded-xl bg-canvas/80 p-3">
               <strong>3. Approve</strong> — mark the experiment as approved for final assembly.
@@ -240,7 +262,7 @@ export function TemplateLabPage() {
             </li>
           </ol>
           <p className="mt-4 text-xs text-muted">
-            Example: Bridal 78% → Template 2 Bridal 88%. Rings / Earrings / Necklaces keep Template 1.
+            Example: Health Beauty 81% → Template 2 Health Beauty 88%. Housewares / Stationery keep Template 1.
           </p>
         </Card>
       </div>

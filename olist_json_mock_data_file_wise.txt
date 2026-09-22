@@ -1,0 +1,4603 @@
+OLIST JSON MOCK DATA - FILE-WISE TEXT VERSION
+
+This document contains one JSON section for each source dataset.
+Each section is valid JSON when copied without its heading.
+
+================================================================================
+FILE 1: customers_dataset.json
+================================================================================
+[
+  {
+    "customer_id": "99037edd76af0e57ca1dd862cd7995a1",
+    "customer_unique_id": "1660e6a9434e8900e24fea005eb4cf72",
+    "customer_zip_code_prefix": "82720",
+    "customer_city": "curitiba",
+    "customer_state": "PR"
+  },
+  {
+    "customer_id": "1a455c3578447cae5fde99531bb7dc8d",
+    "customer_unique_id": "92b5ede4ff23756b5402ab835e70c887",
+    "customer_zip_code_prefix": "65970",
+    "customer_city": "porto franco",
+    "customer_state": "MA"
+  },
+  {
+    "customer_id": "527b26bd8ea58b018efd96060cac5ccb",
+    "customer_unique_id": "1b0843d4f653e7301b596757fed2179d",
+    "customer_zip_code_prefix": "45680",
+    "customer_city": "urucuca",
+    "customer_state": "BA"
+  },
+  {
+    "customer_id": "cec841303d49ca5ab4756e8fee1fc554",
+    "customer_unique_id": "9401f50e506539002baf51c87eeda30a",
+    "customer_zip_code_prefix": "96505",
+    "customer_city": "cachoeira do sul",
+    "customer_state": "RS"
+  },
+  {
+    "customer_id": "c6a15026437250fd96680f784d665e01",
+    "customer_unique_id": "1427d43f0ca16b9d318d4bc18dd1a1b0",
+    "customer_zip_code_prefix": "38200",
+    "customer_city": "frutal",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "42be08802b14ff1e10bc5bec7f1beae9",
+    "customer_unique_id": "2d07c5651faf08b9f6536a2bbf74adce",
+    "customer_zip_code_prefix": "21381",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "c5e42d53353b4c848046100a39ed0ae4",
+    "customer_unique_id": "24fa0c2c6bb100ad4bc2b28c8e8f0ef5",
+    "customer_zip_code_prefix": "22783",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "8ac8d9c1fb5ae04d995ea858252714e5",
+    "customer_unique_id": "ec92c237061c9d7bf0ad5277cf15b886",
+    "customer_zip_code_prefix": "04661",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "ab0d603f0c96d5bc3f292d200df9809e",
+    "customer_unique_id": "c155f561686b486818a09b0c1e18f7a1",
+    "customer_zip_code_prefix": "05583",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "15b9ae31dc0100c5258609476904e5b2",
+    "customer_unique_id": "fb1e08ecf738e2081eae46c1378fce3c",
+    "customer_zip_code_prefix": "37270",
+    "customer_city": "campo belo",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "eae775e65db9c286651ab68cfb76ecec",
+    "customer_unique_id": "1cb06b7940f5a52343bd4d3032d0c97d",
+    "customer_zip_code_prefix": "36235",
+    "customer_city": "santa rita do ibitipoca",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "019dc2cd7ae165a706dd249829e0e1f1",
+    "customer_unique_id": "5e8a254b9d665ce56e2d404678560ae7",
+    "customer_zip_code_prefix": "89112",
+    "customer_city": "gaspar",
+    "customer_state": "SC"
+  },
+  {
+    "customer_id": "86dc2ffce2dfff336de2f386a786e574",
+    "customer_unique_id": "830d5b7aaa3b6f1e9ad63703bec97d23",
+    "customer_zip_code_prefix": "14600",
+    "customer_city": "sao joaquim da barra",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "210320fcc92cdf5c39245b92c8c42730",
+    "customer_unique_id": "ef6a6a8e989109993d48bfedc1107328",
+    "customer_zip_code_prefix": "04256",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "0d36ee8d591aef32f7955493243b4a41",
+    "customer_unique_id": "2c38082815681e34b7bb39b9eb6b5545",
+    "customer_zip_code_prefix": "21210",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "62d5c37f279182017dcd13820676a511",
+    "customer_unique_id": "2ad74bb684a664f51ee6dad7dad60c9b",
+    "customer_zip_code_prefix": "58706",
+    "customer_city": "patos",
+    "customer_state": "PB"
+  },
+  {
+    "customer_id": "a31825d0c893a0c13dd57cd8a6e22b93",
+    "customer_unique_id": "d4fc20e1e64c163d80e25a900d9c26c3",
+    "customer_zip_code_prefix": "68376",
+    "customer_city": "altamira",
+    "customer_state": "PA"
+  },
+  {
+    "customer_id": "31a22c96ba8050ae34ea9bd0833e1e99",
+    "customer_unique_id": "5cb955b555b3ea961bfce8cf00439d47",
+    "customer_zip_code_prefix": "20081",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "d19e43bfc6c14d83b972cf699985898e",
+    "customer_unique_id": "2cf22e66a6f804b13ba533e0832dc68a",
+    "customer_zip_code_prefix": "06414",
+    "customer_city": "barueri",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "3e8152cd9752470b9bae84e87f3bd3b1",
+    "customer_unique_id": "bddc788802f5dfac6d6c5dee9fea3c91",
+    "customer_zip_code_prefix": "74340",
+    "customer_city": "goiania",
+    "customer_state": "GO"
+  },
+  {
+    "customer_id": "d34341f5b5a77c0a6af01365d9608371",
+    "customer_unique_id": "8aba68ad39962f7b25c2b7ac62ac4c0e",
+    "customer_zip_code_prefix": "45816",
+    "customer_city": "arraial d'ajuda",
+    "customer_state": "BA"
+  },
+  {
+    "customer_id": "76127da03b20e432691fcc923788d9b3",
+    "customer_unique_id": "4604bef2f7091a97d534af2a62c65952",
+    "customer_zip_code_prefix": "07040",
+    "customer_city": "guarulhos",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "f7457bbcdd912ef2a847361418a2c67a",
+    "customer_unique_id": "64530478ef86eee94dfdc8e3c020a23f",
+    "customer_zip_code_prefix": "05579",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "2096ad3b905d084c9496b1f4289d57db",
+    "customer_unique_id": "0def27ca2bd8b3fd71eb871041c0ece4",
+    "customer_zip_code_prefix": "01031",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "591705dfee9322311501831348d98079",
+    "customer_unique_id": "6ed30b0852ffb1ba918d17c5a9833a21",
+    "customer_zip_code_prefix": "24320",
+    "customer_city": "niteroi",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "aa46592adf8954513da919ad33da2583",
+    "customer_unique_id": "ef1f687d69a777112a0028330e9cacb7",
+    "customer_zip_code_prefix": "11661",
+    "customer_city": "caraguatatuba",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "3227fb6f17d3a5f8b131c9782516ed07",
+    "customer_unique_id": "cad13a8b23f70b1c28436974f7007dae",
+    "customer_zip_code_prefix": "18020",
+    "customer_city": "sorocaba",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "3dd7e34382c3fae6bd89bf41b2c7c291",
+    "customer_unique_id": "807842f72de3de898317fbb8d1942cd0",
+    "customer_zip_code_prefix": "20756",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "72eda8980db0411fc5406163a20ca6e9",
+    "customer_unique_id": "1a786635b3c66e50118171046b72fd5c",
+    "customer_zip_code_prefix": "37610",
+    "customer_city": "bom repouso",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "50fb584351c6138fc5f4e986b30a173e",
+    "customer_unique_id": "9ea40717f597f2886a1e7aeb0e8207fb",
+    "customer_zip_code_prefix": "03156",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "4e2c1f15de98416a90c2ee06b55ccc9b",
+    "customer_unique_id": "9a70db677c8e4e9e25e36729362fe756",
+    "customer_zip_code_prefix": "97700",
+    "customer_city": "santiago",
+    "customer_state": "RS"
+  },
+  {
+    "customer_id": "d6184e6a56d0baf7b891bee8f43c5066",
+    "customer_unique_id": "149a401e28e60833ae0b65f7aac963cd",
+    "customer_zip_code_prefix": "08421",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "08418b48e867cdb13eebbbc53c664e60",
+    "customer_unique_id": "e2e772ea70e91b4dd107cf7e8840b07f",
+    "customer_zip_code_prefix": "80060",
+    "customer_city": "curitiba",
+    "customer_state": "PR"
+  },
+  {
+    "customer_id": "456664e611e20956682bafced4ecdb19",
+    "customer_unique_id": "9e64023fa21c8dc095fdbd1a0568ae62",
+    "customer_zip_code_prefix": "64009",
+    "customer_city": "teresina",
+    "customer_state": "PI"
+  },
+  {
+    "customer_id": "b2c85d49babd60f744c7f30e9d23fafa",
+    "customer_unique_id": "a854d45312665931c0af7b892f6d0e88",
+    "customer_zip_code_prefix": "64800",
+    "customer_city": "floriano",
+    "customer_state": "PI"
+  },
+  {
+    "customer_id": "bd7bf31df8713e97cef95685aa9963f7",
+    "customer_unique_id": "9ac2c22b502f80d13ca11b680111df90",
+    "customer_zip_code_prefix": "61600",
+    "customer_city": "caucaia",
+    "customer_state": "CE"
+  },
+  {
+    "customer_id": "ced00a908ceed2bab37e22ec77bb4eaa",
+    "customer_unique_id": "78e5d422564c755de1e870b2651275ee",
+    "customer_zip_code_prefix": "13331",
+    "customer_city": "indaiatuba",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "2ea694334078726c7229c21f0a7cc021",
+    "customer_unique_id": "abd56bffbdeff412b6d29ef953dab556",
+    "customer_zip_code_prefix": "98700",
+    "customer_city": "ijui",
+    "customer_state": "RS"
+  },
+  {
+    "customer_id": "55761211ed951c99bab19617dad3e33b",
+    "customer_unique_id": "f8c680f325076e63a1d68880937258b2",
+    "customer_zip_code_prefix": "62760",
+    "customer_city": "baturite",
+    "customer_state": "CE"
+  },
+  {
+    "customer_id": "7bea1627c3e438f1cf401aa2c53fea2d",
+    "customer_unique_id": "c78c4f7a23f66b0947b270b656bd98ab",
+    "customer_zip_code_prefix": "30520",
+    "customer_city": "belo horizonte",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "d994da78ae72999d6c55340049fe86b6",
+    "customer_unique_id": "af22df18bbe12e5b4eb9236a7c88945b",
+    "customer_zip_code_prefix": "86047",
+    "customer_city": "londrina",
+    "customer_state": "PR"
+  },
+  {
+    "customer_id": "766145029046296846bb15b8fd581a25",
+    "customer_unique_id": "ab009b9ef22850acd9fd15d0c319a4be",
+    "customer_zip_code_prefix": "27258",
+    "customer_city": "volta redonda",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "898b7fee99c4e42170ab69ba59be0a8b",
+    "customer_unique_id": "24ac2b4327e25baf39f2119e4228976a",
+    "customer_zip_code_prefix": "13483",
+    "customer_city": "limeira",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "30df451d935bb7c4cfa51cc22ee28e5c",
+    "customer_unique_id": "c0955a0a7cd0cbaf66ee32b50d136132",
+    "customer_zip_code_prefix": "55610",
+    "customer_city": "vitoria de santo antao",
+    "customer_state": "PE"
+  },
+  {
+    "customer_id": "653e79d5d3fa5884c8c8c5d0ca18cdf5",
+    "customer_unique_id": "809988e0e5fdc4bf04b87fbfdeb9d249",
+    "customer_zip_code_prefix": "97501",
+    "customer_city": "uruguaiana",
+    "customer_state": "RS"
+  },
+  {
+    "customer_id": "1fc0dd80f3ef093992aafd0a8dcaf281",
+    "customer_unique_id": "fb3b6b966b6fe7af889f45402ceb06a3",
+    "customer_zip_code_prefix": "15997",
+    "customer_city": "matao",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "8d507f583837f28f95948bf6acdf0c9a",
+    "customer_unique_id": "e0ed1de73bac390320f5d2b165f52dce",
+    "customer_zip_code_prefix": "18520",
+    "customer_city": "cerquilho",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "ad2a892cb75797930dd37af669701f85",
+    "customer_unique_id": "1b870d511f6630a41044f05f41dec5da",
+    "customer_zip_code_prefix": "17051",
+    "customer_city": "bauru",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "c32d792dfee718dffd6cd61fc89f23d6",
+    "customer_unique_id": "cd80e261af484c828d374764b9aa36b5",
+    "customer_zip_code_prefix": "32678",
+    "customer_city": "betim",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "391a099850a406987b6f3019c0d98116",
+    "customer_unique_id": "189cbcf514cf83be8bc94f5563f61444",
+    "customer_zip_code_prefix": "65072",
+    "customer_city": "sao luis",
+    "customer_state": "MA"
+  },
+  {
+    "customer_id": "672b006efdabc0ee13568350bb6f29d0",
+    "customer_unique_id": "9934d9121d7b75929c14c754f1ffed75",
+    "customer_zip_code_prefix": "08773",
+    "customer_city": "mogi das cruzes",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "9ac79dbd56c788bdaa3fd33476b5e31e",
+    "customer_unique_id": "f9b074cca28d2f4143036e8eec7eb60b",
+    "customer_zip_code_prefix": "38610",
+    "customer_city": "unai",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "fd79d84ccc418c200ac0633a12166a71",
+    "customer_unique_id": "9a9fcf0d04d9364eb5d4ad3d4d3e6228",
+    "customer_zip_code_prefix": "24230",
+    "customer_city": "niteroi",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "b93d757b24d7fe32863f81d69b43f2aa",
+    "customer_unique_id": "2b4343622681ecc588d6e9497404e779",
+    "customer_zip_code_prefix": "70383",
+    "customer_city": "brasilia",
+    "customer_state": "DF"
+  },
+  {
+    "customer_id": "77057b5a79eb9c5034ce257e0d9fe154",
+    "customer_unique_id": "4e708abd2bbe64141eb87cd25119de2d",
+    "customer_zip_code_prefix": "09617",
+    "customer_city": "sao bernardo do campo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "4d77375c6dcb70bcc7e85e9745a7f61a",
+    "customer_unique_id": "241ef388359fe58ca1bf35112494dcb3",
+    "customer_zip_code_prefix": "49055",
+    "customer_city": "aracaju",
+    "customer_state": "SE"
+  },
+  {
+    "customer_id": "a87adc695f5034edd84b4e60f8188d44",
+    "customer_unique_id": "6452168ad6a6cddd2fe5a2b1624f2d47",
+    "customer_zip_code_prefix": "41120",
+    "customer_city": "salvador",
+    "customer_state": "BA"
+  },
+  {
+    "customer_id": "a1e0ece6d8ce34235b8f5e3dc7a8e69f",
+    "customer_unique_id": "016dc4411329d2b3292a0fbf1402e95e",
+    "customer_zip_code_prefix": "33140",
+    "customer_city": "santa luzia",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "0ec522c4497afe657106a823242c5f16",
+    "customer_unique_id": "ed96c39e0968372baa4b1b00ff169dd0",
+    "customer_zip_code_prefix": "88104",
+    "customer_city": "sao jose",
+    "customer_state": "SC"
+  },
+  {
+    "customer_id": "adad0151d1c1f4c056b59dd6f9146d58",
+    "customer_unique_id": "95fc0e6f6939f521e44a588ff18eacb9",
+    "customer_zip_code_prefix": "12960",
+    "customer_city": "nazare paulista",
+    "customer_state": "SP"
+  }
+]
+
+================================================================================
+FILE 2: geolocation_dataset.json
+================================================================================
+[
+  {
+    "geolocation_zip_code_prefix": "01031",
+    "geolocation_lat": -23.536864121011018,
+    "geolocation_lng": -46.63349313820771,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "01126",
+    "geolocation_lat": -23.52915073382772,
+    "geolocation_lng": -46.64042336234055,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "01244",
+    "geolocation_lat": -23.54499336358131,
+    "geolocation_lng": -46.65968022344037,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "01212",
+    "geolocation_lat": -23.537511255832708,
+    "geolocation_lng": -46.637057307436756,
+    "geolocation_city": "são paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "01511",
+    "geolocation_lat": -23.555682314184306,
+    "geolocation_lng": -46.63309991286275,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "02407",
+    "geolocation_lat": -23.48535959449485,
+    "geolocation_lng": -46.624283978908174,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "02470",
+    "geolocation_lat": -23.484154453228722,
+    "geolocation_lng": -46.64868009824575,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "02955",
+    "geolocation_lat": -23.468440512490595,
+    "geolocation_lng": -46.72068807496815,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "03156",
+    "geolocation_lat": -23.581366991344332,
+    "geolocation_lng": -46.56438226771108,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "03204",
+    "geolocation_lat": -23.597985520399334,
+    "geolocation_lng": -46.555472787119875,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "03426",
+    "geolocation_lat": -23.554079433810344,
+    "geolocation_lng": -46.53324185942636,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "03471",
+    "geolocation_lat": -23.56625832001269,
+    "geolocation_lng": -46.51841724632121,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "03880",
+    "geolocation_lat": -23.50869470774424,
+    "geolocation_lng": -46.48672956633388,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "03821",
+    "geolocation_lat": -23.49517247515727,
+    "geolocation_lng": -46.50119464071786,
+    "geolocation_city": "são paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "03971",
+    "geolocation_lat": -23.615020791563268,
+    "geolocation_lng": -46.47934165652957,
+    "geolocation_city": "são paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "04102",
+    "geolocation_lat": -23.592723631975286,
+    "geolocation_lng": -46.6315844403312,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "04160",
+    "geolocation_lat": -23.62358155176294,
+    "geolocation_lng": -46.61056007369148,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "04256",
+    "geolocation_lat": -23.631438405216702,
+    "geolocation_lng": -46.58678453580699,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "04461",
+    "geolocation_lat": -23.69289565500035,
+    "geolocation_lng": -46.68021046531817,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "04661",
+    "geolocation_lat": -23.686150211592487,
+    "geolocation_lng": -46.69345841828658,
+    "geolocation_city": "são paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "04782",
+    "geolocation_lat": -23.693985995008337,
+    "geolocation_lng": -46.70188324132953,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "04809",
+    "geolocation_lat": -23.71992046378896,
+    "geolocation_lng": -46.693208556754605,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "05583",
+    "geolocation_lat": -23.58246586372554,
+    "geolocation_lng": -46.78823345282468,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "05579",
+    "geolocation_lat": -23.57017137445925,
+    "geolocation_lng": -46.712743957432075,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "06144",
+    "geolocation_lat": -23.56949384569213,
+    "geolocation_lng": -46.803730375642104,
+    "geolocation_city": "osasco",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "06414",
+    "geolocation_lat": -23.495901469908656,
+    "geolocation_lng": -46.87468669635919,
+    "geolocation_city": "barueri",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "06429",
+    "geolocation_lat": -23.491791912543025,
+    "geolocation_lng": -46.94733309700014,
+    "geolocation_city": "barueri",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "07040",
+    "geolocation_lat": -23.47667359838998,
+    "geolocation_lng": -46.544622763113864,
+    "geolocation_city": "guarulhos",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "07133",
+    "geolocation_lat": -23.44007914793122,
+    "geolocation_lng": -46.51144923980033,
+    "geolocation_city": "guarulhos",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "07600",
+    "geolocation_lat": -23.323581622627874,
+    "geolocation_lng": -46.571516434161296,
+    "geolocation_city": "mairipora",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "08421",
+    "geolocation_lat": -23.569179969298748,
+    "geolocation_lng": -46.41940490115958,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "08773",
+    "geolocation_lat": -23.517127104923187,
+    "geolocation_lng": -46.19066721624193,
+    "geolocation_city": "mogi das cruzes",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "09230",
+    "geolocation_lat": -23.615718097697492,
+    "geolocation_lng": -46.53118432278263,
+    "geolocation_city": "santo andre",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "09617",
+    "geolocation_lat": -23.66814509853421,
+    "geolocation_lng": -46.55717758410748,
+    "geolocation_city": "sao bernardo do campo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "11661",
+    "geolocation_lat": -23.617336491305995,
+    "geolocation_lng": -45.40282533188777,
+    "geolocation_city": "caraguatatuba",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "12230",
+    "geolocation_lat": -23.221431461827063,
+    "geolocation_lng": -45.888163895493165,
+    "geolocation_city": "sao jose dos campos",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "12327",
+    "geolocation_lat": -23.298185959563558,
+    "geolocation_lng": -45.974828011182304,
+    "geolocation_city": "jacarei",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "12940",
+    "geolocation_lat": -23.112774381969185,
+    "geolocation_lng": -46.5488845105504,
+    "geolocation_city": "atibaia",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "12960",
+    "geolocation_lat": -23.18258370723467,
+    "geolocation_lng": -46.39602763154268,
+    "geolocation_city": "nazaré paulista",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "13186",
+    "geolocation_lat": -22.887514996879027,
+    "geolocation_lng": -47.19573904628551,
+    "geolocation_city": "hortolandia",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "13232",
+    "geolocation_lat": -23.207064313532694,
+    "geolocation_lng": -46.760735214610754,
+    "geolocation_city": "campo limpo paulista",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "13331",
+    "geolocation_lat": -23.086094615998476,
+    "geolocation_lng": -47.224962351552726,
+    "geolocation_city": "indaiatuba",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "13405",
+    "geolocation_lat": -22.71683928585045,
+    "geolocation_lng": -47.65736585405934,
+    "geolocation_city": "piracicaba",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "13483",
+    "geolocation_lat": -22.56835042131686,
+    "geolocation_lng": -47.44743947974489,
+    "geolocation_city": "limeira",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "13844",
+    "geolocation_lat": -22.382941116125448,
+    "geolocation_lng": -46.94664125419024,
+    "geolocation_city": "mogi-guacu",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "13920",
+    "geolocation_lat": -22.73824150585765,
+    "geolocation_lng": -46.895858577758595,
+    "geolocation_city": "pedreira",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "14050",
+    "geolocation_lat": -21.17121748495008,
+    "geolocation_lng": -47.81941847157649,
+    "geolocation_city": "ribeirao preto",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "14070",
+    "geolocation_lat": -21.116471333054424,
+    "geolocation_lng": -47.79073400291418,
+    "geolocation_city": "ribeirao preto",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "14600",
+    "geolocation_lat": -20.581177442701474,
+    "geolocation_lng": -47.858931261277824,
+    "geolocation_city": "sao joaquim da barra",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "14940",
+    "geolocation_lat": -21.7664768468313,
+    "geolocation_lng": -48.83154737836604,
+    "geolocation_city": "ibitinga",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "15025",
+    "geolocation_lat": -20.802436263463758,
+    "geolocation_lng": -49.39562406741489,
+    "geolocation_city": "sao jose do rio preto",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "15070",
+    "geolocation_lat": -20.817017187453597,
+    "geolocation_lng": -49.36425413438004,
+    "geolocation_city": "sao jose do rio preto",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "15704",
+    "geolocation_lat": -20.27939929861524,
+    "geolocation_lng": -50.5535315563023,
+    "geolocation_city": "jales",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "15997",
+    "geolocation_lat": -21.588716797391655,
+    "geolocation_lng": -48.36618541687346,
+    "geolocation_city": "matao",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "17051",
+    "geolocation_lat": -22.33137826421038,
+    "geolocation_lng": -49.096775499711526,
+    "geolocation_city": "bauru",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "18020",
+    "geolocation_lat": -23.508046572018046,
+    "geolocation_lng": -47.438707709821706,
+    "geolocation_city": "sorocaba",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "18520",
+    "geolocation_lat": -23.17098515567461,
+    "geolocation_lng": -47.73847012348546,
+    "geolocation_city": "cerquilho",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": "20081",
+    "geolocation_lat": -22.8961084117468,
+    "geolocation_lng": -43.18164216911137,
+    "geolocation_city": "rio de janeiro",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "20756",
+    "geolocation_lat": -22.886098638900194,
+    "geolocation_lng": -43.3108898963299,
+    "geolocation_city": "rio de janeiro",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "21210",
+    "geolocation_lat": -22.842290284753936,
+    "geolocation_lng": -43.297620711754945,
+    "geolocation_city": "rio de janeiro",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "21381",
+    "geolocation_lat": -22.878476937821056,
+    "geolocation_lng": -43.31517005147447,
+    "geolocation_city": "rio de janeiro",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "22240",
+    "geolocation_lat": -22.93125598447676,
+    "geolocation_lng": -43.17881321481337,
+    "geolocation_city": "rio de janeiro",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "22783",
+    "geolocation_lat": -22.99280667740874,
+    "geolocation_lng": -43.44828652055829,
+    "geolocation_city": "rio de janeiro",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "24120",
+    "geolocation_lat": -22.88248286955392,
+    "geolocation_lng": -43.088660754775304,
+    "geolocation_city": "niteroi",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "24230",
+    "geolocation_lat": -22.911270381614713,
+    "geolocation_lng": -43.10515133611283,
+    "geolocation_city": "niterói",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "24320",
+    "geolocation_lat": -22.896457952139116,
+    "geolocation_lng": -43.038939697491436,
+    "geolocation_city": "niteroi",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "25645",
+    "geolocation_lat": -22.549033360244323,
+    "geolocation_lng": -43.210094724044055,
+    "geolocation_city": "petrópolis",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "27258",
+    "geolocation_lat": -22.5331011515379,
+    "geolocation_lng": -44.129546769086474,
+    "geolocation_city": "volta redonda",
+    "geolocation_state": "RJ"
+  },
+  {
+    "geolocation_zip_code_prefix": "29100",
+    "geolocation_lat": -20.33579451826222,
+    "geolocation_lng": -40.29815848246219,
+    "geolocation_city": "vila velha",
+    "geolocation_state": "ES"
+  },
+  {
+    "geolocation_zip_code_prefix": "30520",
+    "geolocation_lat": -19.94290708159733,
+    "geolocation_lng": -44.020034873997325,
+    "geolocation_city": "belo horizonte",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "31110",
+    "geolocation_lat": -19.899120540942892,
+    "geolocation_lng": -43.9404121305903,
+    "geolocation_city": "belo horizonte",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "31573",
+    "geolocation_lat": -19.809042328611024,
+    "geolocation_lng": -43.99006964195861,
+    "geolocation_city": "belo horizonte",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "32678",
+    "geolocation_lat": -19.931357672407383,
+    "geolocation_lng": -44.10148914476319,
+    "geolocation_city": "betim",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "33140",
+    "geolocation_lat": -19.773876605304032,
+    "geolocation_lng": -43.926229686140715,
+    "geolocation_city": "santa luzia",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "36235",
+    "geolocation_lat": -21.561865936488346,
+    "geolocation_lng": -43.915290058173106,
+    "geolocation_city": "santa rita do ibitipoca",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "37270",
+    "geolocation_lat": -20.88413821938755,
+    "geolocation_lng": -45.273440680600785,
+    "geolocation_city": "campo belo",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "37564",
+    "geolocation_lat": -22.264093569966427,
+    "geolocation_lng": -46.15856420525942,
+    "geolocation_city": "borda da mata",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "37610",
+    "geolocation_lat": -22.469555435520803,
+    "geolocation_lng": -46.147499622809576,
+    "geolocation_city": "bom repouso",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "38200",
+    "geolocation_lat": -20.02025438264054,
+    "geolocation_lng": -48.93543951469848,
+    "geolocation_city": "frutal",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "38440",
+    "geolocation_lat": -18.65223568071188,
+    "geolocation_lng": -48.19343213192182,
+    "geolocation_city": "araguari",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "38610",
+    "geolocation_lat": -16.362606334443775,
+    "geolocation_lng": -46.89279560165654,
+    "geolocation_city": "unai",
+    "geolocation_state": "MG"
+  },
+  {
+    "geolocation_zip_code_prefix": "41120",
+    "geolocation_lat": -12.970993735430158,
+    "geolocation_lng": -38.45677524884366,
+    "geolocation_city": "salvador",
+    "geolocation_state": "BA"
+  },
+  {
+    "geolocation_zip_code_prefix": "45680",
+    "geolocation_lat": -14.59052247254757,
+    "geolocation_lng": -39.28872499559806,
+    "geolocation_city": "urucuca",
+    "geolocation_state": "BA"
+  },
+  {
+    "geolocation_zip_code_prefix": "45816",
+    "geolocation_lat": -16.48006288480821,
+    "geolocation_lng": -39.06740132856377,
+    "geolocation_city": "arraial d'ajuda",
+    "geolocation_state": "BA"
+  },
+  {
+    "geolocation_zip_code_prefix": "49055",
+    "geolocation_lat": -10.911448835763641,
+    "geolocation_lng": -37.05969723828957,
+    "geolocation_city": "aracaju",
+    "geolocation_state": "SE"
+  },
+  {
+    "geolocation_zip_code_prefix": "55610",
+    "geolocation_lat": -8.096480418786554,
+    "geolocation_lng": -35.27976087849176,
+    "geolocation_city": "vitória de santo antão",
+    "geolocation_state": "PE"
+  },
+  {
+    "geolocation_zip_code_prefix": "58706",
+    "geolocation_lat": -7.019567227698031,
+    "geolocation_lng": -37.27659292824436,
+    "geolocation_city": "patos",
+    "geolocation_state": "PB"
+  },
+  {
+    "geolocation_zip_code_prefix": "61600",
+    "geolocation_lat": -3.732408169223661,
+    "geolocation_lng": -38.66332431978007,
+    "geolocation_city": "caucaia",
+    "geolocation_state": "CE"
+  },
+  {
+    "geolocation_zip_code_prefix": "62760",
+    "geolocation_lat": -4.331402612273032,
+    "geolocation_lng": -38.88073575131685,
+    "geolocation_city": "baturite",
+    "geolocation_state": "CE"
+  },
+  {
+    "geolocation_zip_code_prefix": "64009",
+    "geolocation_lat": -5.040067360477492,
+    "geolocation_lng": -42.80612037763464,
+    "geolocation_city": "teresina",
+    "geolocation_state": "PI"
+  },
+  {
+    "geolocation_zip_code_prefix": "64800",
+    "geolocation_lat": -6.765049042930655,
+    "geolocation_lng": -43.02825025138064,
+    "geolocation_city": "floriano",
+    "geolocation_state": "PI"
+  },
+  {
+    "geolocation_zip_code_prefix": "65072",
+    "geolocation_lat": -2.5460792339719513,
+    "geolocation_lng": -44.3089863702464,
+    "geolocation_city": "são luís",
+    "geolocation_state": "MA"
+  },
+  {
+    "geolocation_zip_code_prefix": "65970",
+    "geolocation_lat": -6.349730069419711,
+    "geolocation_lng": -47.38705074579457,
+    "geolocation_city": "porto franco",
+    "geolocation_state": "MA"
+  },
+  {
+    "geolocation_zip_code_prefix": "68376",
+    "geolocation_lat": -3.195479104040259,
+    "geolocation_lng": -52.188450994778826,
+    "geolocation_city": "altamira",
+    "geolocation_state": "PA"
+  },
+  {
+    "geolocation_zip_code_prefix": "70383",
+    "geolocation_lat": -15.826540500000002,
+    "geolocation_lng": -47.92094325000001,
+    "geolocation_city": "brasilia",
+    "geolocation_state": "DF"
+  },
+  {
+    "geolocation_zip_code_prefix": "74340",
+    "geolocation_lat": -16.664851853384405,
+    "geolocation_lng": -49.43126821319877,
+    "geolocation_city": "goiania",
+    "geolocation_state": "GO"
+  },
+  {
+    "geolocation_zip_code_prefix": "74645",
+    "geolocation_lat": -16.671296999999946,
+    "geolocation_lng": -49.237248499999964,
+    "geolocation_city": "goiania",
+    "geolocation_state": "GO"
+  },
+  {
+    "geolocation_zip_code_prefix": "80060",
+    "geolocation_lat": -25.432110597005,
+    "geolocation_lng": -49.25976793963871,
+    "geolocation_city": "curitiba",
+    "geolocation_state": "PR"
+  },
+  {
+    "geolocation_zip_code_prefix": "81810",
+    "geolocation_lat": -25.50714419618402,
+    "geolocation_lng": -49.27207460483913,
+    "geolocation_city": "curitiba",
+    "geolocation_state": "PR"
+  },
+  {
+    "geolocation_zip_code_prefix": "82720",
+    "geolocation_lat": -25.366615579893026,
+    "geolocation_lng": -49.227201830567985,
+    "geolocation_city": "curitiba",
+    "geolocation_state": "PR"
+  },
+  {
+    "geolocation_zip_code_prefix": "86047",
+    "geolocation_lat": -23.350693931734682,
+    "geolocation_lng": -51.16308555117244,
+    "geolocation_city": "londrina",
+    "geolocation_state": "PR"
+  },
+  {
+    "geolocation_zip_code_prefix": "87025",
+    "geolocation_lat": -23.377396999935016,
+    "geolocation_lng": -51.93100618003307,
+    "geolocation_city": "maringa",
+    "geolocation_state": "PR"
+  },
+  {
+    "geolocation_zip_code_prefix": "87050",
+    "geolocation_lat": -23.437975269077903,
+    "geolocation_lng": -51.91385959802448,
+    "geolocation_city": "maringa",
+    "geolocation_state": "PR"
+  },
+  {
+    "geolocation_zip_code_prefix": "88104",
+    "geolocation_lat": -27.62150704604186,
+    "geolocation_lng": -48.638515641286425,
+    "geolocation_city": "sao jose",
+    "geolocation_state": "SC"
+  },
+  {
+    "geolocation_zip_code_prefix": "88730",
+    "geolocation_lat": -28.327530882623098,
+    "geolocation_lng": -49.18050954005345,
+    "geolocation_city": "sao ludgero",
+    "geolocation_state": "SC"
+  },
+  {
+    "geolocation_zip_code_prefix": "89120",
+    "geolocation_lat": -26.83365489702238,
+    "geolocation_lng": -49.26170944102369,
+    "geolocation_city": "timbo",
+    "geolocation_state": "SC"
+  },
+  {
+    "geolocation_zip_code_prefix": "89112",
+    "geolocation_lat": -26.946407076902695,
+    "geolocation_lng": -48.94918364263056,
+    "geolocation_city": "gaspar",
+    "geolocation_state": "SC"
+  },
+  {
+    "geolocation_zip_code_prefix": "89560",
+    "geolocation_lat": -27.00086872288371,
+    "geolocation_lng": -51.14532022116548,
+    "geolocation_city": "videira",
+    "geolocation_state": "SC"
+  },
+  {
+    "geolocation_zip_code_prefix": "95034",
+    "geolocation_lat": -29.15431985306487,
+    "geolocation_lng": -51.18599374251306,
+    "geolocation_city": "caxias do sul",
+    "geolocation_state": "RS"
+  },
+  {
+    "geolocation_zip_code_prefix": "96505",
+    "geolocation_lat": -30.006473532657118,
+    "geolocation_lng": -52.90836727744279,
+    "geolocation_city": "cachoeira do sul",
+    "geolocation_state": "RS"
+  },
+  {
+    "geolocation_zip_code_prefix": "97501",
+    "geolocation_lat": -29.751091889187794,
+    "geolocation_lng": -57.08572064476392,
+    "geolocation_city": "uruguaiana",
+    "geolocation_state": "RS"
+  },
+  {
+    "geolocation_zip_code_prefix": "97700",
+    "geolocation_lat": -29.189988823565873,
+    "geolocation_lng": -54.8719981328078,
+    "geolocation_city": "santiago",
+    "geolocation_state": "RS"
+  },
+  {
+    "geolocation_zip_code_prefix": "98700",
+    "geolocation_lat": -28.389227656496743,
+    "geolocation_lng": -53.92967622327969,
+    "geolocation_city": "ijui",
+    "geolocation_state": "RS"
+  }
+]
+
+================================================================================
+FILE 3: order_items_dataset.json
+================================================================================
+[
+  {
+    "order_id": "0504447548229e075dea8441b37b1e2a",
+    "order_item_id": 1,
+    "product_id": "8852eb03b04ec3268a66e9b696e25f6f",
+    "seller_id": "d1b65fc7debc3361ea86b5f14c68d2e2",
+    "shipping_limit_date": "2017-10-06 02:14:42",
+    "price": 199.9,
+    "freight_value": 21.89
+  },
+  {
+    "order_id": "0b3d8a1bbaa4e340e25adfd640f70308",
+    "order_item_id": 1,
+    "product_id": "a794505b7d66eea7dbd7d5649881ffb1",
+    "seller_id": "b4ffb71f0cb1b1c3d63fad021ecf93e1",
+    "shipping_limit_date": "2018-04-23 01:30:21",
+    "price": 137.0,
+    "freight_value": 53.09
+  },
+  {
+    "order_id": "17d1c72c26f43dbcb91705626271e2f0",
+    "order_item_id": 1,
+    "product_id": "6c712952b8ef62f8d06a0314917400c8",
+    "seller_id": "620c87c171fb2a6dd6e8bb4dec959fc6",
+    "shipping_limit_date": "2017-11-08 17:25:53",
+    "price": 79.9,
+    "freight_value": 21.3
+  },
+  {
+    "order_id": "17d1c72c26f43dbcb91705626271e2f0",
+    "order_item_id": 2,
+    "product_id": "6c712952b8ef62f8d06a0314917400c8",
+    "seller_id": "620c87c171fb2a6dd6e8bb4dec959fc6",
+    "shipping_limit_date": "2017-11-08 17:25:53",
+    "price": 79.9,
+    "freight_value": 21.3
+  },
+  {
+    "order_id": "19559da3ec491caeab77c1512d28399b",
+    "order_item_id": 1,
+    "product_id": "b126c36658d4d8ae320a4ad38531cbaf",
+    "seller_id": "0be8ff43f22e456b4e0371b2245e4d01",
+    "shipping_limit_date": "2017-12-05 01:28:00",
+    "price": 47.9,
+    "freight_value": 8.72
+  },
+  {
+    "order_id": "1a9b9f5f7c4ed24f0e1e7c19cc9510a5",
+    "order_item_id": 1,
+    "product_id": "6f6c5da6ce68f0b7150daee08677ca79",
+    "seller_id": "cca3071e3e9bb7d12640c9fbe2301306",
+    "shipping_limit_date": "2017-03-16 21:11:42",
+    "price": 209.9,
+    "freight_value": 33.07
+  },
+  {
+    "order_id": "1b6c5ab6683a19bca12106679e94fe4e",
+    "order_item_id": 1,
+    "product_id": "5dee2c14e1989141e15d341d4c62d72a",
+    "seller_id": "670c26e0f1bf8d0576271d5cfaec6d2b",
+    "shipping_limit_date": "2018-04-05 03:15:44",
+    "price": 89.5,
+    "freight_value": 13.75
+  },
+  {
+    "order_id": "1b900d4d10e97580eee435e3474110c8",
+    "order_item_id": 1,
+    "product_id": "9ead3847aad283a0842bde7ad9a9e7b3",
+    "seller_id": "fac1a9017ade7bdc94058fc1c969f355",
+    "shipping_limit_date": "2018-05-29 18:57:02",
+    "price": 99.9,
+    "freight_value": 22.41
+  },
+  {
+    "order_id": "2074522aabccf07984a2e77f7219ece5",
+    "order_item_id": 1,
+    "product_id": "c1678c7353738f1698430b8ea0d6a488",
+    "seller_id": "b4f8921fcc4ff77b66bea6dda43dcd51",
+    "shipping_limit_date": "2018-08-14 18:50:19",
+    "price": 599.99,
+    "freight_value": 69.41
+  },
+  {
+    "order_id": "258dc8334fda68e1474385c00298c877",
+    "order_item_id": 1,
+    "product_id": "c71a9c53596bf311acd9e298a0b3dc42",
+    "seller_id": "128639473a139ac0f3e5f5ade55873a5",
+    "shipping_limit_date": "2017-08-08 02:55:30",
+    "price": 10.9,
+    "freight_value": 15.1
+  },
+  {
+    "order_id": "2b4b69b119c4446626f617bd54ff3147",
+    "order_item_id": 1,
+    "product_id": "c7c99e372ec2f873701c20e3a00ff29c",
+    "seller_id": "7d76b645482be4a332374e8223836592",
+    "shipping_limit_date": "2017-09-12 18:44:08",
+    "price": 16.9,
+    "freight_value": 21.15
+  },
+  {
+    "order_id": "303be864ad5419c9825b648397a8eb73",
+    "order_item_id": 1,
+    "product_id": "bee2e070c39f3dd2f6883a17a5f0da45",
+    "seller_id": "4e922959ae960d389249c378d1c939f5",
+    "shipping_limit_date": "2018-03-26 22:35:40",
+    "price": 180.0,
+    "freight_value": 9.56
+  },
+  {
+    "order_id": "35a972d7f8436f405b56e36add1a7140",
+    "order_item_id": 1,
+    "product_id": "d04857e7b4b708ee8b8b9921163edba3",
+    "seller_id": "9f505651f4a6abe901a56cdc21508025",
+    "shipping_limit_date": "2018-08-31 15:10:26",
+    "price": 84.99,
+    "freight_value": 8.76
+  },
+  {
+    "order_id": "37d7fe3b89c5111a0bbed48ed650101a",
+    "order_item_id": 1,
+    "product_id": "6109d0cae3bcb57d579bc0fab6e61814",
+    "seller_id": "dbc22125167c298ef99da25668e1011f",
+    "shipping_limit_date": "2018-03-27 14:31:24",
+    "price": 81.5,
+    "freight_value": 15.42
+  },
+  {
+    "order_id": "39519d02af9b0ab69cd51e3b81fe2dc5",
+    "order_item_id": 1,
+    "product_id": "a3c485c1ba93a314a9606492aeb0072c",
+    "seller_id": "d71d863e5ef30d94e440c11be17dcd8f",
+    "shipping_limit_date": "2017-10-26 14:56:20",
+    "price": 119.0,
+    "freight_value": 52.84
+  },
+  {
+    "order_id": "3a8fa2133fb96a04512604d9c32dc7c3",
+    "order_item_id": 1,
+    "product_id": "b23a6d2e943df2a8248577f6523580ce",
+    "seller_id": "7994081388d55b9cf976c050653dd359",
+    "shipping_limit_date": "2017-02-15 14:29:29",
+    "price": 120.0,
+    "freight_value": 14.6
+  },
+  {
+    "order_id": "3d1a669c8ccacd61bf065e1537d5cad4",
+    "order_item_id": 1,
+    "product_id": "f8b624d4e475bb8d1bddf1b65c6a64f6",
+    "seller_id": "b410bdd36d5db7a65dcd42b7ead933b8",
+    "shipping_limit_date": "2018-06-12 16:12:36",
+    "price": 179.0,
+    "freight_value": 27.69
+  },
+  {
+    "order_id": "409e065598ea4a9dba359d894ab0cab9",
+    "order_item_id": 1,
+    "product_id": "f40876e0ef3cd5f9132b1f16b04b1346",
+    "seller_id": "620c87c171fb2a6dd6e8bb4dec959fc6",
+    "shipping_limit_date": "2018-01-11 03:31:44",
+    "price": 99.9,
+    "freight_value": 34.11
+  },
+  {
+    "order_id": "409e065598ea4a9dba359d894ab0cab9",
+    "order_item_id": 2,
+    "product_id": "9bb8ca338e5588c361e34eae02e8fad6",
+    "seller_id": "620c87c171fb2a6dd6e8bb4dec959fc6",
+    "shipping_limit_date": "2018-01-11 03:31:44",
+    "price": 69.9,
+    "freight_value": 0.09
+  },
+  {
+    "order_id": "4340cfd191c9dc16061684e4575fb151",
+    "order_item_id": 1,
+    "product_id": "bd66403f5f11696c897a825d5235697f",
+    "seller_id": "7e93a43ef30c4f03f38b393420bc753a",
+    "shipping_limit_date": "2018-04-25 22:53:58",
+    "price": 221.99,
+    "freight_value": 38.24
+  },
+  {
+    "order_id": "46ab5f4b3a88ae05be005f9736c0e9e6",
+    "order_item_id": 1,
+    "product_id": "6a1c65dbbecc1ece8c22856122a774ac",
+    "seller_id": "1025f0e2d44d7041d6cf58b6550e0bfa",
+    "shipping_limit_date": "2018-01-18 02:36:41",
+    "price": 250.0,
+    "freight_value": 35.0
+  },
+  {
+    "order_id": "497b870cbbeda496567b5d75b81c5722",
+    "order_item_id": 1,
+    "product_id": "81ea712c5f76a3b1c0e4c3dbc5126404",
+    "seller_id": "282f23a9769b2690c5dda22e316f9941",
+    "shipping_limit_date": "2018-03-01 02:10:58",
+    "price": 36.7,
+    "freight_value": 12.48
+  },
+  {
+    "order_id": "4bea1a1e7a264f908a38f818073ee923",
+    "order_item_id": 1,
+    "product_id": "d9cb2ed0c6d5ccdd1da7ae9e8cad120c",
+    "seller_id": "b6d44737c043328708f6749c2dbe50bd",
+    "shipping_limit_date": "2017-06-23 11:50:14",
+    "price": 95.0,
+    "freight_value": 21.16
+  },
+  {
+    "order_id": "4ed9c32a4e9d45ab8b3b9596e69f7346",
+    "order_item_id": 1,
+    "product_id": "7ce94ab189134e2d3c05f496d635419c",
+    "seller_id": "8b321bb669392f5163d04c59e235e066",
+    "shipping_limit_date": "2018-05-21 21:55:25",
+    "price": 13.65,
+    "freight_value": 7.39
+  },
+  {
+    "order_id": "5454971549d855538eb746e4d263f9a5",
+    "order_item_id": 1,
+    "product_id": "146881934618f0efaf33d04909acd195",
+    "seller_id": "3df020b72d3d44b3af9d110fa3940b65",
+    "shipping_limit_date": "2018-05-07 00:15:22",
+    "price": 49.9,
+    "freight_value": 13.71
+  },
+  {
+    "order_id": "5454971549d855538eb746e4d263f9a5",
+    "order_item_id": 2,
+    "product_id": "146881934618f0efaf33d04909acd195",
+    "seller_id": "3df020b72d3d44b3af9d110fa3940b65",
+    "shipping_limit_date": "2018-05-07 00:15:22",
+    "price": 49.9,
+    "freight_value": 13.71
+  },
+  {
+    "order_id": "5454971549d855538eb746e4d263f9a5",
+    "order_item_id": 3,
+    "product_id": "146881934618f0efaf33d04909acd195",
+    "seller_id": "3df020b72d3d44b3af9d110fa3940b65",
+    "shipping_limit_date": "2018-05-07 00:15:22",
+    "price": 49.9,
+    "freight_value": 13.71
+  },
+  {
+    "order_id": "5454971549d855538eb746e4d263f9a5",
+    "order_item_id": 4,
+    "product_id": "146881934618f0efaf33d04909acd195",
+    "seller_id": "3df020b72d3d44b3af9d110fa3940b65",
+    "shipping_limit_date": "2018-05-07 00:15:22",
+    "price": 49.9,
+    "freight_value": 13.71
+  },
+  {
+    "order_id": "58883d4d88a7a9be12c7343ecf8dcea5",
+    "order_item_id": 1,
+    "product_id": "f3bdb4d3d673cd7bb48636be1d431c0f",
+    "seller_id": "a2e874074c877c5a05abae80ad6e488f",
+    "shipping_limit_date": "2018-02-06 11:30:40",
+    "price": 686.21,
+    "freight_value": 53.82
+  },
+  {
+    "order_id": "5f5ef03caf7e16f975b0fbd9ac1d3db0",
+    "order_item_id": 1,
+    "product_id": "c0747e098550ba48a597e31baf37f519",
+    "seller_id": "dd7ddc04e1b6c2c614352b383efe2d36",
+    "shipping_limit_date": "2017-12-13 11:02:59",
+    "price": 34.9,
+    "freight_value": 15.1
+  },
+  {
+    "order_id": "602a793bc5e2389ea3184fef278d8b0f",
+    "order_item_id": 1,
+    "product_id": "764292b2b0f73f77a0272be03fdd45f3",
+    "seller_id": "bd23da7354813347129d751591d1a6e2",
+    "shipping_limit_date": "2018-06-29 20:11:53",
+    "price": 79.9,
+    "freight_value": 16.75
+  },
+  {
+    "order_id": "64bd3c2db3673ba37030ccfcbfce8fe3",
+    "order_item_id": 1,
+    "product_id": "4025ee582ef6b8c478af3b44cf89054b",
+    "seller_id": "da8622b14eb17ae2831f4ac5b9dab84a",
+    "shipping_limit_date": "2018-08-10 03:15:14",
+    "price": 24.9,
+    "freight_value": 7.43
+  },
+  {
+    "order_id": "64bd3c2db3673ba37030ccfcbfce8fe3",
+    "order_item_id": 2,
+    "product_id": "31c1d1dfbb4b2730140b8bd9248bcd58",
+    "seller_id": "da8622b14eb17ae2831f4ac5b9dab84a",
+    "shipping_limit_date": "2018-08-10 03:15:14",
+    "price": 24.9,
+    "freight_value": 7.43
+  },
+  {
+    "order_id": "669833f6af7254475316c8960bf742fc",
+    "order_item_id": 1,
+    "product_id": "3f994ee4a0b20760d1b173aa65037c95",
+    "seller_id": "ceaec5548eefc6e23e6607c5435102e7",
+    "shipping_limit_date": "2018-06-25 03:17:33",
+    "price": 209.99,
+    "freight_value": 28.45
+  },
+  {
+    "order_id": "68f4e47ec61d740cefae31e2f624932b",
+    "order_item_id": 1,
+    "product_id": "3003a2841d6a775095317139ed2f7943",
+    "seller_id": "240b9776d844d37535668549a396af32",
+    "shipping_limit_date": "2018-08-29 17:35:15",
+    "price": 64.9,
+    "freight_value": 11.71
+  },
+  {
+    "order_id": "6e584156fb694163bf7b2f005416589e",
+    "order_item_id": 1,
+    "product_id": "1e1d5e507a02d77ca05f0fbd4783af9c",
+    "seller_id": "46dc3b2cc0980fb8ec44634e21d2718e",
+    "shipping_limit_date": "2017-12-18 14:49:16",
+    "price": 99.99,
+    "freight_value": 15.45
+  },
+  {
+    "order_id": "6f14ef9e1c67a1ca8e572a477c1b58b1",
+    "order_item_id": 1,
+    "product_id": "adb5b8ee8b86e86930bc333c182bbead",
+    "seller_id": "9c0e69c7bf2619675bbadf47b43f655a",
+    "shipping_limit_date": "2017-07-24 14:45:20",
+    "price": 189.98,
+    "freight_value": 17.09
+  },
+  {
+    "order_id": "6f14ef9e1c67a1ca8e572a477c1b58b1",
+    "order_item_id": 2,
+    "product_id": "adb5b8ee8b86e86930bc333c182bbead",
+    "seller_id": "9c0e69c7bf2619675bbadf47b43f655a",
+    "shipping_limit_date": "2017-07-24 14:45:20",
+    "price": 189.98,
+    "freight_value": 17.09
+  },
+  {
+    "order_id": "873e00f0d09131c528f460aab0f488fb",
+    "order_item_id": 1,
+    "product_id": "e0d64dcfaa3b6db5c54ca298ae101d05",
+    "seller_id": "7d13fca15225358621be4086e1eb0964",
+    "shipping_limit_date": "2018-05-15 20:30:39",
+    "price": 144.0,
+    "freight_value": 18.89
+  },
+  {
+    "order_id": "8cf9ba649b9084cf9c9fe4031a1850ef",
+    "order_item_id": 1,
+    "product_id": "68b9af8698585855f2503727e150d453",
+    "seller_id": "7299e27ed73d2ad986de7f7c77d919fa",
+    "shipping_limit_date": "2017-10-17 17:49:25",
+    "price": 25.0,
+    "freight_value": 16.79
+  },
+  {
+    "order_id": "8d58703c7926bd13b718863681e60e42",
+    "order_item_id": 1,
+    "product_id": "da596542f9179c1021970d21d9b53b76",
+    "seller_id": "951e8cef368f09bb3f3d03c00ca4702c",
+    "shipping_limit_date": "2018-07-23 19:25:19",
+    "price": 38.99,
+    "freight_value": 13.85
+  },
+  {
+    "order_id": "902db2c98a98235e57479a2ba1b06136",
+    "order_item_id": 1,
+    "product_id": "e44f675b60b3a3a2453ec36421e06f0f",
+    "seller_id": "218d46b86c1881d022bce9c68a7d4b15",
+    "shipping_limit_date": "2018-02-06 19:10:49",
+    "price": 107.0,
+    "freight_value": 12.25
+  },
+  {
+    "order_id": "95a87e0d2cf1cb63b02eba222ceaecc7",
+    "order_item_id": 1,
+    "product_id": "3fc18e3aefe7b9346bd15de863fa0365",
+    "seller_id": "53e4c6e0f4312d4d2107a8c9cddf45cd",
+    "shipping_limit_date": "2017-06-08 17:15:10",
+    "price": 81.99,
+    "freight_value": 16.82
+  },
+  {
+    "order_id": "965fd67b96c75d07ac90c1f7ba2728e7",
+    "order_item_id": 1,
+    "product_id": "5a848e4ab52fd5445cdc07aab1c40e48",
+    "seller_id": "c826c40d7b19f62a09e2d7c5e7295ee2",
+    "shipping_limit_date": "2018-03-06 18:50:26",
+    "price": 122.99,
+    "freight_value": 14.61
+  },
+  {
+    "order_id": "96e7a3c4942a286dc88f85fffcdfbf50",
+    "order_item_id": 1,
+    "product_id": "c45f017c36f9112a8bb4f170edfb1870",
+    "seller_id": "dbc22125167c298ef99da25668e1011f",
+    "shipping_limit_date": "2017-05-25 09:05:10",
+    "price": 102.9,
+    "freight_value": 14.45
+  },
+  {
+    "order_id": "a48804f66ce775aaca8c304521669e80",
+    "order_item_id": 1,
+    "product_id": "3ced865c94d3396f990864fa7aef9104",
+    "seller_id": "ea8482cd71df3c1969d7b9473ff13abc",
+    "shipping_limit_date": "2017-11-21 04:10:24",
+    "price": 24.99,
+    "freight_value": 21.15
+  },
+  {
+    "order_id": "a547fb168e44ce6b79cdea200a3c9b45",
+    "order_item_id": 1,
+    "product_id": "8163c8c2e8dc7cc8c93d1b30a2e7428b",
+    "seller_id": "1b4c3a6f53068f0b6944d2d005c9fc89",
+    "shipping_limit_date": "2017-08-30 12:24:25",
+    "price": 174.9,
+    "freight_value": 21.71
+  },
+  {
+    "order_id": "a5699e91157fd53a3c93f645452e88bd",
+    "order_item_id": 1,
+    "product_id": "ee406bf28024d97771c4b1e8b7e8e219",
+    "seller_id": "7a67c85e85bb2ce8582c35f2203ad736",
+    "shipping_limit_date": "2017-09-25 03:30:28",
+    "price": 149.99,
+    "freight_value": 19.29
+  },
+  {
+    "order_id": "acf579dc44e10bf23cabf01d80f9f62c",
+    "order_item_id": 1,
+    "product_id": "2948658cb6abc82847412be7201bfc4c",
+    "seller_id": "955fee9216a65b617aa5c0531780ce60",
+    "shipping_limit_date": "2018-04-11 14:30:26",
+    "price": 120.0,
+    "freight_value": 39.13
+  },
+  {
+    "order_id": "adca0458be5f212699c94312c6bd9779",
+    "order_item_id": 1,
+    "product_id": "3258acb04d37e2f91f76c9250f3b80a0",
+    "seller_id": "c70c1b0d8ca86052f45a432a38b73958",
+    "shipping_limit_date": "2018-05-09 23:50:45",
+    "price": 110.32,
+    "freight_value": 15.65
+  },
+  {
+    "order_id": "adca0458be5f212699c94312c6bd9779",
+    "order_item_id": 2,
+    "product_id": "d13a4acdb64c202e774e815db547e108",
+    "seller_id": "c70c1b0d8ca86052f45a432a38b73958",
+    "shipping_limit_date": "2018-05-09 23:50:45",
+    "price": 110.32,
+    "freight_value": 15.65
+  },
+  {
+    "order_id": "bfbd0f9bdef84302105ad712db648a6c",
+    "order_item_id": 1,
+    "product_id": "5a6b04657a4c5ee34285d1e4619a96b4",
+    "seller_id": "ecccfa2bb93b34a3bf033cc5d1dcdc69",
+    "shipping_limit_date": "2016-09-19 23:11:33",
+    "price": 44.99,
+    "freight_value": 2.83
+  },
+  {
+    "order_id": "bfbd0f9bdef84302105ad712db648a6c",
+    "order_item_id": 2,
+    "product_id": "5a6b04657a4c5ee34285d1e4619a96b4",
+    "seller_id": "ecccfa2bb93b34a3bf033cc5d1dcdc69",
+    "shipping_limit_date": "2016-09-19 23:11:33",
+    "price": 44.99,
+    "freight_value": 2.83
+  },
+  {
+    "order_id": "bfbd0f9bdef84302105ad712db648a6c",
+    "order_item_id": 3,
+    "product_id": "5a6b04657a4c5ee34285d1e4619a96b4",
+    "seller_id": "ecccfa2bb93b34a3bf033cc5d1dcdc69",
+    "shipping_limit_date": "2016-09-19 23:11:33",
+    "price": 44.99,
+    "freight_value": 2.83
+  },
+  {
+    "order_id": "c4f8b593d018d585660bb519a77b7b67",
+    "order_item_id": 1,
+    "product_id": "0bcc3eeca39e1064258aa1e932269894",
+    "seller_id": "1f50f920176fa81dab994f9023523100",
+    "shipping_limit_date": "2017-04-26 22:30:19",
+    "price": 59.9,
+    "freight_value": 17.16
+  },
+  {
+    "order_id": "c5119bb429cf05b928aca27cd9e62cf4",
+    "order_item_id": 1,
+    "product_id": "192b332c511e484ea4f3f8b0526ee59d",
+    "seller_id": "41b86b552e54e3a7009596125aa8b167",
+    "shipping_limit_date": "2017-04-04 02:15:19",
+    "price": 74.5,
+    "freight_value": 14.69
+  },
+  {
+    "order_id": "c8126d249a88b7218ea8af8a2ddfc024",
+    "order_item_id": 1,
+    "product_id": "3cb39171fd36c50097f2dedbbe0dfe6e",
+    "seller_id": "16090f2ca825584b5a147ab24aa30c86",
+    "shipping_limit_date": "2018-07-10 04:48:22",
+    "price": 29.29,
+    "freight_value": 12.87
+  },
+  {
+    "order_id": "ca01c525c19a77269bb9ab052e2a3eab",
+    "order_item_id": 1,
+    "product_id": "94fe5d8bb49bb5643b837cfb59ec8d62",
+    "seller_id": "7178f9f4dd81dcef02f62acdf8151e01",
+    "shipping_limit_date": "2018-02-27 07:30:58",
+    "price": 74.9,
+    "freight_value": 15.27
+  },
+  {
+    "order_id": "ceecda7c9b24cbff643a6c5119a9ec6d",
+    "order_item_id": 1,
+    "product_id": "e917a4c1765b98c448b7e4cadcbd0d36",
+    "seller_id": "7e3f87d16fb353f408d467e74fbd8014",
+    "shipping_limit_date": "2018-08-03 02:35:19",
+    "price": 20.9,
+    "freight_value": 7.41
+  },
+  {
+    "order_id": "d15e0fd391d14c714d025a4824bf068f",
+    "order_item_id": 1,
+    "product_id": "9fc98e39f04be8e382d8aa5e259f5489",
+    "seller_id": "d2374cbcbb3ca4ab1086534108cc3ab7",
+    "shipping_limit_date": "2017-05-26 17:30:19",
+    "price": 47.9,
+    "freight_value": 25.63
+  },
+  {
+    "order_id": "d4e47f54a1b18883138da71a1f9d5855",
+    "order_item_id": 1,
+    "product_id": "908dd61b840a480fa931ef04389c6266",
+    "seller_id": "4a3ca9315b744ce9f8e9374361493884",
+    "shipping_limit_date": "2018-02-14 07:35:44",
+    "price": 89.9,
+    "freight_value": 12.13
+  },
+  {
+    "order_id": "db738d19eb9fe6721be783d4e46f1c4d",
+    "order_item_id": 1,
+    "product_id": "dfd2ea8377fb2838a47488c5b37558f1",
+    "seller_id": "93b9a99027bd8bd6af682aff18dd19bf",
+    "shipping_limit_date": "2018-02-06 17:59:15",
+    "price": 240.0,
+    "freight_value": 19.57
+  },
+  {
+    "order_id": "dc072ac65fce2a16ef5cc9473e91dfa8",
+    "order_item_id": 1,
+    "product_id": "f000b8e179dc162f26046103cd109ea3",
+    "seller_id": "08d1c9478fb0d7d7fcac9c0da4e82fc7",
+    "shipping_limit_date": "2018-06-18 19:46:43",
+    "price": 538.0,
+    "freight_value": 67.57
+  },
+  {
+    "order_id": "e15504d16c775034b44d4637a745a5a5",
+    "order_item_id": 1,
+    "product_id": "c2ad928095a0d199c4d44b2194119ce2",
+    "seller_id": "b561927807645834b59ef0d16ba55a24",
+    "shipping_limit_date": "2018-03-13 12:30:32",
+    "price": 29.3,
+    "freight_value": 22.85
+  },
+  {
+    "order_id": "e15504d16c775034b44d4637a745a5a5",
+    "order_item_id": 2,
+    "product_id": "145140d23f166a1166dc4437107df8cc",
+    "seller_id": "b561927807645834b59ef0d16ba55a24",
+    "shipping_limit_date": "2018-03-13 12:30:32",
+    "price": 29.3,
+    "freight_value": 22.85
+  },
+  {
+    "order_id": "e2da042c42ce790c81ef3a9f666a92b6",
+    "order_item_id": 1,
+    "product_id": "fb55982be901439613a95940feefd9ee",
+    "seller_id": "3d871de0142ce09b7081e2b9d1733cb1",
+    "shipping_limit_date": "2017-12-28 16:30:09",
+    "price": 79.0,
+    "freight_value": 17.8
+  },
+  {
+    "order_id": "e3a456432c2847da83a3cfb4fa72d9db",
+    "order_item_id": 1,
+    "product_id": "371fa349d92646bbeea5873df0bcdc5a",
+    "seller_id": "f3da5b2ff499efb8d4a6d371d175d7dd",
+    "shipping_limit_date": "2017-11-27 21:52:28",
+    "price": 24.62,
+    "freight_value": 14.1
+  },
+  {
+    "order_id": "f1bdbadeb03d8a0e4c6c2f3ffaf32b35",
+    "order_item_id": 1,
+    "product_id": "c0bc78ee82fbbd6bfc0638d513c238df",
+    "seller_id": "cb6c9f5888a7a090c75beaf615925792",
+    "shipping_limit_date": "2018-07-30 11:35:32",
+    "price": 44.99,
+    "freight_value": 15.42
+  },
+  {
+    "order_id": "f96187641653e607ec1001aff62bdff0",
+    "order_item_id": 1,
+    "product_id": "01da7f08d8327e0b4fab7edaa0c417a4",
+    "seller_id": "4e922959ae960d389249c378d1c939f5",
+    "shipping_limit_date": "2017-11-30 02:54:34",
+    "price": 298.0,
+    "freight_value": 10.83
+  },
+  {
+    "order_id": "fd5c1e8106fe112adf074e53073aa76a",
+    "order_item_id": 1,
+    "product_id": "a8fe47ad6f852f93cc92c7b408687de3",
+    "seller_id": "aaed1309374718fdd995ee4c58c9dfcd",
+    "shipping_limit_date": "2017-08-17 09:25:07",
+    "price": 72.9,
+    "freight_value": 18.08
+  },
+  {
+    "order_id": "fd85ec210522091e1e3e0318218860c8",
+    "order_item_id": 1,
+    "product_id": "06f0e85c7892d5df893f332706340af1",
+    "seller_id": "3d871de0142ce09b7081e2b9d1733cb1",
+    "shipping_limit_date": "2017-07-11 21:05:15",
+    "price": 139.0,
+    "freight_value": 20.21
+  }
+]
+
+================================================================================
+FILE 4: order_reviews_dataset.json
+================================================================================
+[
+  {
+    "review_id": "bfd1c687738141ef5861a1a1269ca855",
+    "order_id": "409e065598ea4a9dba359d894ab0cab9",
+    "review_score": 1,
+    "review_comment_title": null,
+    "review_comment_message": "Dos dois produtos comprados, foi entregue apenas um!",
+    "review_creation_date": "2018-01-10 00:00:00",
+    "review_answer_timestamp": "2018-01-11 11:54:28"
+  },
+  {
+    "review_id": "d097dcba9c2696887d5f42cf0b1c4b44",
+    "order_id": "f1bdbadeb03d8a0e4c6c2f3ffaf32b35",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-08-04 00:00:00",
+    "review_answer_timestamp": "2018-08-10 13:08:58"
+  },
+  {
+    "review_id": "29517cdad4620126e9c803ef87928fcd",
+    "order_id": "fd5c1e8106fe112adf074e53073aa76a",
+    "review_score": 3,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-08-29 00:00:00",
+    "review_answer_timestamp": "2017-08-30 12:43:45"
+  },
+  {
+    "review_id": "edb5ee7c33c2afed4531051c25cc8603",
+    "order_id": "0b3d8a1bbaa4e340e25adfd640f70308",
+    "review_score": 1,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-05-08 00:00:00",
+    "review_answer_timestamp": "2018-05-10 13:43:37"
+  },
+  {
+    "review_id": "1d00c795e6845d850f6b1a19af7a3943",
+    "order_id": "4340cfd191c9dc16061684e4575fb151",
+    "review_score": 5,
+    "review_comment_title": "RECOMENDO",
+    "review_comment_message": "ENTREGA ANTES DO PRAZO.",
+    "review_creation_date": "2018-05-05 00:00:00",
+    "review_answer_timestamp": "2018-05-21 16:44:08"
+  },
+  {
+    "review_id": "408a219153d1da90a538938d2a4379b4",
+    "order_id": "fd85ec210522091e1e3e0318218860c8",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-07-20 00:00:00",
+    "review_answer_timestamp": "2017-07-21 13:33:29"
+  },
+  {
+    "review_id": "1c723bb4e24dbff53a5ec04e103ecc3e",
+    "order_id": "e3a456432c2847da83a3cfb4fa72d9db",
+    "review_score": 1,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-12-10 00:00:00",
+    "review_answer_timestamp": "2017-12-11 09:10:13"
+  },
+  {
+    "review_id": "af64d2317435834b89df09ceea920d98",
+    "order_id": "4ed9c32a4e9d45ab8b3b9596e69f7346",
+    "review_score": 5,
+    "review_comment_title": "bom",
+    "review_comment_message": null,
+    "review_creation_date": "2018-05-22 00:00:00",
+    "review_answer_timestamp": "2018-05-23 02:04:12"
+  },
+  {
+    "review_id": "7d9354f73c1ae0d3d87a762d369c614d",
+    "order_id": "6f14ef9e1c67a1ca8e572a477c1b58b1",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-07-29 00:00:00",
+    "review_answer_timestamp": "2017-07-30 11:59:23"
+  },
+  {
+    "review_id": "779adfa09e476714bcc18fbf0ecb7ef3",
+    "order_id": "64bd3c2db3673ba37030ccfcbfce8fe3",
+    "review_score": 1,
+    "review_comment_title": "Muito insatisfeita ",
+    "review_comment_message": "Não recebi o pedido completo e consta como entregue ",
+    "review_creation_date": "2018-08-17 00:00:00",
+    "review_answer_timestamp": "2018-08-18 00:18:21"
+  },
+  {
+    "review_id": "72b96bc7e95412e4783698795417ae2d",
+    "order_id": "ceecda7c9b24cbff643a6c5119a9ec6d",
+    "review_score": 1,
+    "review_comment_title": null,
+    "review_comment_message": "Estpu preocupada, no status de recebimento consta como entregue dia 06/08, porem ainda não recebi o pedido. Inclusive liguei no telefone 4003 1000.",
+    "review_creation_date": "2018-08-07 00:00:00",
+    "review_answer_timestamp": "2018-08-08 16:34:41"
+  },
+  {
+    "review_id": "29a6a46a6f2aaba5a4b832571bdfb9ee",
+    "order_id": "5454971549d855538eb746e4d263f9a5",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-05-04 00:00:00",
+    "review_answer_timestamp": "2018-05-04 23:06:59"
+  },
+  {
+    "review_id": "5ee399cbeda3b2833fe07ab43c24745e",
+    "order_id": "5f5ef03caf7e16f975b0fbd9ac1d3db0",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-12-30 00:00:00",
+    "review_answer_timestamp": "2018-01-01 18:55:24"
+  },
+  {
+    "review_id": "1c6d53c29493fc29107fc070feeab45f",
+    "order_id": "d4e47f54a1b18883138da71a1f9d5855",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Chegou até antes da data prevista. Adorei!!!",
+    "review_creation_date": "2018-02-17 00:00:00",
+    "review_answer_timestamp": "2018-02-17 13:02:29"
+  },
+  {
+    "review_id": "265e6d99461ed7db35a7f48a00df7e6c",
+    "order_id": "0504447548229e075dea8441b37b1e2a",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "excelente aquisição",
+    "review_creation_date": "2017-10-07 00:00:00",
+    "review_answer_timestamp": "2017-10-09 10:41:34"
+  },
+  {
+    "review_id": "60e2ebeb52a3892e6f6dd9e404d79238",
+    "order_id": "95a87e0d2cf1cb63b02eba222ceaecc7",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": "As tampas não têm pressão",
+    "review_creation_date": "2017-06-22 00:00:00",
+    "review_answer_timestamp": "2017-06-25 15:01:26"
+  },
+  {
+    "review_id": "5d453a5d4920cee385167c30dc56e159",
+    "order_id": "adca0458be5f212699c94312c6bd9779",
+    "review_score": 3,
+    "review_comment_title": "Free duplo",
+    "review_comment_message": "Compared lenses de grass differentes.. Ai me cobraram 2 taxas de entrega' e me entregaram em 2 caixas diferentes... Burrice do sistema q saiu cara... Mas foi entregue corretamente.",
+    "review_creation_date": "2018-05-12 00:00:00",
+    "review_answer_timestamp": "2018-05-14 23:28:33"
+  },
+  {
+    "review_id": "099c79acfb43a2991ae8df9e93527c46",
+    "order_id": "8d58703c7926bd13b718863681e60e42",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-07-25 00:00:00",
+    "review_answer_timestamp": "2018-07-26 02:02:00"
+  },
+  {
+    "review_id": "f27fb7dcb3e3610208b0e8c44b02776f",
+    "order_id": "96e7a3c4942a286dc88f85fffcdfbf50",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Gostei se.Ainda sendo pela a loja Amricana.muito bom.Obrigado.",
+    "review_creation_date": "2017-06-03 00:00:00",
+    "review_answer_timestamp": "2017-06-06 07:04:31"
+  },
+  {
+    "review_id": "cb061e9ca5ab73bd77fb87167291d972",
+    "order_id": "2b4b69b119c4446626f617bd54ff3147",
+    "review_score": 3,
+    "review_comment_title": null,
+    "review_comment_message": "Solicitei capa e pelicula de vidro do xperia xa, a capa veio correta, porém a pelicula veio errada, menor e estreita, estou aguardando reembolso.",
+    "review_creation_date": "2017-09-20 00:00:00",
+    "review_answer_timestamp": "2017-09-20 23:41:56"
+  },
+  {
+    "review_id": "6916ca4502d6d3bfd39818759d55d536",
+    "order_id": "bfbd0f9bdef84302105ad712db648a6c",
+    "review_score": 1,
+    "review_comment_title": null,
+    "review_comment_message": "nao recebi o produto e nem resposta da empresa",
+    "review_creation_date": "2016-10-06 00:00:00",
+    "review_answer_timestamp": "2016-10-07 18:32:28"
+  },
+  {
+    "review_id": "7e87b68478da8eb17cd4f29acba1a098",
+    "order_id": "1a9b9f5f7c4ed24f0e1e7c19cc9510a5",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Chegou de boa.",
+    "review_creation_date": "2017-04-01 00:00:00",
+    "review_answer_timestamp": "2017-04-04 04:38:28"
+  },
+  {
+    "review_id": "c4a2e35ffe8c26a3d4658e5734a79661",
+    "order_id": "a5699e91157fd53a3c93f645452e88bd",
+    "review_score": 1,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-10-12 00:00:00",
+    "review_answer_timestamp": "2017-10-12 11:57:39"
+  },
+  {
+    "review_id": "3857046aff3bb299b35b36d7b162b937",
+    "order_id": "39519d02af9b0ab69cd51e3b81fe2dc5",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "O produto veio com defeito.",
+    "review_creation_date": "2017-11-05 00:00:00",
+    "review_answer_timestamp": "2017-11-07 23:57:03"
+  },
+  {
+    "review_id": "9fd6ec4c21c33301196f99de9883fe76",
+    "order_id": "3a8fa2133fb96a04512604d9c32dc7c3",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "EFICIENTISSIMO .",
+    "review_creation_date": "2017-02-23 00:00:00",
+    "review_answer_timestamp": "2017-02-24 09:19:09"
+  },
+  {
+    "review_id": "a4333b97d8bcc3e31a9bd46bde2f3954",
+    "order_id": "db738d19eb9fe6721be783d4e46f1c4d",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": "Amei o produto!Do jeito que eu precisava,com varias divisorias...chegou bemm antes do prazo e pra fechar com chave de ouro veio na cor que eu realmente queria vermelha !Simplismente linda!Amei!",
+    "review_creation_date": "2018-02-07 00:00:00",
+    "review_answer_timestamp": "2018-02-07 21:14:10"
+  },
+  {
+    "review_id": "8160612fd3ab16ac425bbaf1634814a8",
+    "order_id": "873e00f0d09131c528f460aab0f488fb",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-05-18 00:00:00",
+    "review_answer_timestamp": "2018-05-20 15:17:54"
+  },
+  {
+    "review_id": "9242151d4b9cbb6cb8152216f0c2395f",
+    "order_id": "a547fb168e44ce6b79cdea200a3c9b45",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Chegou antes do prazo, muito bom!",
+    "review_creation_date": "2017-09-05 00:00:00",
+    "review_answer_timestamp": "2017-09-06 14:08:25"
+  },
+  {
+    "review_id": "20a2788ca09e1c37634600a2a4b60cca",
+    "order_id": "1b6c5ab6683a19bca12106679e94fe4e",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-04-06 00:00:00",
+    "review_answer_timestamp": "2018-04-06 20:35:24"
+  },
+  {
+    "review_id": "c0404b666de439a078be8897dd70d7d4",
+    "order_id": "acf579dc44e10bf23cabf01d80f9f62c",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-04-28 00:00:00",
+    "review_answer_timestamp": "2018-04-28 22:17:14"
+  },
+  {
+    "review_id": "236bbd9c75fb6710bd6bcfd32955ed0f",
+    "order_id": "a48804f66ce775aaca8c304521669e80",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-11-22 00:00:00",
+    "review_answer_timestamp": "2017-11-24 18:46:16"
+  },
+  {
+    "review_id": "aa3c1131bebdb865a5f81fa6811ca52d",
+    "order_id": "f96187641653e607ec1001aff62bdff0",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-11-30 00:00:00",
+    "review_answer_timestamp": "2017-11-30 22:43:08"
+  },
+  {
+    "review_id": "afc6411625266fa6f2540f46b07381f0",
+    "order_id": "19559da3ec491caeab77c1512d28399b",
+    "review_score": 3,
+    "review_comment_title": null,
+    "review_comment_message": "Acho que os produtos deveriam ter as medidas, achei muito pequena a bolsa térmica do Corinthians. Gostaria de comprar vim cooler e não compro porque não tem medidas.",
+    "review_creation_date": "2017-12-02 00:00:00",
+    "review_answer_timestamp": "2017-12-02 19:45:38"
+  },
+  {
+    "review_id": "340845d2e015d96629cd7cc72680b1fc",
+    "order_id": "497b870cbbeda496567b5d75b81c5722",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-03-01 00:00:00",
+    "review_answer_timestamp": "2018-03-05 22:43:08"
+  },
+  {
+    "review_id": "6b376acfe5900a6d872514bf8ce306da",
+    "order_id": "c5119bb429cf05b928aca27cd9e62cf4",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-04-07 00:00:00",
+    "review_answer_timestamp": "2017-04-12 11:20:50"
+  },
+  {
+    "review_id": "60b0504556b1d310a91bd644f36f4af0",
+    "order_id": "c8126d249a88b7218ea8af8a2ddfc024",
+    "review_score": 4,
+    "review_comment_title": "Chegou rapidamente",
+    "review_comment_message": "Funcionou no Punto 2014.",
+    "review_creation_date": "2018-07-13 00:00:00",
+    "review_answer_timestamp": "2018-07-14 01:07:53"
+  },
+  {
+    "review_id": "f47a7d2a5f3fdec04908121b7613be29",
+    "order_id": "37d7fe3b89c5111a0bbed48ed650101a",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Otimo produto, entregou antes da hora.\r\nMuito bom!",
+    "review_creation_date": "2018-03-28 00:00:00",
+    "review_answer_timestamp": "2018-03-28 19:12:42"
+  },
+  {
+    "review_id": "8eea22c3cd377768f2e1027fb31b8356",
+    "order_id": "dc072ac65fce2a16ef5cc9473e91dfa8",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-06-23 00:00:00",
+    "review_answer_timestamp": "2018-06-23 22:35:58"
+  },
+  {
+    "review_id": "d3b16acc620cf57b107944ccbbb0c799",
+    "order_id": "58883d4d88a7a9be12c7343ecf8dcea5",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-02-10 00:00:00",
+    "review_answer_timestamp": "2018-02-12 04:53:41"
+  },
+  {
+    "review_id": "390c8570648658f80968ae6f77142429",
+    "order_id": "35a972d7f8436f405b56e36add1a7140",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-08-31 00:00:00",
+    "review_answer_timestamp": "2018-09-09 16:49:27"
+  },
+  {
+    "review_id": "7eb528b3f5718e82b6fcf45eaa88e2f1",
+    "order_id": "e2da042c42ce790c81ef3a9f666a92b6",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": "Produto chegou, mas mal embalado, caixa quase aberta.",
+    "review_creation_date": "2018-01-05 00:00:00",
+    "review_answer_timestamp": "2018-01-05 10:23:19"
+  },
+  {
+    "review_id": "b310360b6f8c7f1eb06ffb247051b004",
+    "order_id": "d15e0fd391d14c714d025a4824bf068f",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": "Muito bom o produto",
+    "review_creation_date": "2017-05-31 00:00:00",
+    "review_answer_timestamp": "2017-06-18 14:56:10"
+  },
+  {
+    "review_id": "dc0579a3ace4686c400f8c27b8d577fa",
+    "order_id": "6e584156fb694163bf7b2f005416589e",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-12-23 00:00:00",
+    "review_answer_timestamp": "2017-12-25 16:25:47"
+  },
+  {
+    "review_id": "bf71c53ef0e7bdf6c2e9c4d7ba573d6f",
+    "order_id": "965fd67b96c75d07ac90c1f7ba2728e7",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-03-15 00:00:00",
+    "review_answer_timestamp": "2018-03-16 15:55:33"
+  },
+  {
+    "review_id": "c7703ddf7f221a64a6055cebdb5650c9",
+    "order_id": "2074522aabccf07984a2e77f7219ece5",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-08-18 00:00:00",
+    "review_answer_timestamp": "2018-08-21 16:50:58"
+  },
+  {
+    "review_id": "6ccc618ff923deea59c87ac3ef6abcca",
+    "order_id": "8cf9ba649b9084cf9c9fe4031a1850ef",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-10-22 00:00:00",
+    "review_answer_timestamp": "2017-10-22 14:27:33"
+  },
+  {
+    "review_id": "9bff287f79111762f6da9163dd0ab70d",
+    "order_id": "669833f6af7254475316c8960bf742fc",
+    "review_score": 5,
+    "review_comment_title": "Otimo",
+    "review_comment_message": "Antes da data ",
+    "review_creation_date": "2018-07-04 00:00:00",
+    "review_answer_timestamp": "2018-07-05 00:57:58"
+  },
+  {
+    "review_id": "28b63df92548be77ba0c67827cd52468",
+    "order_id": "c4f8b593d018d585660bb519a77b7b67",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Comprei,paguei,esperei um pouco mas...recebi e gostei !!!!\r\nDiferente da minha experiência anterior, com outro \"parceiro\" do baratheon que, depois de muuuiiita espera, não entregou o produto. Parabéns!",
+    "review_creation_date": "2017-05-18 00:00:00",
+    "review_answer_timestamp": "2017-05-19 12:59:23"
+  },
+  {
+    "review_id": "a53e760350dfffbfaba3e83cd44fa58e",
+    "order_id": "e15504d16c775034b44d4637a745a5a5",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-03-21 00:00:00",
+    "review_answer_timestamp": "2018-03-25 13:36:58"
+  },
+  {
+    "review_id": "b26bea15bc7924fedbb40a31b2188fbe",
+    "order_id": "4bea1a1e7a264f908a38f818073ee923",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Produto qualidade 100% entregue antes do prazo recomendo a todos o site baratheon",
+    "review_creation_date": "2017-06-29 00:00:00",
+    "review_answer_timestamp": "2017-07-02 01:53:19"
+  },
+  {
+    "review_id": "e0ddc01ec3edba7dfe9f0bbdef6b7030",
+    "order_id": "1b900d4d10e97580eee435e3474110c8",
+    "review_score": 3,
+    "review_comment_title": "Ruim",
+    "review_comment_message": "Pedindo cancelamento na mesma hora da compra e insistiram em entregar. Neguei o recebimento do correio e devolvi.",
+    "review_creation_date": "2018-06-07 00:00:00",
+    "review_answer_timestamp": "2018-06-08 01:11:43"
+  },
+  {
+    "review_id": "b4b5f70603ee2199c85d2714ae23c079",
+    "order_id": "258dc8334fda68e1474385c00298c877",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-08-18 00:00:00",
+    "review_answer_timestamp": "2017-08-20 21:49:15"
+  },
+  {
+    "review_id": "ee84be45c0b95780a272a63b5e50848b",
+    "order_id": "602a793bc5e2389ea3184fef278d8b0f",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Ainda não abri o pacote pois estou com obra em casa e não estou podendo usar.",
+    "review_creation_date": "2018-07-04 00:00:00",
+    "review_answer_timestamp": "2018-07-04 22:17:55"
+  },
+  {
+    "review_id": "df4951a3f63885d35e3fc7ede47be729",
+    "order_id": "17d1c72c26f43dbcb91705626271e2f0",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-11-24 00:00:00",
+    "review_answer_timestamp": "2017-11-26 15:05:19"
+  },
+  {
+    "review_id": "0327e9c6e4eba166286dde576adce034",
+    "order_id": "68f4e47ec61d740cefae31e2f624932b",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-08-25 00:00:00",
+    "review_answer_timestamp": "2018-08-27 20:46:37"
+  },
+  {
+    "review_id": "2129206affbd52ddd7b664f703618cbd",
+    "order_id": "303be864ad5419c9825b648397a8eb73",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-03-21 00:00:00",
+    "review_answer_timestamp": "2018-04-15 16:05:55"
+  },
+  {
+    "review_id": "3c81cd425aaa17b846b51e6c0f5aa1a6",
+    "order_id": "902db2c98a98235e57479a2ba1b06136",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-02-16 00:00:00",
+    "review_answer_timestamp": "2018-02-17 18:47:12"
+  },
+  {
+    "review_id": "81d2921e1064b7ee6316deb06d2207c1",
+    "order_id": "ca01c525c19a77269bb9ab052e2a3eab",
+    "review_score": 4,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-03-02 00:00:00",
+    "review_answer_timestamp": "2018-03-06 16:18:14"
+  },
+  {
+    "review_id": "cdc0920d81bace9da0a20b60f3bb6721",
+    "order_id": "3d1a669c8ccacd61bf065e1537d5cad4",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-06-07 00:00:00",
+    "review_answer_timestamp": "2018-06-07 21:52:06"
+  }
+]
+
+================================================================================
+FILE 5: product_category_name_translation.json
+================================================================================
+[
+  {
+    "product_category_name": "beleza_saude",
+    "product_category_name_english": "health_beauty"
+  },
+  {
+    "product_category_name": "informatica_acessorios",
+    "product_category_name_english": "computers_accessories"
+  },
+  {
+    "product_category_name": "automotivo",
+    "product_category_name_english": "auto"
+  },
+  {
+    "product_category_name": "cama_mesa_banho",
+    "product_category_name_english": "bed_bath_table"
+  },
+  {
+    "product_category_name": "moveis_decoracao",
+    "product_category_name_english": "furniture_decor"
+  },
+  {
+    "product_category_name": "esporte_lazer",
+    "product_category_name_english": "sports_leisure"
+  },
+  {
+    "product_category_name": "utilidades_domesticas",
+    "product_category_name_english": "housewares"
+  },
+  {
+    "product_category_name": "telefonia",
+    "product_category_name_english": "telephony"
+  },
+  {
+    "product_category_name": "relogios_presentes",
+    "product_category_name_english": "watches_gifts"
+  },
+  {
+    "product_category_name": "papelaria",
+    "product_category_name_english": "stationery"
+  },
+  {
+    "product_category_name": "brinquedos",
+    "product_category_name_english": "toys"
+  },
+  {
+    "product_category_name": "ferramentas_jardim",
+    "product_category_name_english": "garden_tools"
+  },
+  {
+    "product_category_name": "cool_stuff",
+    "product_category_name_english": "cool_stuff"
+  },
+  {
+    "product_category_name": "malas_acessorios",
+    "product_category_name_english": "luggage_accessories"
+  },
+  {
+    "product_category_name": "climatizacao",
+    "product_category_name_english": "air_conditioning"
+  },
+  {
+    "product_category_name": "pet_shop",
+    "product_category_name_english": "pet_shop"
+  },
+  {
+    "product_category_name": "eletronicos",
+    "product_category_name_english": "electronics"
+  },
+  {
+    "product_category_name": "casa_conforto",
+    "product_category_name_english": "home_confort"
+  },
+  {
+    "product_category_name": "instrumentos_musicais",
+    "product_category_name_english": "musical_instruments"
+  }
+]
+
+================================================================================
+FILE 6: products_dataset.json
+================================================================================
+[
+  {
+    "product_id": "9ead3847aad283a0842bde7ad9a9e7b3",
+    "product_category_name": "informatica_acessorios",
+    "product_name_lenght": 56,
+    "product_description_lenght": 1173,
+    "product_photos_qty": 1,
+    "product_weight_g": 1300,
+    "product_length_cm": 30,
+    "product_height_cm": 16,
+    "product_width_cm": 16
+  },
+  {
+    "product_id": "c0bc78ee82fbbd6bfc0638d513c238df",
+    "product_category_name": "ferramentas_jardim",
+    "product_name_lenght": 36,
+    "product_description_lenght": 399,
+    "product_photos_qty": 2,
+    "product_weight_g": 550,
+    "product_length_cm": 27,
+    "product_height_cm": 8,
+    "product_width_cm": 20
+  },
+  {
+    "product_id": "a8fe47ad6f852f93cc92c7b408687de3",
+    "product_category_name": "esporte_lazer",
+    "product_name_lenght": 27,
+    "product_description_lenght": 202,
+    "product_photos_qty": 5,
+    "product_weight_g": 400,
+    "product_length_cm": 70,
+    "product_height_cm": 10,
+    "product_width_cm": 20
+  },
+  {
+    "product_id": "908dd61b840a480fa931ef04389c6266",
+    "product_category_name": "casa_conforto",
+    "product_name_lenght": 52,
+    "product_description_lenght": 275,
+    "product_photos_qty": 2,
+    "product_weight_g": 1500,
+    "product_length_cm": 45,
+    "product_height_cm": 15,
+    "product_width_cm": 35
+  },
+  {
+    "product_id": "31c1d1dfbb4b2730140b8bd9248bcd58",
+    "product_category_name": "cama_mesa_banho",
+    "product_name_lenght": 58,
+    "product_description_lenght": 58,
+    "product_photos_qty": 1,
+    "product_weight_g": 200,
+    "product_length_cm": 20,
+    "product_height_cm": 2,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "bd66403f5f11696c897a825d5235697f",
+    "product_category_name": "esporte_lazer",
+    "product_name_lenght": 60,
+    "product_description_lenght": 528,
+    "product_photos_qty": 2,
+    "product_weight_g": 274,
+    "product_length_cm": 18,
+    "product_height_cm": 12,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "dfd2ea8377fb2838a47488c5b37558f1",
+    "product_category_name": "moveis_decoracao",
+    "product_name_lenght": 54,
+    "product_description_lenght": 619,
+    "product_photos_qty": 3,
+    "product_weight_g": 3100,
+    "product_length_cm": 36,
+    "product_height_cm": 14,
+    "product_width_cm": 26
+  },
+  {
+    "product_id": "6a1c65dbbecc1ece8c22856122a774ac",
+    "product_category_name": "moveis_decoracao",
+    "product_name_lenght": 53,
+    "product_description_lenght": 770,
+    "product_photos_qty": 1,
+    "product_weight_g": 13650,
+    "product_length_cm": 45,
+    "product_height_cm": 35,
+    "product_width_cm": 45
+  },
+  {
+    "product_id": "b126c36658d4d8ae320a4ad38531cbaf",
+    "product_category_name": "utilidades_domesticas",
+    "product_name_lenght": 25,
+    "product_description_lenght": 388,
+    "product_photos_qty": 2,
+    "product_weight_g": 500,
+    "product_length_cm": 23,
+    "product_height_cm": 23,
+    "product_width_cm": 23
+  },
+  {
+    "product_id": "da596542f9179c1021970d21d9b53b76",
+    "product_category_name": "cama_mesa_banho",
+    "product_name_lenght": 40,
+    "product_description_lenght": 324,
+    "product_photos_qty": 1,
+    "product_weight_g": 750,
+    "product_length_cm": 36,
+    "product_height_cm": 4,
+    "product_width_cm": 29
+  },
+  {
+    "product_id": "a3c485c1ba93a314a9606492aeb0072c",
+    "product_category_name": "climatizacao",
+    "product_name_lenght": 39,
+    "product_description_lenght": 401,
+    "product_photos_qty": 1,
+    "product_weight_g": 5075,
+    "product_length_cm": 51,
+    "product_height_cm": 43,
+    "product_width_cm": 46
+  },
+  {
+    "product_id": "192b332c511e484ea4f3f8b0526ee59d",
+    "product_category_name": "esporte_lazer",
+    "product_name_lenght": 32,
+    "product_description_lenght": 480,
+    "product_photos_qty": 1,
+    "product_weight_g": 500,
+    "product_length_cm": 16,
+    "product_height_cm": 14,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "1e1d5e507a02d77ca05f0fbd4783af9c",
+    "product_category_name": "brinquedos",
+    "product_name_lenght": 48,
+    "product_description_lenght": 273,
+    "product_photos_qty": 2,
+    "product_weight_g": 583,
+    "product_length_cm": 18,
+    "product_height_cm": 21,
+    "product_width_cm": 21
+  },
+  {
+    "product_id": "d9cb2ed0c6d5ccdd1da7ae9e8cad120c",
+    "product_category_name": "utilidades_domesticas",
+    "product_name_lenght": 60,
+    "product_description_lenght": 446,
+    "product_photos_qty": 5,
+    "product_weight_g": 10300,
+    "product_length_cm": 45,
+    "product_height_cm": 28,
+    "product_width_cm": 45
+  },
+  {
+    "product_id": "0bcc3eeca39e1064258aa1e932269894",
+    "product_category_name": "ferramentas_jardim",
+    "product_name_lenght": 57,
+    "product_description_lenght": 339,
+    "product_photos_qty": 2,
+    "product_weight_g": 1800,
+    "product_length_cm": 37,
+    "product_height_cm": 22,
+    "product_width_cm": 40
+  },
+  {
+    "product_id": "3003a2841d6a775095317139ed2f7943",
+    "product_category_name": "utilidades_domesticas",
+    "product_name_lenght": 43,
+    "product_description_lenght": 309,
+    "product_photos_qty": 1,
+    "product_weight_g": 1205,
+    "product_length_cm": 39,
+    "product_height_cm": 24,
+    "product_width_cm": 23
+  },
+  {
+    "product_id": "8163c8c2e8dc7cc8c93d1b30a2e7428b",
+    "product_category_name": "ferramentas_jardim",
+    "product_name_lenght": 58,
+    "product_description_lenght": 2083,
+    "product_photos_qty": 5,
+    "product_weight_g": 2375,
+    "product_length_cm": 33,
+    "product_height_cm": 18,
+    "product_width_cm": 22
+  },
+  {
+    "product_id": "f000b8e179dc162f26046103cd109ea3",
+    "product_category_name": "moveis_decoracao",
+    "product_name_lenght": 59,
+    "product_description_lenght": 813,
+    "product_photos_qty": 4,
+    "product_weight_g": 27350,
+    "product_length_cm": 100,
+    "product_height_cm": 20,
+    "product_width_cm": 20
+  },
+  {
+    "product_id": "6c712952b8ef62f8d06a0314917400c8",
+    "product_category_name": "beleza_saude",
+    "product_name_lenght": 39,
+    "product_description_lenght": 608,
+    "product_photos_qty": 1,
+    "product_weight_g": 1200,
+    "product_length_cm": 21,
+    "product_height_cm": 13,
+    "product_width_cm": 19
+  },
+  {
+    "product_id": "f40876e0ef3cd5f9132b1f16b04b1346",
+    "product_category_name": "beleza_saude",
+    "product_name_lenght": 42,
+    "product_description_lenght": 250,
+    "product_photos_qty": 1,
+    "product_weight_g": 427,
+    "product_length_cm": 15,
+    "product_height_cm": 17,
+    "product_width_cm": 14
+  },
+  {
+    "product_id": "d13a4acdb64c202e774e815db547e108",
+    "product_category_name": "beleza_saude",
+    "product_name_lenght": 60,
+    "product_description_lenght": 919,
+    "product_photos_qty": 1,
+    "product_weight_g": 150,
+    "product_length_cm": 22,
+    "product_height_cm": 3,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "5a6b04657a4c5ee34285d1e4619a96b4",
+    "product_category_name": "beleza_saude",
+    "product_name_lenght": 34,
+    "product_description_lenght": 1036,
+    "product_photos_qty": 1,
+    "product_weight_g": 1000,
+    "product_length_cm": 16,
+    "product_height_cm": 16,
+    "product_width_cm": 16
+  },
+  {
+    "product_id": "c0747e098550ba48a597e31baf37f519",
+    "product_category_name": "pet_shop",
+    "product_name_lenght": 48,
+    "product_description_lenght": 1533,
+    "product_photos_qty": 1,
+    "product_weight_g": 500,
+    "product_length_cm": 16,
+    "product_height_cm": 5,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "3cb39171fd36c50097f2dedbbe0dfe6e",
+    "product_category_name": "automotivo",
+    "product_name_lenght": 60,
+    "product_description_lenght": 3136,
+    "product_photos_qty": 4,
+    "product_weight_g": 100,
+    "product_length_cm": 17,
+    "product_height_cm": 10,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "c7c99e372ec2f873701c20e3a00ff29c",
+    "product_category_name": "telefonia",
+    "product_name_lenght": 53,
+    "product_description_lenght": 1440,
+    "product_photos_qty": 3,
+    "product_weight_g": 100,
+    "product_length_cm": 18,
+    "product_height_cm": 6,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "4025ee582ef6b8c478af3b44cf89054b",
+    "product_category_name": "cama_mesa_banho",
+    "product_name_lenght": 60,
+    "product_description_lenght": 58,
+    "product_photos_qty": 1,
+    "product_weight_g": 200,
+    "product_length_cm": 20,
+    "product_height_cm": 2,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "e0d64dcfaa3b6db5c54ca298ae101d05",
+    "product_category_name": "relogios_presentes",
+    "product_name_lenght": 35,
+    "product_description_lenght": 514,
+    "product_photos_qty": 2,
+    "product_weight_g": 4338,
+    "product_length_cm": 17,
+    "product_height_cm": 12,
+    "product_width_cm": 14
+  },
+  {
+    "product_id": "c1678c7353738f1698430b8ea0d6a488",
+    "product_category_name": "cama_mesa_banho",
+    "product_name_lenght": 59,
+    "product_description_lenght": 124,
+    "product_photos_qty": 1,
+    "product_weight_g": 6100,
+    "product_length_cm": 20,
+    "product_height_cm": 50,
+    "product_width_cm": 50
+  },
+  {
+    "product_id": "06f0e85c7892d5df893f332706340af1",
+    "product_category_name": "papelaria",
+    "product_name_lenght": 57,
+    "product_description_lenght": 301,
+    "product_photos_qty": 3,
+    "product_weight_g": 9850,
+    "product_length_cm": 30,
+    "product_height_cm": 19,
+    "product_width_cm": 60
+  },
+  {
+    "product_id": "81ea712c5f76a3b1c0e4c3dbc5126404",
+    "product_category_name": "ferramentas_jardim",
+    "product_name_lenght": 52,
+    "product_description_lenght": 791,
+    "product_photos_qty": 1,
+    "product_weight_g": 300,
+    "product_length_cm": 23,
+    "product_height_cm": 8,
+    "product_width_cm": 16
+  },
+  {
+    "product_id": "3258acb04d37e2f91f76c9250f3b80a0",
+    "product_category_name": "beleza_saude",
+    "product_name_lenght": 60,
+    "product_description_lenght": 919,
+    "product_photos_qty": 1,
+    "product_weight_g": 200,
+    "product_length_cm": 22,
+    "product_height_cm": 3,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "3ced865c94d3396f990864fa7aef9104",
+    "product_category_name": "telefonia",
+    "product_name_lenght": 58,
+    "product_description_lenght": 584,
+    "product_photos_qty": 6,
+    "product_weight_g": 225,
+    "product_length_cm": 18,
+    "product_height_cm": 4,
+    "product_width_cm": 12
+  },
+  {
+    "product_id": "371fa349d92646bbeea5873df0bcdc5a",
+    "product_category_name": "utilidades_domesticas",
+    "product_name_lenght": 49,
+    "product_description_lenght": 342,
+    "product_photos_qty": 1,
+    "product_weight_g": 490,
+    "product_length_cm": 20,
+    "product_height_cm": 18,
+    "product_width_cm": 16
+  },
+  {
+    "product_id": "f3bdb4d3d673cd7bb48636be1d431c0f",
+    "product_category_name": "utilidades_domesticas",
+    "product_name_lenght": 54,
+    "product_description_lenght": 632,
+    "product_photos_qty": 1,
+    "product_weight_g": 10325,
+    "product_length_cm": 56,
+    "product_height_cm": 23,
+    "product_width_cm": 31
+  },
+  {
+    "product_id": "d04857e7b4b708ee8b8b9921163edba3",
+    "product_category_name": "informatica_acessorios",
+    "product_name_lenght": 33,
+    "product_description_lenght": 1127,
+    "product_photos_qty": 2,
+    "product_weight_g": 450,
+    "product_length_cm": 16,
+    "product_height_cm": 4,
+    "product_width_cm": 20
+  },
+  {
+    "product_id": "5dee2c14e1989141e15d341d4c62d72a",
+    "product_category_name": "esporte_lazer",
+    "product_name_lenght": 56,
+    "product_description_lenght": 859,
+    "product_photos_qty": 1,
+    "product_weight_g": 353,
+    "product_length_cm": 23,
+    "product_height_cm": 15,
+    "product_width_cm": 16
+  },
+  {
+    "product_id": "9bb8ca338e5588c361e34eae02e8fad6",
+    "product_category_name": "beleza_saude",
+    "product_name_lenght": 37,
+    "product_description_lenght": 314,
+    "product_photos_qty": 1,
+    "product_weight_g": 431,
+    "product_length_cm": 19,
+    "product_height_cm": 17,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "bee2e070c39f3dd2f6883a17a5f0da45",
+    "product_category_name": "informatica_acessorios",
+    "product_name_lenght": 53,
+    "product_description_lenght": 871,
+    "product_photos_qty": 4,
+    "product_weight_g": 175,
+    "product_length_cm": 20,
+    "product_height_cm": 20,
+    "product_width_cm": 20
+  },
+  {
+    "product_id": "146881934618f0efaf33d04909acd195",
+    "product_category_name": "moveis_decoracao",
+    "product_name_lenght": 55,
+    "product_description_lenght": 3571,
+    "product_photos_qty": 1,
+    "product_weight_g": 600,
+    "product_length_cm": 17,
+    "product_height_cm": 17,
+    "product_width_cm": 60
+  },
+  {
+    "product_id": "145140d23f166a1166dc4437107df8cc",
+    "product_category_name": "papelaria",
+    "product_name_lenght": 51,
+    "product_description_lenght": 303,
+    "product_photos_qty": 1,
+    "product_weight_g": 350,
+    "product_length_cm": 16,
+    "product_height_cm": 6,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "01da7f08d8327e0b4fab7edaa0c417a4",
+    "product_category_name": "telefonia",
+    "product_name_lenght": 49,
+    "product_description_lenght": 1019,
+    "product_photos_qty": 3,
+    "product_weight_g": 350,
+    "product_length_cm": 16,
+    "product_height_cm": 3,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "e917a4c1765b98c448b7e4cadcbd0d36",
+    "product_category_name": "papelaria",
+    "product_name_lenght": 51,
+    "product_description_lenght": 562,
+    "product_photos_qty": 6,
+    "product_weight_g": 100,
+    "product_length_cm": 18,
+    "product_height_cm": 6,
+    "product_width_cm": 13
+  },
+  {
+    "product_id": "c45f017c36f9112a8bb4f170edfb1870",
+    "product_category_name": "malas_acessorios",
+    "product_name_lenght": 45,
+    "product_description_lenght": 702,
+    "product_photos_qty": 1,
+    "product_weight_g": 1400,
+    "product_length_cm": 33,
+    "product_height_cm": 10,
+    "product_width_cm": 49
+  },
+  {
+    "product_id": "e44f675b60b3a3a2453ec36421e06f0f",
+    "product_category_name": "esporte_lazer",
+    "product_name_lenght": 35,
+    "product_description_lenght": 1058,
+    "product_photos_qty": 1,
+    "product_weight_g": 350,
+    "product_length_cm": 17,
+    "product_height_cm": 17,
+    "product_width_cm": 17
+  },
+  {
+    "product_id": "3fc18e3aefe7b9346bd15de863fa0365",
+    "product_category_name": "utilidades_domesticas",
+    "product_name_lenght": 43,
+    "product_description_lenght": 808,
+    "product_photos_qty": 1,
+    "product_weight_g": 2850,
+    "product_length_cm": 30,
+    "product_height_cm": 30,
+    "product_width_cm": 30
+  },
+  {
+    "product_id": "764292b2b0f73f77a0272be03fdd45f3",
+    "product_category_name": "moveis_decoracao",
+    "product_name_lenght": 56,
+    "product_description_lenght": 701,
+    "product_photos_qty": 5,
+    "product_weight_g": 750,
+    "product_length_cm": 30,
+    "product_height_cm": 30,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "8852eb03b04ec3268a66e9b696e25f6f",
+    "product_category_name": "papelaria",
+    "product_name_lenght": 30,
+    "product_description_lenght": 832,
+    "product_photos_qty": 5,
+    "product_weight_g": 2000,
+    "product_length_cm": 25,
+    "product_height_cm": 55,
+    "product_width_cm": 40
+  },
+  {
+    "product_id": "7ce94ab189134e2d3c05f496d635419c",
+    "product_category_name": "eletronicos",
+    "product_name_lenght": 39,
+    "product_description_lenght": 400,
+    "product_photos_qty": 1,
+    "product_weight_g": 200,
+    "product_length_cm": 25,
+    "product_height_cm": 7,
+    "product_width_cm": 16
+  },
+  {
+    "product_id": "b23a6d2e943df2a8248577f6523580ce",
+    "product_category_name": "informatica_acessorios",
+    "product_name_lenght": 62,
+    "product_description_lenght": 179,
+    "product_photos_qty": 2,
+    "product_weight_g": 350,
+    "product_length_cm": 35,
+    "product_height_cm": 35,
+    "product_width_cm": 25
+  },
+  {
+    "product_id": "9fc98e39f04be8e382d8aa5e259f5489",
+    "product_category_name": "cama_mesa_banho",
+    "product_name_lenght": 29,
+    "product_description_lenght": 200,
+    "product_photos_qty": 1,
+    "product_weight_g": 600,
+    "product_length_cm": 40,
+    "product_height_cm": 5,
+    "product_width_cm": 30
+  },
+  {
+    "product_id": "ee406bf28024d97771c4b1e8b7e8e219",
+    "product_category_name": "cool_stuff",
+    "product_name_lenght": 54,
+    "product_description_lenght": 629,
+    "product_photos_qty": 1,
+    "product_weight_g": 1050,
+    "product_length_cm": 36,
+    "product_height_cm": 24,
+    "product_width_cm": 22
+  },
+  {
+    "product_id": "c71a9c53596bf311acd9e298a0b3dc42",
+    "product_category_name": "eletronicos",
+    "product_name_lenght": 60,
+    "product_description_lenght": 225,
+    "product_photos_qty": 1,
+    "product_weight_g": 167,
+    "product_length_cm": 21,
+    "product_height_cm": 9,
+    "product_width_cm": 14
+  },
+  {
+    "product_id": "c2ad928095a0d199c4d44b2194119ce2",
+    "product_category_name": "papelaria",
+    "product_name_lenght": 52,
+    "product_description_lenght": 298,
+    "product_photos_qty": 1,
+    "product_weight_g": 200,
+    "product_length_cm": 16,
+    "product_height_cm": 6,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "2948658cb6abc82847412be7201bfc4c",
+    "product_category_name": "beleza_saude",
+    "product_name_lenght": 59,
+    "product_description_lenght": 1030,
+    "product_photos_qty": 5,
+    "product_weight_g": 3500,
+    "product_length_cm": 36,
+    "product_height_cm": 25,
+    "product_width_cm": 21
+  },
+  {
+    "product_id": "94fe5d8bb49bb5643b837cfb59ec8d62",
+    "product_category_name": "instrumentos_musicais",
+    "product_name_lenght": 60,
+    "product_description_lenght": 721,
+    "product_photos_qty": 1,
+    "product_weight_g": 300,
+    "product_length_cm": 16,
+    "product_height_cm": 16,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "3f994ee4a0b20760d1b173aa65037c95",
+    "product_category_name": "cool_stuff",
+    "product_name_lenght": 56,
+    "product_description_lenght": 708,
+    "product_photos_qty": 2,
+    "product_weight_g": 5700,
+    "product_length_cm": 42,
+    "product_height_cm": 21,
+    "product_width_cm": 36
+  },
+  {
+    "product_id": "5a848e4ab52fd5445cdc07aab1c40e48",
+    "product_category_name": null,
+    "product_name_lenght": null,
+    "product_description_lenght": null,
+    "product_photos_qty": null,
+    "product_weight_g": 400,
+    "product_length_cm": 20,
+    "product_height_cm": 12,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "f8b624d4e475bb8d1bddf1b65c6a64f6",
+    "product_category_name": "utilidades_domesticas",
+    "product_name_lenght": 46,
+    "product_description_lenght": 323,
+    "product_photos_qty": 1,
+    "product_weight_g": 2841,
+    "product_length_cm": 40,
+    "product_height_cm": 23,
+    "product_width_cm": 26
+  },
+  {
+    "product_id": "6f6c5da6ce68f0b7150daee08677ca79",
+    "product_category_name": "cama_mesa_banho",
+    "product_name_lenght": 58,
+    "product_description_lenght": 630,
+    "product_photos_qty": 2,
+    "product_weight_g": 2100,
+    "product_length_cm": 69,
+    "product_height_cm": 20,
+    "product_width_cm": 53
+  },
+  {
+    "product_id": "68b9af8698585855f2503727e150d453",
+    "product_category_name": "utilidades_domesticas",
+    "product_name_lenght": 49,
+    "product_description_lenght": 379,
+    "product_photos_qty": 1,
+    "product_weight_g": 400,
+    "product_length_cm": 18,
+    "product_height_cm": 20,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "6109d0cae3bcb57d579bc0fab6e61814",
+    "product_category_name": "malas_acessorios",
+    "product_name_lenght": 45,
+    "product_description_lenght": 573,
+    "product_photos_qty": 1,
+    "product_weight_g": 1250,
+    "product_length_cm": 49,
+    "product_height_cm": 10,
+    "product_width_cm": 34
+  },
+  {
+    "product_id": "a794505b7d66eea7dbd7d5649881ffb1",
+    "product_category_name": "automotivo",
+    "product_name_lenght": 60,
+    "product_description_lenght": 174,
+    "product_photos_qty": 3,
+    "product_weight_g": 9050,
+    "product_length_cm": 60,
+    "product_height_cm": 18,
+    "product_width_cm": 50
+  },
+  {
+    "product_id": "adb5b8ee8b86e86930bc333c182bbead",
+    "product_category_name": "informatica_acessorios",
+    "product_name_lenght": 43,
+    "product_description_lenght": 543,
+    "product_photos_qty": 1,
+    "product_weight_g": 821,
+    "product_length_cm": 30,
+    "product_height_cm": 14,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "fb55982be901439613a95940feefd9ee",
+    "product_category_name": "papelaria",
+    "product_name_lenght": 52,
+    "product_description_lenght": 211,
+    "product_photos_qty": 2,
+    "product_weight_g": 7000,
+    "product_length_cm": 60,
+    "product_height_cm": 20,
+    "product_width_cm": 30
+  }
+]
+
+================================================================================
+FILE 7: order_payments_dataset.json
+================================================================================
+[
+  {
+    "order_id": "0b3d8a1bbaa4e340e25adfd640f70308",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 12,
+    "payment_value": 190.09
+  },
+  {
+    "order_id": "5454971549d855538eb746e4d263f9a5",
+    "payment_sequential": 2,
+    "payment_type": "voucher",
+    "payment_installments": 1,
+    "payment_value": 188.93
+  },
+  {
+    "order_id": "d4e47f54a1b18883138da71a1f9d5855",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 102.03
+  },
+  {
+    "order_id": "4340cfd191c9dc16061684e4575fb151",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 8,
+    "payment_value": 260.23
+  },
+  {
+    "order_id": "3a8fa2133fb96a04512604d9c32dc7c3",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 134.6
+  },
+  {
+    "order_id": "2074522aabccf07984a2e77f7219ece5",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 10,
+    "payment_value": 669.4
+  },
+  {
+    "order_id": "3d1a669c8ccacd61bf065e1537d5cad4",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 8,
+    "payment_value": 206.69
+  },
+  {
+    "order_id": "303be864ad5419c9825b648397a8eb73",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 2,
+    "payment_value": 189.56
+  },
+  {
+    "order_id": "a547fb168e44ce6b79cdea200a3c9b45",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 2,
+    "payment_value": 196.61
+  },
+  {
+    "order_id": "db738d19eb9fe6721be783d4e46f1c4d",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 259.57
+  },
+  {
+    "order_id": "adca0458be5f212699c94312c6bd9779",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 3,
+    "payment_value": 251.94
+  },
+  {
+    "order_id": "dc072ac65fce2a16ef5cc9473e91dfa8",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 2,
+    "payment_value": 605.57
+  },
+  {
+    "order_id": "ceecda7c9b24cbff643a6c5119a9ec6d",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 28.31
+  },
+  {
+    "order_id": "409e065598ea4a9dba359d894ab0cab9",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 204.0
+  },
+  {
+    "order_id": "873e00f0d09131c528f460aab0f488fb",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 162.89
+  },
+  {
+    "order_id": "5f5ef03caf7e16f975b0fbd9ac1d3db0",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 50.0
+  },
+  {
+    "order_id": "6f14ef9e1c67a1ca8e572a477c1b58b1",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 264.06
+  },
+  {
+    "order_id": "4ed9c32a4e9d45ab8b3b9596e69f7346",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 21.04
+  },
+  {
+    "order_id": "e15504d16c775034b44d4637a745a5a5",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 104.3
+  },
+  {
+    "order_id": "acf579dc44e10bf23cabf01d80f9f62c",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 159.13
+  },
+  {
+    "order_id": "35a972d7f8436f405b56e36add1a7140",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 93.75
+  },
+  {
+    "order_id": "e3a456432c2847da83a3cfb4fa72d9db",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 38.72
+  },
+  {
+    "order_id": "497b870cbbeda496567b5d75b81c5722",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 49.18
+  },
+  {
+    "order_id": "a5699e91157fd53a3c93f645452e88bd",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 169.28
+  },
+  {
+    "order_id": "5454971549d855538eb746e4d263f9a5",
+    "payment_sequential": 1,
+    "payment_type": "voucher",
+    "payment_installments": 1,
+    "payment_value": 65.51
+  },
+  {
+    "order_id": "96e7a3c4942a286dc88f85fffcdfbf50",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 2,
+    "payment_value": 117.35
+  },
+  {
+    "order_id": "602a793bc5e2389ea3184fef278d8b0f",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 2,
+    "payment_value": 96.65
+  },
+  {
+    "order_id": "1b900d4d10e97580eee435e3474110c8",
+    "payment_sequential": 2,
+    "payment_type": "voucher",
+    "payment_installments": 1,
+    "payment_value": 97.98
+  },
+  {
+    "order_id": "8cf9ba649b9084cf9c9fe4031a1850ef",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 3,
+    "payment_value": 41.79
+  },
+  {
+    "order_id": "e2da042c42ce790c81ef3a9f666a92b6",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 29.47
+  },
+  {
+    "order_id": "64bd3c2db3673ba37030ccfcbfce8fe3",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 64.66
+  },
+  {
+    "order_id": "1b6c5ab6683a19bca12106679e94fe4e",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 103.25
+  },
+  {
+    "order_id": "1a9b9f5f7c4ed24f0e1e7c19cc9510a5",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 4,
+    "payment_value": 242.97
+  },
+  {
+    "order_id": "4bea1a1e7a264f908a38f818073ee923",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 116.16
+  },
+  {
+    "order_id": "95a87e0d2cf1cb63b02eba222ceaecc7",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 4,
+    "payment_value": 98.81
+  },
+  {
+    "order_id": "19559da3ec491caeab77c1512d28399b",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 5,
+    "payment_value": 56.62
+  },
+  {
+    "order_id": "965fd67b96c75d07ac90c1f7ba2728e7",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 137.6
+  },
+  {
+    "order_id": "39519d02af9b0ab69cd51e3b81fe2dc5",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 6,
+    "payment_value": 171.84
+  },
+  {
+    "order_id": "669833f6af7254475316c8960bf742fc",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 238.44
+  },
+  {
+    "order_id": "6f14ef9e1c67a1ca8e572a477c1b58b1",
+    "payment_sequential": 2,
+    "payment_type": "voucher",
+    "payment_installments": 1,
+    "payment_value": 150.08
+  },
+  {
+    "order_id": "258dc8334fda68e1474385c00298c877",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 26.0
+  },
+  {
+    "order_id": "46ab5f4b3a88ae05be005f9736c0e9e6",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 285.0
+  },
+  {
+    "order_id": "fd85ec210522091e1e3e0318218860c8",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 3,
+    "payment_value": 159.21
+  },
+  {
+    "order_id": "8d58703c7926bd13b718863681e60e42",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 5,
+    "payment_value": 52.84
+  },
+  {
+    "order_id": "c5119bb429cf05b928aca27cd9e62cf4",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 89.19
+  },
+  {
+    "order_id": "a48804f66ce775aaca8c304521669e80",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 46.14
+  },
+  {
+    "order_id": "58883d4d88a7a9be12c7343ecf8dcea5",
+    "payment_sequential": 1,
+    "payment_type": "voucher",
+    "payment_installments": 1,
+    "payment_value": 401.84
+  },
+  {
+    "order_id": "f1bdbadeb03d8a0e4c6c2f3ffaf32b35",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 3,
+    "payment_value": 60.41
+  },
+  {
+    "order_id": "58883d4d88a7a9be12c7343ecf8dcea5",
+    "payment_sequential": 2,
+    "payment_type": "voucher",
+    "payment_installments": 1,
+    "payment_value": 338.19
+  },
+  {
+    "order_id": "37d7fe3b89c5111a0bbed48ed650101a",
+    "payment_sequential": 1,
+    "payment_type": "voucher",
+    "payment_installments": 1,
+    "payment_value": 96.92
+  },
+  {
+    "order_id": "1b900d4d10e97580eee435e3474110c8",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 24.33
+  },
+  {
+    "order_id": "902db2c98a98235e57479a2ba1b06136",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 2,
+    "payment_value": 119.25
+  },
+  {
+    "order_id": "ca01c525c19a77269bb9ab052e2a3eab",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 90.17
+  },
+  {
+    "order_id": "c4f8b593d018d585660bb519a77b7b67",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 77.06
+  },
+  {
+    "order_id": "2b4b69b119c4446626f617bd54ff3147",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 1,
+    "payment_value": 38.05
+  },
+  {
+    "order_id": "68f4e47ec61d740cefae31e2f624932b",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 5,
+    "payment_value": 76.61
+  },
+  {
+    "order_id": "d15e0fd391d14c714d025a4824bf068f",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 7,
+    "payment_value": 73.53
+  },
+  {
+    "order_id": "c8126d249a88b7218ea8af8a2ddfc024",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 42.16
+  },
+  {
+    "order_id": "f96187641653e607ec1001aff62bdff0",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 4,
+    "payment_value": 308.83
+  },
+  {
+    "order_id": "17d1c72c26f43dbcb91705626271e2f0",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 2,
+    "payment_value": 202.39
+  },
+  {
+    "order_id": "fd5c1e8106fe112adf074e53073aa76a",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 9,
+    "payment_value": 90.98
+  },
+  {
+    "order_id": "0504447548229e075dea8441b37b1e2a",
+    "payment_sequential": 1,
+    "payment_type": "boleto",
+    "payment_installments": 1,
+    "payment_value": 221.79
+  },
+  {
+    "order_id": "6e584156fb694163bf7b2f005416589e",
+    "payment_sequential": 1,
+    "payment_type": "credit_card",
+    "payment_installments": 10,
+    "payment_value": 115.44
+  },
+  {
+    "order_id": "e2da042c42ce790c81ef3a9f666a92b6",
+    "payment_sequential": 2,
+    "payment_type": "voucher",
+    "payment_installments": 1,
+    "payment_value": 67.33
+  }
+]
+
+================================================================================
+FILE 8: orders_dataset.json
+================================================================================
+[
+  {
+    "order_id": "bfbd0f9bdef84302105ad712db648a6c",
+    "customer_id": "86dc2ffce2dfff336de2f386a786e574",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2016-09-15 12:16:38",
+    "order_approved_at": "2016-09-15 12:16:38",
+    "order_delivered_carrier_date": "2016-11-07 17:11:53",
+    "order_delivered_customer_date": "2016-11-09 07:47:38",
+    "order_estimated_delivery_date": "2016-10-04 00:00:00"
+  },
+  {
+    "order_id": "3a8fa2133fb96a04512604d9c32dc7c3",
+    "customer_id": "42be08802b14ff1e10bc5bec7f1beae9",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-02-09 14:29:29",
+    "order_approved_at": "2017-02-09 14:43:13",
+    "order_delivered_carrier_date": "2017-02-14 12:07:25",
+    "order_delivered_customer_date": "2017-02-22 13:46:33",
+    "order_estimated_delivery_date": "2017-03-14 00:00:00"
+  },
+  {
+    "order_id": "1a9b9f5f7c4ed24f0e1e7c19cc9510a5",
+    "customer_id": "b2c85d49babd60f744c7f30e9d23fafa",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-03-08 21:11:42",
+    "order_approved_at": "2017-03-08 21:11:42",
+    "order_delivered_carrier_date": "2017-03-13 08:07:23",
+    "order_delivered_customer_date": "2017-03-31 12:24:37",
+    "order_estimated_delivery_date": "2017-04-12 00:00:00"
+  },
+  {
+    "order_id": "c5119bb429cf05b928aca27cd9e62cf4",
+    "customer_id": "72eda8980db0411fc5406163a20ca6e9",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-03-27 23:57:06",
+    "order_approved_at": "2017-03-29 02:15:19",
+    "order_delivered_carrier_date": "2017-03-29 13:56:37",
+    "order_delivered_customer_date": "2017-04-06 15:40:22",
+    "order_estimated_delivery_date": "2017-04-26 00:00:00"
+  },
+  {
+    "order_id": "c4f8b593d018d585660bb519a77b7b67",
+    "customer_id": "c5e42d53353b4c848046100a39ed0ae4",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-04-19 22:20:09",
+    "order_approved_at": "2017-04-19 22:30:19",
+    "order_delivered_carrier_date": "2017-04-27 16:53:55",
+    "order_delivered_customer_date": "2017-05-17 15:48:51",
+    "order_estimated_delivery_date": "2017-05-18 00:00:00"
+  },
+  {
+    "order_id": "d15e0fd391d14c714d025a4824bf068f",
+    "customer_id": "30df451d935bb7c4cfa51cc22ee28e5c",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-05-07 11:08:09",
+    "order_approved_at": "2017-05-08 17:30:19",
+    "order_delivered_carrier_date": "2017-05-12 19:36:09",
+    "order_delivered_customer_date": "2017-05-30 09:30:17",
+    "order_estimated_delivery_date": "2017-06-27 00:00:00"
+  },
+  {
+    "order_id": "96e7a3c4942a286dc88f85fffcdfbf50",
+    "customer_id": "c32d792dfee718dffd6cd61fc89f23d6",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-05-21 08:01:38",
+    "order_approved_at": "2017-05-21 09:05:10",
+    "order_delivered_carrier_date": "2017-05-22 16:13:58",
+    "order_delivered_customer_date": "2017-06-02 14:15:02",
+    "order_estimated_delivery_date": "2017-06-09 00:00:00"
+  },
+  {
+    "order_id": "95a87e0d2cf1cb63b02eba222ceaecc7",
+    "customer_id": "b93d757b24d7fe32863f81d69b43f2aa",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-06-04 17:04:40",
+    "order_approved_at": "2017-06-04 17:15:10",
+    "order_delivered_carrier_date": "2017-06-08 12:11:02",
+    "order_delivered_customer_date": "2017-06-19 18:48:42",
+    "order_estimated_delivery_date": "2017-07-07 00:00:00"
+  },
+  {
+    "order_id": "4bea1a1e7a264f908a38f818073ee923",
+    "customer_id": "2ea694334078726c7229c21f0a7cc021",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-06-19 11:35:40",
+    "order_approved_at": "2017-06-19 11:50:14",
+    "order_delivered_carrier_date": "2017-06-20 10:39:22",
+    "order_delivered_customer_date": "2017-06-28 14:37:45",
+    "order_estimated_delivery_date": "2017-07-20 00:00:00"
+  },
+  {
+    "order_id": "fd85ec210522091e1e3e0318218860c8",
+    "customer_id": "d34341f5b5a77c0a6af01365d9608371",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-07-05 20:56:59",
+    "order_approved_at": "2017-07-05 21:05:15",
+    "order_delivered_carrier_date": "2017-07-06 14:59:45",
+    "order_delivered_customer_date": "2017-07-19 20:54:48",
+    "order_estimated_delivery_date": "2017-08-04 00:00:00"
+  },
+  {
+    "order_id": "6f14ef9e1c67a1ca8e572a477c1b58b1",
+    "customer_id": "019dc2cd7ae165a706dd249829e0e1f1",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-07-18 14:32:15",
+    "order_approved_at": "2017-07-18 14:45:20",
+    "order_delivered_carrier_date": "2017-07-21 19:32:28",
+    "order_delivered_customer_date": "2017-07-28 20:57:38",
+    "order_estimated_delivery_date": "2017-08-09 00:00:00"
+  },
+  {
+    "order_id": "258dc8334fda68e1474385c00298c877",
+    "customer_id": "653e79d5d3fa5884c8c8c5d0ca18cdf5",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-07-31 15:00:07",
+    "order_approved_at": "2017-08-02 02:55:30",
+    "order_delivered_carrier_date": "2017-08-03 18:03:37",
+    "order_delivered_customer_date": "2017-08-17 18:43:08",
+    "order_estimated_delivery_date": "2017-08-22 00:00:00"
+  },
+  {
+    "order_id": "fd5c1e8106fe112adf074e53073aa76a",
+    "customer_id": "766145029046296846bb15b8fd581a25",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-08-12 09:10:30",
+    "order_approved_at": "2017-08-12 09:25:07",
+    "order_delivered_carrier_date": "2017-08-15 00:10:42",
+    "order_delivered_customer_date": "2017-08-28 22:03:33",
+    "order_estimated_delivery_date": "2017-09-08 00:00:00"
+  },
+  {
+    "order_id": "a547fb168e44ce6b79cdea200a3c9b45",
+    "customer_id": "1fc0dd80f3ef093992aafd0a8dcaf281",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-08-24 12:07:21",
+    "order_approved_at": "2017-08-24 12:24:25",
+    "order_delivered_carrier_date": "2017-08-25 13:50:06",
+    "order_delivered_customer_date": "2017-09-04 23:35:00",
+    "order_estimated_delivery_date": "2017-09-18 00:00:00"
+  },
+  {
+    "order_id": "2b4b69b119c4446626f617bd54ff3147",
+    "customer_id": "456664e611e20956682bafced4ecdb19",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-09-05 18:28:30",
+    "order_approved_at": "2017-09-05 18:44:08",
+    "order_delivered_carrier_date": "2017-09-06 17:06:54",
+    "order_delivered_customer_date": "2017-09-19 21:43:03",
+    "order_estimated_delivery_date": "2017-09-26 00:00:00"
+  },
+  {
+    "order_id": "a5699e91157fd53a3c93f645452e88bd",
+    "customer_id": "a87adc695f5034edd84b4e60f8188d44",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-09-16 23:27:24",
+    "order_approved_at": "2017-09-19 03:30:28",
+    "order_delivered_carrier_date": "2017-09-19 19:51:10",
+    "order_delivered_customer_date": "2017-10-18 21:38:52",
+    "order_estimated_delivery_date": "2017-10-09 00:00:00"
+  },
+  {
+    "order_id": "0504447548229e075dea8441b37b1e2a",
+    "customer_id": "4e2c1f15de98416a90c2ee06b55ccc9b",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-09-28 19:31:57",
+    "order_approved_at": "2017-09-30 02:14:42",
+    "order_delivered_carrier_date": "2017-10-02 19:33:19",
+    "order_delivered_customer_date": "2017-10-06 17:03:59",
+    "order_estimated_delivery_date": "2017-11-03 00:00:00"
+  },
+  {
+    "order_id": "8cf9ba649b9084cf9c9fe4031a1850ef",
+    "customer_id": "0ec522c4497afe657106a823242c5f16",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-10-10 16:30:04",
+    "order_approved_at": "2017-10-10 16:49:25",
+    "order_delivered_carrier_date": "2017-10-14 15:38:49",
+    "order_delivered_customer_date": "2017-10-21 11:45:26",
+    "order_estimated_delivery_date": "2017-11-03 00:00:00"
+  },
+  {
+    "order_id": "39519d02af9b0ab69cd51e3b81fe2dc5",
+    "customer_id": "591705dfee9322311501831348d98079",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-10-21 14:46:13",
+    "order_approved_at": "2017-10-21 14:56:20",
+    "order_delivered_carrier_date": "2017-10-23 14:53:56",
+    "order_delivered_customer_date": "2017-11-04 14:59:56",
+    "order_estimated_delivery_date": "2017-11-10 00:00:00"
+  },
+  {
+    "order_id": "17d1c72c26f43dbcb91705626271e2f0",
+    "customer_id": "a31825d0c893a0c13dd57cd8a6e22b93",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-02 17:18:08",
+    "order_approved_at": "2017-11-02 17:25:53",
+    "order_delivered_carrier_date": "2017-11-03 14:37:56",
+    "order_delivered_customer_date": "2017-11-23 17:41:06",
+    "order_estimated_delivery_date": "2017-12-07 00:00:00"
+  },
+  {
+    "order_id": "a48804f66ce775aaca8c304521669e80",
+    "customer_id": "4d77375c6dcb70bcc7e85e9745a7f61a",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-13 11:06:57",
+    "order_approved_at": "2017-11-14 04:10:24",
+    "order_delivered_carrier_date": "2017-11-16 17:06:00",
+    "order_delivered_customer_date": "2017-11-21 17:27:04",
+    "order_estimated_delivery_date": "2017-12-06 00:00:00"
+  },
+  {
+    "order_id": "e3a456432c2847da83a3cfb4fa72d9db",
+    "customer_id": "fd79d84ccc418c200ac0633a12166a71",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-21 21:40:05",
+    "order_approved_at": "2017-11-21 21:52:57",
+    "order_delivered_carrier_date": "2017-11-23 21:41:17",
+    "order_delivered_customer_date": "2018-01-05 21:18:48",
+    "order_estimated_delivery_date": "2017-12-08 00:00:00"
+  },
+  {
+    "order_id": "f96187641653e607ec1001aff62bdff0",
+    "customer_id": "d19e43bfc6c14d83b972cf699985898e",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-25 00:05:10",
+    "order_approved_at": "2017-11-25 02:54:34",
+    "order_delivered_carrier_date": "2017-11-27 20:02:59",
+    "order_delivered_customer_date": "2017-11-29 19:17:59",
+    "order_estimated_delivery_date": "2017-12-11 00:00:00"
+  },
+  {
+    "order_id": "19559da3ec491caeab77c1512d28399b",
+    "customer_id": "ced00a908ceed2bab37e22ec77bb4eaa",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-29 00:38:47",
+    "order_approved_at": "2017-11-29 01:31:26",
+    "order_delivered_carrier_date": "2017-11-29 22:21:18",
+    "order_delivered_customer_date": "2017-12-01 17:06:34",
+    "order_estimated_delivery_date": "2017-12-13 00:00:00"
+  },
+  {
+    "order_id": "5f5ef03caf7e16f975b0fbd9ac1d3db0",
+    "customer_id": "d994da78ae72999d6c55340049fe86b6",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-12-05 09:03:48",
+    "order_approved_at": "2017-12-05 11:02:59",
+    "order_delivered_carrier_date": "2017-12-19 22:20:05",
+    "order_delivered_customer_date": "2017-12-29 16:18:52",
+    "order_estimated_delivery_date": "2018-01-04 00:00:00"
+  },
+  {
+    "order_id": "6e584156fb694163bf7b2f005416589e",
+    "customer_id": "15b9ae31dc0100c5258609476904e5b2",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-12-12 14:27:50",
+    "order_approved_at": "2017-12-12 14:49:16",
+    "order_delivered_carrier_date": "2017-12-14 20:27:13",
+    "order_delivered_customer_date": "2017-12-22 14:10:11",
+    "order_estimated_delivery_date": "2018-01-10 00:00:00"
+  },
+  {
+    "order_id": "e2da042c42ce790c81ef3a9f666a92b6",
+    "customer_id": "cec841303d49ca5ab4756e8fee1fc554",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-12-21 16:15:32",
+    "order_approved_at": "2017-12-21 16:30:09",
+    "order_delivered_carrier_date": "2017-12-22 17:53:36",
+    "order_delivered_customer_date": "2018-01-04 00:14:43",
+    "order_estimated_delivery_date": "2018-01-31 00:00:00"
+  },
+  {
+    "order_id": "409e065598ea4a9dba359d894ab0cab9",
+    "customer_id": "672b006efdabc0ee13568350bb6f29d0",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-03 21:53:52",
+    "order_approved_at": "2018-01-04 05:12:33",
+    "order_delivered_carrier_date": "2018-01-04 15:32:54",
+    "order_delivered_customer_date": "2018-01-09 22:39:43",
+    "order_estimated_delivery_date": "2018-01-30 00:00:00"
+  },
+  {
+    "order_id": "46ab5f4b3a88ae05be005f9736c0e9e6",
+    "customer_id": "1a455c3578447cae5fde99531bb7dc8d",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-10 19:48:48",
+    "order_approved_at": "2018-01-12 02:36:41",
+    "order_delivered_carrier_date": "2018-01-19 19:52:26",
+    "order_delivered_customer_date": "2018-02-01 18:26:05",
+    "order_estimated_delivery_date": "2018-02-22 00:00:00"
+  },
+  {
+    "order_id": "58883d4d88a7a9be12c7343ecf8dcea5",
+    "customer_id": "bd7bf31df8713e97cef95685aa9963f7",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-17 10:22:35",
+    "order_approved_at": "2018-01-17 11:30:40",
+    "order_delivered_carrier_date": "2018-01-24 19:22:41",
+    "order_delivered_customer_date": "2018-02-09 23:12:58",
+    "order_estimated_delivery_date": "2018-03-08 00:00:00"
+  },
+  {
+    "order_id": "db738d19eb9fe6721be783d4e46f1c4d",
+    "customer_id": "adad0151d1c1f4c056b59dd6f9146d58",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-24 08:06:36",
+    "order_approved_at": "2018-01-24 17:59:15",
+    "order_delivered_carrier_date": "2018-01-29 16:28:14",
+    "order_delivered_customer_date": "2018-02-06 18:16:30",
+    "order_estimated_delivery_date": "2018-02-23 00:00:00"
+  },
+  {
+    "order_id": "902db2c98a98235e57479a2ba1b06136",
+    "customer_id": "77057b5a79eb9c5034ce257e0d9fe154",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-31 18:45:15",
+    "order_approved_at": "2018-01-31 19:10:49",
+    "order_delivered_carrier_date": "2018-02-01 20:57:04",
+    "order_delivered_customer_date": "2018-02-15 20:08:42",
+    "order_estimated_delivery_date": "2018-02-22 00:00:00"
+  },
+  {
+    "order_id": "d4e47f54a1b18883138da71a1f9d5855",
+    "customer_id": "d6184e6a56d0baf7b891bee8f43c5066",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-02-07 21:50:03",
+    "order_approved_at": "2018-02-08 07:35:44",
+    "order_delivered_carrier_date": "2018-02-08 18:42:42",
+    "order_delivered_customer_date": "2018-02-16 13:55:02",
+    "order_estimated_delivery_date": "2018-03-05 00:00:00"
+  },
+  {
+    "order_id": "ca01c525c19a77269bb9ab052e2a3eab",
+    "customer_id": "aa46592adf8954513da919ad33da2583",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-02-15 14:21:12",
+    "order_approved_at": "2018-02-16 08:30:58",
+    "order_delivered_carrier_date": "2018-02-19 23:31:18",
+    "order_delivered_customer_date": "2018-03-01 21:06:41",
+    "order_estimated_delivery_date": "2018-03-20 00:00:00"
+  },
+  {
+    "order_id": "497b870cbbeda496567b5d75b81c5722",
+    "customer_id": "eae775e65db9c286651ab68cfb76ecec",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-02-22 12:10:45",
+    "order_approved_at": "2018-02-23 02:10:58",
+    "order_delivered_carrier_date": "2018-02-26 23:26:55",
+    "order_delivered_customer_date": "2018-02-28 23:27:49",
+    "order_estimated_delivery_date": "2018-03-14 00:00:00"
+  },
+  {
+    "order_id": "965fd67b96c75d07ac90c1f7ba2728e7",
+    "customer_id": "3e8152cd9752470b9bae84e87f3bd3b1",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-02-28 18:37:40",
+    "order_approved_at": "2018-02-28 18:50:26",
+    "order_delivered_carrier_date": "2018-03-01 18:04:59",
+    "order_delivered_customer_date": "2018-03-14 21:28:44",
+    "order_estimated_delivery_date": "2018-03-21 00:00:00"
+  },
+  {
+    "order_id": "e15504d16c775034b44d4637a745a5a5",
+    "customer_id": "391a099850a406987b6f3019c0d98116",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-03-07 12:11:42",
+    "order_approved_at": "2018-03-07 12:49:42",
+    "order_delivered_carrier_date": "2018-03-09 23:33:15",
+    "order_delivered_customer_date": "2018-03-17 15:22:08",
+    "order_estimated_delivery_date": "2018-03-27 00:00:00"
+  },
+  {
+    "order_id": "303be864ad5419c9825b648397a8eb73",
+    "customer_id": "50fb584351c6138fc5f4e986b30a173e",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-03-14 22:36:53",
+    "order_approved_at": "2018-03-15 22:35:40",
+    "order_delivered_carrier_date": "2018-03-16 21:24:24",
+    "order_delivered_customer_date": "2018-03-20 20:18:53",
+    "order_estimated_delivery_date": "2018-03-29 00:00:00"
+  },
+  {
+    "order_id": "37d7fe3b89c5111a0bbed48ed650101a",
+    "customer_id": "9ac79dbd56c788bdaa3fd33476b5e31e",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-03-21 14:20:32",
+    "order_approved_at": "2018-03-21 14:35:24",
+    "order_delivered_carrier_date": "2018-03-23 01:21:00",
+    "order_delivered_customer_date": "2018-03-27 14:03:03",
+    "order_estimated_delivery_date": "2018-04-10 00:00:00"
+  },
+  {
+    "order_id": "1b6c5ab6683a19bca12106679e94fe4e",
+    "customer_id": "8ac8d9c1fb5ae04d995ea858252714e5",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-03-28 20:36:47",
+    "order_approved_at": "2018-03-30 03:15:44",
+    "order_delivered_carrier_date": "2018-04-02 18:04:13",
+    "order_delivered_customer_date": "2018-04-05 14:22:38",
+    "order_estimated_delivery_date": "2018-04-20 00:00:00"
+  },
+  {
+    "order_id": "acf579dc44e10bf23cabf01d80f9f62c",
+    "customer_id": "527b26bd8ea58b018efd96060cac5ccb",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-04-05 14:18:32",
+    "order_approved_at": "2018-04-05 14:30:26",
+    "order_delivered_carrier_date": "2018-04-07 01:22:39",
+    "order_delivered_customer_date": "2018-04-27 17:12:47",
+    "order_estimated_delivery_date": "2018-05-08 00:00:00"
+  },
+  {
+    "order_id": "0b3d8a1bbaa4e340e25adfd640f70308",
+    "customer_id": "62d5c37f279182017dcd13820676a511",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-04-13 01:14:51",
+    "order_approved_at": "2018-04-13 01:30:21",
+    "order_delivered_carrier_date": "2018-04-13 19:18:37",
+    "order_delivered_customer_date": "2018-05-07 21:11:43",
+    "order_estimated_delivery_date": "2018-05-16 00:00:00"
+  },
+  {
+    "order_id": "4340cfd191c9dc16061684e4575fb151",
+    "customer_id": "55761211ed951c99bab19617dad3e33b",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-04-19 22:27:41",
+    "order_approved_at": "2018-04-19 22:53:58",
+    "order_delivered_carrier_date": "2018-04-24 17:16:35",
+    "order_delivered_customer_date": "2018-05-05 01:34:48",
+    "order_estimated_delivery_date": "2018-05-21 00:00:00"
+  },
+  {
+    "order_id": "5454971549d855538eb746e4d263f9a5",
+    "customer_id": "210320fcc92cdf5c39245b92c8c42730",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-04-27 00:04:35",
+    "order_approved_at": "2018-04-27 00:15:22",
+    "order_delivered_carrier_date": "2018-04-27 13:22:00",
+    "order_delivered_customer_date": "2018-05-03 18:51:57",
+    "order_estimated_delivery_date": "2018-05-17 00:00:00"
+  },
+  {
+    "order_id": "adca0458be5f212699c94312c6bd9779",
+    "customer_id": "99037edd76af0e57ca1dd862cd7995a1",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-05-03 23:27:58",
+    "order_approved_at": "2018-05-03 23:50:45",
+    "order_delivered_carrier_date": "2018-05-04 14:13:00",
+    "order_delivered_customer_date": "2018-05-11 16:30:11",
+    "order_estimated_delivery_date": "2018-05-22 00:00:00"
+  },
+  {
+    "order_id": "873e00f0d09131c528f460aab0f488fb",
+    "customer_id": "08418b48e867cdb13eebbbc53c664e60",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-05-09 20:19:12",
+    "order_approved_at": "2018-05-09 20:32:54",
+    "order_delivered_carrier_date": "2018-05-12 08:14:00",
+    "order_delivered_customer_date": "2018-05-17 21:23:32",
+    "order_estimated_delivery_date": "2018-06-01 00:00:00"
+  },
+  {
+    "order_id": "4ed9c32a4e9d45ab8b3b9596e69f7346",
+    "customer_id": "3227fb6f17d3a5f8b131c9782516ed07",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-05-15 21:40:52",
+    "order_approved_at": "2018-05-15 21:55:25",
+    "order_delivered_carrier_date": "2018-05-16 15:11:00",
+    "order_delivered_customer_date": "2018-05-21 19:08:50",
+    "order_estimated_delivery_date": "2018-05-25 00:00:00"
+  },
+  {
+    "order_id": "1b900d4d10e97580eee435e3474110c8",
+    "customer_id": "7bea1627c3e438f1cf401aa2c53fea2d",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-05-23 18:32:43",
+    "order_approved_at": "2018-05-23 18:57:02",
+    "order_delivered_carrier_date": "2018-05-24 13:37:00",
+    "order_delivered_customer_date": "2018-06-06 20:19:03",
+    "order_estimated_delivery_date": "2018-06-25 00:00:00"
+  },
+  {
+    "order_id": "3d1a669c8ccacd61bf065e1537d5cad4",
+    "customer_id": "2096ad3b905d084c9496b1f4289d57db",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-06-04 15:52:44",
+    "order_approved_at": "2018-06-04 16:12:36",
+    "order_delivered_carrier_date": "2018-06-05 12:12:00",
+    "order_delivered_customer_date": "2018-06-06 18:14:59",
+    "order_estimated_delivery_date": "2018-07-11 00:00:00"
+  },
+  {
+    "order_id": "dc072ac65fce2a16ef5cc9473e91dfa8",
+    "customer_id": "ad2a892cb75797930dd37af669701f85",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-06-12 08:29:53",
+    "order_approved_at": "2018-06-12 19:46:43",
+    "order_delivered_carrier_date": "2018-06-18 14:22:00",
+    "order_delivered_customer_date": "2018-06-22 17:54:54",
+    "order_estimated_delivery_date": "2018-07-05 00:00:00"
+  },
+  {
+    "order_id": "669833f6af7254475316c8960bf742fc",
+    "customer_id": "a1e0ece6d8ce34235b8f5e3dc7a8e69f",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-06-19 23:00:45",
+    "order_approved_at": "2018-06-21 03:17:33",
+    "order_delivered_carrier_date": "2018-06-22 14:26:00",
+    "order_delivered_customer_date": "2018-07-03 21:41:48",
+    "order_estimated_delivery_date": "2018-07-13 00:00:00"
+  },
+  {
+    "order_id": "602a793bc5e2389ea3184fef278d8b0f",
+    "customer_id": "0d36ee8d591aef32f7955493243b4a41",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-06-27 19:50:35",
+    "order_approved_at": "2018-06-27 20:11:53",
+    "order_delivered_carrier_date": "2018-06-28 14:02:00",
+    "order_delivered_customer_date": "2018-07-03 18:05:08",
+    "order_estimated_delivery_date": "2018-08-01 00:00:00"
+  },
+  {
+    "order_id": "c8126d249a88b7218ea8af8a2ddfc024",
+    "customer_id": "8d507f583837f28f95948bf6acdf0c9a",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-07-06 14:23:32",
+    "order_approved_at": "2018-07-07 04:48:22",
+    "order_delivered_carrier_date": "2018-07-10 15:27:00",
+    "order_delivered_customer_date": "2018-07-12 20:33:44",
+    "order_estimated_delivery_date": "2018-07-25 00:00:00"
+  },
+  {
+    "order_id": "8d58703c7926bd13b718863681e60e42",
+    "customer_id": "f7457bbcdd912ef2a847361418a2c67a",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-07-17 19:19:04",
+    "order_approved_at": "2018-07-17 19:25:19",
+    "order_delivered_carrier_date": "2018-07-19 06:14:00",
+    "order_delivered_customer_date": "2018-07-24 21:24:36",
+    "order_estimated_delivery_date": "2018-07-31 00:00:00"
+  },
+  {
+    "order_id": "f1bdbadeb03d8a0e4c6c2f3ffaf32b35",
+    "customer_id": "3dd7e34382c3fae6bd89bf41b2c7c291",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-07-24 11:25:27",
+    "order_approved_at": "2018-07-24 11:35:32",
+    "order_delivered_carrier_date": "2018-07-25 14:34:00",
+    "order_delivered_customer_date": "2018-08-03 19:12:28",
+    "order_estimated_delivery_date": "2018-08-23 00:00:00"
+  },
+  {
+    "order_id": "ceecda7c9b24cbff643a6c5119a9ec6d",
+    "customer_id": "76127da03b20e432691fcc923788d9b3",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-07-31 14:31:45",
+    "order_approved_at": "2018-08-01 02:35:19",
+    "order_delivered_carrier_date": "2018-08-02 14:49:00",
+    "order_delivered_customer_date": "2018-08-06 18:05:43",
+    "order_estimated_delivery_date": "2018-08-06 00:00:00"
+  },
+  {
+    "order_id": "64bd3c2db3673ba37030ccfcbfce8fe3",
+    "customer_id": "ab0d603f0c96d5bc3f292d200df9809e",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-08-06 09:14:00",
+    "order_approved_at": "2018-08-08 03:15:14",
+    "order_delivered_carrier_date": "2018-08-15 05:41:00",
+    "order_delivered_customer_date": "2018-08-16 19:16:55",
+    "order_estimated_delivery_date": "2018-08-14 00:00:00"
+  },
+  {
+    "order_id": "2074522aabccf07984a2e77f7219ece5",
+    "customer_id": "c6a15026437250fd96680f784d665e01",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-08-11 18:40:05",
+    "order_approved_at": "2018-08-11 18:50:19",
+    "order_delivered_carrier_date": "2018-08-13 14:07:00",
+    "order_delivered_customer_date": "2018-08-17 21:48:29",
+    "order_estimated_delivery_date": "2018-08-23 00:00:00"
+  },
+  {
+    "order_id": "68f4e47ec61d740cefae31e2f624932b",
+    "customer_id": "31a22c96ba8050ae34ea9bd0833e1e99",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-08-17 17:20:21",
+    "order_approved_at": "2018-08-17 17:35:45",
+    "order_delivered_carrier_date": "2018-08-23 14:45:00",
+    "order_delivered_customer_date": "2018-08-24 17:38:44",
+    "order_estimated_delivery_date": "2018-08-31 00:00:00"
+  },
+  {
+    "order_id": "35a972d7f8436f405b56e36add1a7140",
+    "customer_id": "898b7fee99c4e42170ab69ba59be0a8b",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-08-29 15:00:37",
+    "order_approved_at": "2018-08-29 15:10:26",
+    "order_delivered_carrier_date": "2018-08-29 16:57:00",
+    "order_delivered_customer_date": "2018-08-30 16:23:36",
+    "order_estimated_delivery_date": "2018-09-05 00:00:00"
+  }
+]
+
+================================================================================
+FILE 9: sellers_dataset.json
+================================================================================
+[
+  {
+    "seller_id": "d1b65fc7debc3361ea86b5f14c68d2e2",
+    "seller_zip_code_prefix": "13844",
+    "seller_city": "mogi guacu",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "d71d863e5ef30d94e440c11be17dcd8f",
+    "seller_zip_code_prefix": "06144",
+    "seller_city": "osasco",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "7e93a43ef30c4f03f38b393420bc753a",
+    "seller_zip_code_prefix": "06429",
+    "seller_city": "barueri",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "7299e27ed73d2ad986de7f7c77d919fa",
+    "seller_zip_code_prefix": "38440",
+    "seller_city": "araguari",
+    "seller_state": "MG"
+  },
+  {
+    "seller_id": "aaed1309374718fdd995ee4c58c9dfcd",
+    "seller_zip_code_prefix": "89120",
+    "seller_city": "timbo",
+    "seller_state": "SC"
+  },
+  {
+    "seller_id": "7178f9f4dd81dcef02f62acdf8151e01",
+    "seller_zip_code_prefix": "89560",
+    "seller_city": "videira",
+    "seller_state": "SC"
+  },
+  {
+    "seller_id": "7d13fca15225358621be4086e1eb0964",
+    "seller_zip_code_prefix": "14050",
+    "seller_city": "ribeirao preto",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "1b4c3a6f53068f0b6944d2d005c9fc89",
+    "seller_zip_code_prefix": "88730",
+    "seller_city": "sao ludgero",
+    "seller_state": "SC"
+  },
+  {
+    "seller_id": "fac1a9017ade7bdc94058fc1c969f355",
+    "seller_zip_code_prefix": "01126",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "9f505651f4a6abe901a56cdc21508025",
+    "seller_zip_code_prefix": "04102",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "8b321bb669392f5163d04c59e235e066",
+    "seller_zip_code_prefix": "01212",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "b4f8921fcc4ff77b66bea6dda43dcd51",
+    "seller_zip_code_prefix": "95034",
+    "seller_city": "caxias do sul",
+    "seller_state": "RS"
+  },
+  {
+    "seller_id": "3df020b72d3d44b3af9d110fa3940b65",
+    "seller_zip_code_prefix": "15704",
+    "seller_city": "jales",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "955fee9216a65b617aa5c0531780ce60",
+    "seller_zip_code_prefix": "04782",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "ceaec5548eefc6e23e6607c5435102e7",
+    "seller_zip_code_prefix": "03821",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "b6d44737c043328708f6749c2dbe50bd",
+    "seller_zip_code_prefix": "09230",
+    "seller_city": "santo andre",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "dd7ddc04e1b6c2c614352b383efe2d36",
+    "seller_zip_code_prefix": "03471",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "1f50f920176fa81dab994f9023523100",
+    "seller_zip_code_prefix": "15025",
+    "seller_city": "sao jose do rio preto",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "93b9a99027bd8bd6af682aff18dd19bf",
+    "seller_zip_code_prefix": "07600",
+    "seller_city": "mairipora",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "7994081388d55b9cf976c050653dd359",
+    "seller_zip_code_prefix": "01244",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "9c0e69c7bf2619675bbadf47b43f655a",
+    "seller_zip_code_prefix": "12230",
+    "seller_city": "sao jose dos campos",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "f3da5b2ff499efb8d4a6d371d175d7dd",
+    "seller_zip_code_prefix": "02407",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "ea8482cd71df3c1969d7b9473ff13abc",
+    "seller_zip_code_prefix": "04160",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "dbc22125167c298ef99da25668e1011f",
+    "seller_zip_code_prefix": "37564",
+    "seller_city": "borda da mata",
+    "seller_state": "MG"
+  },
+  {
+    "seller_id": "951e8cef368f09bb3f3d03c00ca4702c",
+    "seller_zip_code_prefix": "14940",
+    "seller_city": "ibitinga",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "128639473a139ac0f3e5f5ade55873a5",
+    "seller_zip_code_prefix": "87050",
+    "seller_city": "maringa",
+    "seller_state": "PR"
+  },
+  {
+    "seller_id": "d2374cbcbb3ca4ab1086534108cc3ab7",
+    "seller_zip_code_prefix": "14940",
+    "seller_city": "ibitinga",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "b410bdd36d5db7a65dcd42b7ead933b8",
+    "seller_zip_code_prefix": "74645",
+    "seller_city": "goiania",
+    "seller_state": "GO"
+  },
+  {
+    "seller_id": "4e922959ae960d389249c378d1c939f5",
+    "seller_zip_code_prefix": "12327",
+    "seller_city": "jacarei",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "ecccfa2bb93b34a3bf033cc5d1dcdc69",
+    "seller_zip_code_prefix": "81810",
+    "seller_city": "curitiba",
+    "seller_state": "PR"
+  },
+  {
+    "seller_id": "16090f2ca825584b5a147ab24aa30c86",
+    "seller_zip_code_prefix": "12940",
+    "seller_city": "atibaia",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "b561927807645834b59ef0d16ba55a24",
+    "seller_zip_code_prefix": "02955",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "41b86b552e54e3a7009596125aa8b167",
+    "seller_zip_code_prefix": "02470",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "da8622b14eb17ae2831f4ac5b9dab84a",
+    "seller_zip_code_prefix": "13405",
+    "seller_city": "piracicaba",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "620c87c171fb2a6dd6e8bb4dec959fc6",
+    "seller_zip_code_prefix": "25645",
+    "seller_city": "petropolis",
+    "seller_state": "RJ"
+  },
+  {
+    "seller_id": "7d76b645482be4a332374e8223836592",
+    "seller_zip_code_prefix": "01511",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "c826c40d7b19f62a09e2d7c5e7295ee2",
+    "seller_zip_code_prefix": "07133",
+    "seller_city": "guarulhos",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "7e3f87d16fb353f408d467e74fbd8014",
+    "seller_zip_code_prefix": "04809",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "cca3071e3e9bb7d12640c9fbe2301306",
+    "seller_zip_code_prefix": "14940",
+    "seller_city": "ibitinga",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "7a67c85e85bb2ce8582c35f2203ad736",
+    "seller_zip_code_prefix": "03426",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "282f23a9769b2690c5dda22e316f9941",
+    "seller_zip_code_prefix": "31573",
+    "seller_city": "belo horizonte",
+    "seller_state": "MG"
+  },
+  {
+    "seller_id": "3d871de0142ce09b7081e2b9d1733cb1",
+    "seller_zip_code_prefix": "13232",
+    "seller_city": "campo limpo paulista",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "670c26e0f1bf8d0576271d5cfaec6d2b",
+    "seller_zip_code_prefix": "87025",
+    "seller_city": "maringa",
+    "seller_state": "PR"
+  },
+  {
+    "seller_id": "240b9776d844d37535668549a396af32",
+    "seller_zip_code_prefix": "24120",
+    "seller_city": "niteroi",
+    "seller_state": "RJ"
+  },
+  {
+    "seller_id": "a2e874074c877c5a05abae80ad6e488f",
+    "seller_zip_code_prefix": "15070",
+    "seller_city": "sao jose do rio preto",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "53e4c6e0f4312d4d2107a8c9cddf45cd",
+    "seller_zip_code_prefix": "13920",
+    "seller_city": "pedreira",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "4a3ca9315b744ce9f8e9374361493884",
+    "seller_zip_code_prefix": "14940",
+    "seller_city": "ibitinga",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "218d46b86c1881d022bce9c68a7d4b15",
+    "seller_zip_code_prefix": "14070",
+    "seller_city": "ribeirao preto",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "08d1c9478fb0d7d7fcac9c0da4e82fc7",
+    "seller_zip_code_prefix": "31110",
+    "seller_city": "belo horizonte",
+    "seller_state": "MG"
+  },
+  {
+    "seller_id": "bd23da7354813347129d751591d1a6e2",
+    "seller_zip_code_prefix": "03971",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "b4ffb71f0cb1b1c3d63fad021ecf93e1",
+    "seller_zip_code_prefix": "03880",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "1025f0e2d44d7041d6cf58b6550e0bfa",
+    "seller_zip_code_prefix": "03204",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "0be8ff43f22e456b4e0371b2245e4d01",
+    "seller_zip_code_prefix": "04461",
+    "seller_city": "sao paulo",
+    "seller_state": "SP"
+  },
+  {
+    "seller_id": "cb6c9f5888a7a090c75beaf615925792",
+    "seller_zip_code_prefix": "29100",
+    "seller_city": "vila velha",
+    "seller_state": "ES"
+  },
+  {
+    "seller_id": "46dc3b2cc0980fb8ec44634e21d2718e",
+    "seller_zip_code_prefix": "22240",
+    "seller_city": "rio de janeiro",
+    "seller_state": "RJ"
+  },
+  {
+    "seller_id": "c70c1b0d8ca86052f45a432a38b73958",
+    "seller_zip_code_prefix": "13186",
+    "seller_city": "hortolandia",
+    "seller_state": "SP"
+  }
+]

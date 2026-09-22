@@ -1,0 +1,78 @@
+[
+  {
+    "product_category_name": "beleza_saude",
+    "product_category_name_english": "health_beauty"
+  },
+  {
+    "product_category_name": "informatica_acessorios",
+    "product_category_name_english": "computers_accessories"
+  },
+  {
+    "product_category_name": "automotivo",
+    "product_category_name_english": "auto"
+  },
+  {
+    "product_category_name": "cama_mesa_banho",
+    "product_category_name_english": "bed_bath_table"
+  },
+  {
+    "product_category_name": "moveis_decoracao",
+    "product_category_name_english": "furniture_decor"
+  },
+  {
+    "product_category_name": "esporte_lazer",
+    "product_category_name_english": "sports_leisure"
+  },
+  {
+    "product_category_name": "utilidades_domesticas",
+    "product_category_name_english": "housewares"
+  },
+  {
+    "product_category_name": "telefonia",
+    "product_category_name_english": "telephony"
+  },
+  {
+    "product_category_name": "relogios_presentes",
+    "product_category_name_english": "watches_gifts"
+  },
+  {
+    "product_category_name": "papelaria",
+    "product_category_name_english": "stationery"
+  },
+  {
+    "product_category_name": "brinquedos",
+    "product_category_name_english": "toys"
+  },
+  {
+    "product_category_name": "ferramentas_jardim",
+    "product_category_name_english": "garden_tools"
+  },
+  {
+    "product_category_name": "cool_stuff",
+    "product_category_name_english": "cool_stuff"
+  },
+  {
+    "product_category_name": "malas_acessorios",
+    "product_category_name_english": "luggage_accessories"
+  },
+  {
+    "product_category_name": "climatizacao",
+    "product_category_name_english": "air_conditioning"
+  },
+  {
+    "product_category_name": "pet_shop",
+    "product_category_name_english": "pet_shop"
+  },
+  {
+    "product_category_name": "eletronicos",
+    "product_category_name_english": "electronics"
+  },
+  {
+    "product_category_name": "casa_conforto",
+    "product_category_name_english": "home_confort"
+  },
+  {
+    "product_category_name": "instrumentos_musicais",
+    "product_category_name_english": "musical_instruments"
+  }
+]

@@ -95,14 +95,14 @@ export function suggestedAccuracyForScope(
   scope: ForecastTemplate['scope'],
   models: string[],
 ): number {
-  // Mock: Bridal scoped experiments get a stronger lift
-  const bridalOnly =
+  // Mock: Health Beauty scoped experiments get a stronger lift
+  const healthOnly =
     scope.categories?.length === 1 &&
-    scope.categories[0] === 'Bridal' &&
+    scope.categories[0] === 'Health Beauty' &&
     !scope.cities?.length &&
     !scope.regions?.length &&
     !scope.skus?.length;
-  if (bridalOnly) return 88;
+  if (healthOnly) return 88;
   if (scope.skus?.length) return 91;
   if (scope.cities?.length && scope.categories?.length) return 87;
   if (scope.cities?.length || scope.regions?.length) return 85;

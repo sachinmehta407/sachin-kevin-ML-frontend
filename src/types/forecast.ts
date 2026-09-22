@@ -56,10 +56,11 @@ export const MODELS = [
 export const TEMPLATES = [
   'Default Forecast',
   'High Value Products',
-  'West Region',
+  'Southeast Focus',
   'Seasonal Products',
 ] as const;
 
-export const REGIONS = ['North', 'South', 'East', 'West'] as const;
+/** Brazilian IBGE macro-regions (from Olist customer_state) */
+export const REGIONS = ['Southeast', 'South', 'Northeast', 'North', 'Central-West'] as const;
 
 export const TOLERANCE_PCT = 10;

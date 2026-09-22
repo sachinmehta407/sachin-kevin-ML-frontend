@@ -1,0 +1,422 @@
+[
+  {
+    "customer_id": "99037edd76af0e57ca1dd862cd7995a1",
+    "customer_unique_id": "1660e6a9434e8900e24fea005eb4cf72",
+    "customer_zip_code_prefix": "82720",
+    "customer_city": "curitiba",
+    "customer_state": "PR"
+  },
+  {
+    "customer_id": "1a455c3578447cae5fde99531bb7dc8d",
+    "customer_unique_id": "92b5ede4ff23756b5402ab835e70c887",
+    "customer_zip_code_prefix": "65970",
+    "customer_city": "porto franco",
+    "customer_state": "MA"
+  },
+  {
+    "customer_id": "527b26bd8ea58b018efd96060cac5ccb",
+    "customer_unique_id": "1b0843d4f653e7301b596757fed2179d",
+    "customer_zip_code_prefix": "45680",
+    "customer_city": "urucuca",
+    "customer_state": "BA"
+  },
+  {
+    "customer_id": "cec841303d49ca5ab4756e8fee1fc554",
+    "customer_unique_id": "9401f50e506539002baf51c87eeda30a",
+    "customer_zip_code_prefix": "96505",
+    "customer_city": "cachoeira do sul",
+    "customer_state": "RS"
+  },
+  {
+    "customer_id": "c6a15026437250fd96680f784d665e01",
+    "customer_unique_id": "1427d43f0ca16b9d318d4bc18dd1a1b0",
+    "customer_zip_code_prefix": "38200",
+    "customer_city": "frutal",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "42be08802b14ff1e10bc5bec7f1beae9",
+    "customer_unique_id": "2d07c5651faf08b9f6536a2bbf74adce",
+    "customer_zip_code_prefix": "21381",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "c5e42d53353b4c848046100a39ed0ae4",
+    "customer_unique_id": "24fa0c2c6bb100ad4bc2b28c8e8f0ef5",
+    "customer_zip_code_prefix": "22783",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "8ac8d9c1fb5ae04d995ea858252714e5",
+    "customer_unique_id": "ec92c237061c9d7bf0ad5277cf15b886",
+    "customer_zip_code_prefix": "04661",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "ab0d603f0c96d5bc3f292d200df9809e",
+    "customer_unique_id": "c155f561686b486818a09b0c1e18f7a1",
+    "customer_zip_code_prefix": "05583",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "15b9ae31dc0100c5258609476904e5b2",
+    "customer_unique_id": "fb1e08ecf738e2081eae46c1378fce3c",
+    "customer_zip_code_prefix": "37270",
+    "customer_city": "campo belo",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "eae775e65db9c286651ab68cfb76ecec",
+    "customer_unique_id": "1cb06b7940f5a52343bd4d3032d0c97d",
+    "customer_zip_code_prefix": "36235",
+    "customer_city": "santa rita do ibitipoca",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "019dc2cd7ae165a706dd249829e0e1f1",
+    "customer_unique_id": "5e8a254b9d665ce56e2d404678560ae7",
+    "customer_zip_code_prefix": "89112",
+    "customer_city": "gaspar",
+    "customer_state": "SC"
+  },
+  {
+    "customer_id": "86dc2ffce2dfff336de2f386a786e574",
+    "customer_unique_id": "830d5b7aaa3b6f1e9ad63703bec97d23",
+    "customer_zip_code_prefix": "14600",
+    "customer_city": "sao joaquim da barra",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "210320fcc92cdf5c39245b92c8c42730",
+    "customer_unique_id": "ef6a6a8e989109993d48bfedc1107328",
+    "customer_zip_code_prefix": "04256",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "0d36ee8d591aef32f7955493243b4a41",
+    "customer_unique_id": "2c38082815681e34b7bb39b9eb6b5545",
+    "customer_zip_code_prefix": "21210",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "62d5c37f279182017dcd13820676a511",
+    "customer_unique_id": "2ad74bb684a664f51ee6dad7dad60c9b",
+    "customer_zip_code_prefix": "58706",
+    "customer_city": "patos",
+    "customer_state": "PB"
+  },
+  {
+    "customer_id": "a31825d0c893a0c13dd57cd8a6e22b93",
+    "customer_unique_id": "d4fc20e1e64c163d80e25a900d9c26c3",
+    "customer_zip_code_prefix": "68376",
+    "customer_city": "altamira",
+    "customer_state": "PA"
+  },
+  {
+    "customer_id": "31a22c96ba8050ae34ea9bd0833e1e99",
+    "customer_unique_id": "5cb955b555b3ea961bfce8cf00439d47",
+    "customer_zip_code_prefix": "20081",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "d19e43bfc6c14d83b972cf699985898e",
+    "customer_unique_id": "2cf22e66a6f804b13ba533e0832dc68a",
+    "customer_zip_code_prefix": "06414",
+    "customer_city": "barueri",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "3e8152cd9752470b9bae84e87f3bd3b1",
+    "customer_unique_id": "bddc788802f5dfac6d6c5dee9fea3c91",
+    "customer_zip_code_prefix": "74340",
+    "customer_city": "goiania",
+    "customer_state": "GO"
+  },
+  {
+    "customer_id": "d34341f5b5a77c0a6af01365d9608371",
+    "customer_unique_id": "8aba68ad39962f7b25c2b7ac62ac4c0e",
+    "customer_zip_code_prefix": "45816",
+    "customer_city": "arraial d'ajuda",
+    "customer_state": "BA"
+  },
+  {
+    "customer_id": "76127da03b20e432691fcc923788d9b3",
+    "customer_unique_id": "4604bef2f7091a97d534af2a62c65952",
+    "customer_zip_code_prefix": "07040",
+    "customer_city": "guarulhos",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "f7457bbcdd912ef2a847361418a2c67a",
+    "customer_unique_id": "64530478ef86eee94dfdc8e3c020a23f",
+    "customer_zip_code_prefix": "05579",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "2096ad3b905d084c9496b1f4289d57db",
+    "customer_unique_id": "0def27ca2bd8b3fd71eb871041c0ece4",
+    "customer_zip_code_prefix": "01031",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "591705dfee9322311501831348d98079",
+    "customer_unique_id": "6ed30b0852ffb1ba918d17c5a9833a21",
+    "customer_zip_code_prefix": "24320",
+    "customer_city": "niteroi",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "aa46592adf8954513da919ad33da2583",
+    "customer_unique_id": "ef1f687d69a777112a0028330e9cacb7",
+    "customer_zip_code_prefix": "11661",
+    "customer_city": "caraguatatuba",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "3227fb6f17d3a5f8b131c9782516ed07",
+    "customer_unique_id": "cad13a8b23f70b1c28436974f7007dae",
+    "customer_zip_code_prefix": "18020",
+    "customer_city": "sorocaba",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "3dd7e34382c3fae6bd89bf41b2c7c291",
+    "customer_unique_id": "807842f72de3de898317fbb8d1942cd0",
+    "customer_zip_code_prefix": "20756",
+    "customer_city": "rio de janeiro",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "72eda8980db0411fc5406163a20ca6e9",
+    "customer_unique_id": "1a786635b3c66e50118171046b72fd5c",
+    "customer_zip_code_prefix": "37610",
+    "customer_city": "bom repouso",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "50fb584351c6138fc5f4e986b30a173e",
+    "customer_unique_id": "9ea40717f597f2886a1e7aeb0e8207fb",
+    "customer_zip_code_prefix": "03156",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "4e2c1f15de98416a90c2ee06b55ccc9b",
+    "customer_unique_id": "9a70db677c8e4e9e25e36729362fe756",
+    "customer_zip_code_prefix": "97700",
+    "customer_city": "santiago",
+    "customer_state": "RS"
+  },
+  {
+    "customer_id": "d6184e6a56d0baf7b891bee8f43c5066",
+    "customer_unique_id": "149a401e28e60833ae0b65f7aac963cd",
+    "customer_zip_code_prefix": "08421",
+    "customer_city": "sao paulo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "08418b48e867cdb13eebbbc53c664e60",
+    "customer_unique_id": "e2e772ea70e91b4dd107cf7e8840b07f",
+    "customer_zip_code_prefix": "80060",
+    "customer_city": "curitiba",
+    "customer_state": "PR"
+  },
+  {
+    "customer_id": "456664e611e20956682bafced4ecdb19",
+    "customer_unique_id": "9e64023fa21c8dc095fdbd1a0568ae62",
+    "customer_zip_code_prefix": "64009",
+    "customer_city": "teresina",
+    "customer_state": "PI"
+  },
+  {
+    "customer_id": "b2c85d49babd60f744c7f30e9d23fafa",
+    "customer_unique_id": "a854d45312665931c0af7b892f6d0e88",
+    "customer_zip_code_prefix": "64800",
+    "customer_city": "floriano",
+    "customer_state": "PI"
+  },
+  {
+    "customer_id": "bd7bf31df8713e97cef95685aa9963f7",
+    "customer_unique_id": "9ac2c22b502f80d13ca11b680111df90",
+    "customer_zip_code_prefix": "61600",
+    "customer_city": "caucaia",
+    "customer_state": "CE"
+  },
+  {
+    "customer_id": "ced00a908ceed2bab37e22ec77bb4eaa",
+    "customer_unique_id": "78e5d422564c755de1e870b2651275ee",
+    "customer_zip_code_prefix": "13331",
+    "customer_city": "indaiatuba",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "2ea694334078726c7229c21f0a7cc021",
+    "customer_unique_id": "abd56bffbdeff412b6d29ef953dab556",
+    "customer_zip_code_prefix": "98700",
+    "customer_city": "ijui",
+    "customer_state": "RS"
+  },
+  {
+    "customer_id": "55761211ed951c99bab19617dad3e33b",
+    "customer_unique_id": "f8c680f325076e63a1d68880937258b2",
+    "customer_zip_code_prefix": "62760",
+    "customer_city": "baturite",
+    "customer_state": "CE"
+  },
+  {
+    "customer_id": "7bea1627c3e438f1cf401aa2c53fea2d",
+    "customer_unique_id": "c78c4f7a23f66b0947b270b656bd98ab",
+    "customer_zip_code_prefix": "30520",
+    "customer_city": "belo horizonte",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "d994da78ae72999d6c55340049fe86b6",
+    "customer_unique_id": "af22df18bbe12e5b4eb9236a7c88945b",
+    "customer_zip_code_prefix": "86047",
+    "customer_city": "londrina",
+    "customer_state": "PR"
+  },
+  {
+    "customer_id": "766145029046296846bb15b8fd581a25",
+    "customer_unique_id": "ab009b9ef22850acd9fd15d0c319a4be",
+    "customer_zip_code_prefix": "27258",
+    "customer_city": "volta redonda",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "898b7fee99c4e42170ab69ba59be0a8b",
+    "customer_unique_id": "24ac2b4327e25baf39f2119e4228976a",
+    "customer_zip_code_prefix": "13483",
+    "customer_city": "limeira",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "30df451d935bb7c4cfa51cc22ee28e5c",
+    "customer_unique_id": "c0955a0a7cd0cbaf66ee32b50d136132",
+    "customer_zip_code_prefix": "55610",
+    "customer_city": "vitoria de santo antao",
+    "customer_state": "PE"
+  },
+  {
+    "customer_id": "653e79d5d3fa5884c8c8c5d0ca18cdf5",
+    "customer_unique_id": "809988e0e5fdc4bf04b87fbfdeb9d249",
+    "customer_zip_code_prefix": "97501",
+    "customer_city": "uruguaiana",
+    "customer_state": "RS"
+  },
+  {
+    "customer_id": "1fc0dd80f3ef093992aafd0a8dcaf281",
+    "customer_unique_id": "fb3b6b966b6fe7af889f45402ceb06a3",
+    "customer_zip_code_prefix": "15997",
+    "customer_city": "matao",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "8d507f583837f28f95948bf6acdf0c9a",
+    "customer_unique_id": "e0ed1de73bac390320f5d2b165f52dce",
+    "customer_zip_code_prefix": "18520",
+    "customer_city": "cerquilho",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "ad2a892cb75797930dd37af669701f85",
+    "customer_unique_id": "1b870d511f6630a41044f05f41dec5da",
+    "customer_zip_code_prefix": "17051",
+    "customer_city": "bauru",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "c32d792dfee718dffd6cd61fc89f23d6",
+    "customer_unique_id": "cd80e261af484c828d374764b9aa36b5",
+    "customer_zip_code_prefix": "32678",
+    "customer_city": "betim",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "391a099850a406987b6f3019c0d98116",
+    "customer_unique_id": "189cbcf514cf83be8bc94f5563f61444",
+    "customer_zip_code_prefix": "65072",
+    "customer_city": "sao luis",
+    "customer_state": "MA"
+  },
+  {
+    "customer_id": "672b006efdabc0ee13568350bb6f29d0",
+    "customer_unique_id": "9934d9121d7b75929c14c754f1ffed75",
+    "customer_zip_code_prefix": "08773",
+    "customer_city": "mogi das cruzes",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "9ac79dbd56c788bdaa3fd33476b5e31e",
+    "customer_unique_id": "f9b074cca28d2f4143036e8eec7eb60b",
+    "customer_zip_code_prefix": "38610",
+    "customer_city": "unai",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "fd79d84ccc418c200ac0633a12166a71",
+    "customer_unique_id": "9a9fcf0d04d9364eb5d4ad3d4d3e6228",
+    "customer_zip_code_prefix": "24230",
+    "customer_city": "niteroi",
+    "customer_state": "RJ"
+  },
+  {
+    "customer_id": "b93d757b24d7fe32863f81d69b43f2aa",
+    "customer_unique_id": "2b4343622681ecc588d6e9497404e779",
+    "customer_zip_code_prefix": "70383",
+    "customer_city": "brasilia",
+    "customer_state": "DF"
+  },
+  {
+    "customer_id": "77057b5a79eb9c5034ce257e0d9fe154",
+    "customer_unique_id": "4e708abd2bbe64141eb87cd25119de2d",
+    "customer_zip_code_prefix": "09617",
+    "customer_city": "sao bernardo do campo",
+    "customer_state": "SP"
+  },
+  {
+    "customer_id": "4d77375c6dcb70bcc7e85e9745a7f61a",
+    "customer_unique_id": "241ef388359fe58ca1bf35112494dcb3",
+    "customer_zip_code_prefix": "49055",
+    "customer_city": "aracaju",
+    "customer_state": "SE"
+  },
+  {
+    "customer_id": "a87adc695f5034edd84b4e60f8188d44",
+    "customer_unique_id": "6452168ad6a6cddd2fe5a2b1624f2d47",
+    "customer_zip_code_prefix": "41120",
+    "customer_city": "salvador",
+    "customer_state": "BA"
+  },
+  {
+    "customer_id": "a1e0ece6d8ce34235b8f5e3dc7a8e69f",
+    "customer_unique_id": "016dc4411329d2b3292a0fbf1402e95e",
+    "customer_zip_code_prefix": "33140",
+    "customer_city": "santa luzia",
+    "customer_state": "MG"
+  },
+  {
+    "customer_id": "0ec522c4497afe657106a823242c5f16",
+    "customer_unique_id": "ed96c39e0968372baa4b1b00ff169dd0",
+    "customer_zip_code_prefix": "88104",
+    "customer_city": "sao jose",
+    "customer_state": "SC"
+  },
+  {
+    "customer_id": "adad0151d1c1f4c056b59dd6f9146d58",
+    "customer_unique_id": "95fc0e6f6939f521e44a588ff18eacb9",
+    "customer_zip_code_prefix": "12960",
+    "customer_city": "nazare paulista",
+    "customer_state": "SP"
+  }
+]

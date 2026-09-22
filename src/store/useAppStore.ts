@@ -236,7 +236,7 @@ export const useAppStore = create<AppState>()(persist((set, get) => ({
   setTemplates: (templateA, templateB) => set({ templateA, templateB }),
   setCompareLog: (compareLog) => set({ compareLog }),
   setApprovalStatus: (approvalStatus) => set({ approvalStatus }),
-  approveForecast: (notes = 'Approved assembled jewellery forecast') => set((s) => {
+  approveForecast: (notes = 'Approved assembled Olist forecast') => set((s) => {
     const wape = s.finalAssembly ? Number((100 - s.finalAssembly.blendedAccuracy).toFixed(1)) : 10.9;
     const version: ForecastVersion = {
       id: crypto.randomUUID(),

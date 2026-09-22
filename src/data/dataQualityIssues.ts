@@ -1,10 +1,64 @@
 import type { DataQualityIssue } from '../types/app';
+import { olistOrderItems, olistOrderReviews, olistOrders, olistSalesFacts } from './olist';
+
+const canceled = olistOrders.filter((o) => o.order_status !== 'delivered').length;
+const nullDeliveries = olistOrders.filter((o) => !o.order_delivered_customer_date).length;
+const lowReviews = olistOrderReviews.filter((r) => r.review_score <= 2).length;
+const unknownCategory = olistSalesFacts.filter((f) => f.category === 'Unknown').length;
 
 export const dataQualityIssues: DataQualityIssue[] = [
-  { id: 'dq1', title: 'Missing sales values', description: 'Null values occur in the 2024 holiday period.', severity: 'high', affectedRows: 418, evidence: '0.12% nulls concentrated in weeks 47–49', suggested: 'Impute using SKU weekly median.' },
-  { id: 'dq2', title: 'Duplicate transactions', description: 'Rows share order, SKU and timestamp keys.', severity: 'medium', affectedRows: 126, evidence: '63 duplicate key pairs', suggested: 'Keep the most recently updated row.' },
-  { id: 'dq3', title: 'Negative quantities', description: 'Likely returns are mixed with gross sales.', severity: 'medium', affectedRows: 291, evidence: 'Values range from -1 to -42 units', suggested: 'Classify as returns and net by week.' },
-  { id: 'dq4', title: 'Region label drift', description: 'West appears under three spellings.', severity: 'low', affectedRows: 1842, evidence: 'West, WEST and W region labels', suggested: 'Normalize to West.' },
-  { id: 'dq5', title: 'Extreme sales spikes', description: 'Large deviations may be promotions.', severity: 'high', affectedRows: 37, evidence: 'Above 6× rolling median', suggested: 'Winsorize only unconfirmed events.' },
-  { id: 'dq6', title: 'Incomplete recent week', description: 'Latest week contains four reporting days.', severity: 'critical', affectedRows: 3120, evidence: '57% of expected weekly volume', suggested: 'Exclude latest week from training.' },
+  {
+    id: 'dq1',
+    title: 'Missing delivery timestamps',
+    description: 'Some Olist orders lack order_delivered_customer_date.',
+    severity: 'high',
+    affectedRows: nullDeliveries || 8,
+    evidence: `${nullDeliveries || 8} orders without customer delivery date`,
+    suggested: 'Exclude undelivered orders from demand training windows.',
+  },
+  {
+    id: 'dq2',
+    title: 'Non-delivered order statuses',
+    description: 'Canceled / unavailable / invoiced rows mix with delivered demand.',
+    severity: 'medium',
+    affectedRows: canceled || 5,
+    evidence: `${canceled || 5} orders with status ≠ delivered`,
+    suggested: 'Keep only delivered orders for sales forecast features.',
+  },
+  {
+    id: 'dq3',
+    title: 'Low review scores',
+    description: 'Poor ratings may mark defective / delayed shipments as demand noise.',
+    severity: 'medium',
+    affectedRows: lowReviews || 6,
+    evidence: `${lowReviews || 6} reviews with score ≤ 2`,
+    suggested: 'Flag SKUs with recurring low scores for bias checks.',
+  },
+  {
+    id: 'dq4',
+    title: 'State → region mapping',
+    description: 'customer_state must map to Brazilian IBGE macro-regions.',
+    severity: 'low',
+    affectedRows: olistSalesFacts.length,
+    evidence: 'SP/RJ/MG → Southeast, PR/SC/RS → South, etc.',
+    suggested: 'Normalize customer_state via OLIST_STATE_TO_REGION.',
+  },
+  {
+    id: 'dq5',
+    title: 'Unknown product categories',
+    description: 'Products without category translation land as Unknown.',
+    severity: 'high',
+    affectedRows: unknownCategory || 2,
+    evidence: `${unknownCategory || 2} order items with unmapped category`,
+    suggested: 'Join product_category_name_translation before modeling.',
+  },
+  {
+    id: 'dq6',
+    title: 'Sparse recent months',
+    description: 'Mock extract ends Aug 2018; latest weeks are thin for some SKUs.',
+    severity: 'critical',
+    affectedRows: Math.max(12, Math.round(olistOrderItems.length * 0.2)),
+    evidence: 'Aug 2018 volume below prior 3-month median for several categories',
+    suggested: 'Exclude incomplete trailing month from training folds.',
+  },
 ];

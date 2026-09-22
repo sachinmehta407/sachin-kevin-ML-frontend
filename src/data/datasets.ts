@@ -1,16 +1,22 @@
 import type { DemoFile } from '../types/app';
+import { OLIST_SOURCE_FILES } from './olist';
 
-export const demoFiles: DemoFile[] = [
-  { id: 'f23', name: 'Sales_2023.csv', size: '8.4 MB', rows: 124680, period: 'Jan–Dec 2023', status: 'validated' },
-  { id: 'f24', name: 'Sales_2024.csv', size: '9.1 MB', rows: 131240, period: 'Jan–Dec 2024', status: 'validated' },
-  { id: 'f25', name: 'Sales_2025.csv', size: '6.8 MB', rows: 98210, period: 'Jan–Sep 2025', status: 'warning' },
-];
+/** Olist Brazilian e-commerce mock extracts (from olist_json_mock_data_file_wise.txt) */
+export const demoFiles: DemoFile[] = OLIST_SOURCE_FILES.map((f, i) => ({
+  id: f.id,
+  name: f.name,
+  size: `${Math.max(12, Math.round(f.rows * 0.9))} KB`,
+  rows: f.rows,
+  period: i < 3 ? 'Sep 2016 – Aug 2018' : 'Olist reference',
+  status: f.id === 'olist-reviews' ? 'warning' : 'validated',
+}));
 
 export const defaultColumnMappings = [
-  { source: 'Order Date', target: 'date', confidence: 99 },
-  { source: 'Net Sales', target: 'sales', confidence: 98 },
-  { source: 'Item Code', target: 'sku', confidence: 96 },
-  { source: 'Product Name', target: 'product', confidence: 95 },
-  { source: 'Division', target: 'category', confidence: 91 },
-  { source: 'Sales Territory', target: 'region', confidence: 94 },
+  { source: 'order_purchase_timestamp', target: 'date', confidence: 99 },
+  { source: 'price', target: 'sales', confidence: 98 },
+  { source: 'product_id', target: 'sku', confidence: 97 },
+  { source: 'product_category_name_english', target: 'category', confidence: 95 },
+  { source: 'customer_state', target: 'region', confidence: 94 },
+  { source: 'seller_id', target: 'ignore', confidence: 88 },
+  { source: 'freight_value', target: 'ignore', confidence: 82 },
 ] as const;

@@ -46,7 +46,7 @@ export function ForecastAssemblyPage() {
       />
       <PageHeader
         eyebrow="Decision · Final assembly"
-        title="Assemble final jewellery forecast"
+        title="Assemble final Olist forecast"
         description="Final Forecast = Template 1 for everything EXCEPT slices replaced by approved experiments. No duplicate SKUs — replacements only."
         actions={
           <Button onClick={runAssemble}>
@@ -62,8 +62,8 @@ export function ForecastAssemblyPage() {
             Final = Template 1 (all SKUs) − replaced slices + approved Template overlays
           </p>
           <p className="text-muted">
-            Example: Bridal from Template 2 (88%), Rings / Earrings / Necklaces from Template 1. Still
-            exactly <strong className="text-ink">1,000 SKUs</strong>.
+            Example: Health Beauty from Template 2 (88%), other Olist categories from Template 1. Still
+            exactly <strong className="text-ink">one prediction per SKU</strong>.
           </p>
         </div>
       </Card>
@@ -84,7 +84,7 @@ export function ForecastAssemblyPage() {
         <Card>
           <CardTitle>Approved overlays</CardTitle>
           {overlays.length === 0 ? (
-            <p className="text-sm text-muted">None yet — Bridal Template 2 is pre-approved in the demo.</p>
+            <p className="text-sm text-muted">None yet — Health Beauty Template 2 is pre-approved in the demo.</p>
           ) : (
             <ul className="space-y-2 text-sm">
               {overlays.map((t) => (

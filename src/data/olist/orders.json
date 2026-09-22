@@ -1,0 +1,602 @@
+[
+  {
+    "order_id": "bfbd0f9bdef84302105ad712db648a6c",
+    "customer_id": "86dc2ffce2dfff336de2f386a786e574",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2016-09-15 12:16:38",
+    "order_approved_at": "2016-09-15 12:16:38",
+    "order_delivered_carrier_date": "2016-11-07 17:11:53",
+    "order_delivered_customer_date": "2016-11-09 07:47:38",
+    "order_estimated_delivery_date": "2016-10-04 00:00:00"
+  },
+  {
+    "order_id": "3a8fa2133fb96a04512604d9c32dc7c3",
+    "customer_id": "42be08802b14ff1e10bc5bec7f1beae9",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-02-09 14:29:29",
+    "order_approved_at": "2017-02-09 14:43:13",
+    "order_delivered_carrier_date": "2017-02-14 12:07:25",
+    "order_delivered_customer_date": "2017-02-22 13:46:33",
+    "order_estimated_delivery_date": "2017-03-14 00:00:00"
+  },
+  {
+    "order_id": "1a9b9f5f7c4ed24f0e1e7c19cc9510a5",
+    "customer_id": "b2c85d49babd60f744c7f30e9d23fafa",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-03-08 21:11:42",
+    "order_approved_at": "2017-03-08 21:11:42",
+    "order_delivered_carrier_date": "2017-03-13 08:07:23",
+    "order_delivered_customer_date": "2017-03-31 12:24:37",
+    "order_estimated_delivery_date": "2017-04-12 00:00:00"
+  },
+  {
+    "order_id": "c5119bb429cf05b928aca27cd9e62cf4",
+    "customer_id": "72eda8980db0411fc5406163a20ca6e9",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-03-27 23:57:06",
+    "order_approved_at": "2017-03-29 02:15:19",
+    "order_delivered_carrier_date": "2017-03-29 13:56:37",
+    "order_delivered_customer_date": "2017-04-06 15:40:22",
+    "order_estimated_delivery_date": "2017-04-26 00:00:00"
+  },
+  {
+    "order_id": "c4f8b593d018d585660bb519a77b7b67",
+    "customer_id": "c5e42d53353b4c848046100a39ed0ae4",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-04-19 22:20:09",
+    "order_approved_at": "2017-04-19 22:30:19",
+    "order_delivered_carrier_date": "2017-04-27 16:53:55",
+    "order_delivered_customer_date": "2017-05-17 15:48:51",
+    "order_estimated_delivery_date": "2017-05-18 00:00:00"
+  },
+  {
+    "order_id": "d15e0fd391d14c714d025a4824bf068f",
+    "customer_id": "30df451d935bb7c4cfa51cc22ee28e5c",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-05-07 11:08:09",
+    "order_approved_at": "2017-05-08 17:30:19",
+    "order_delivered_carrier_date": "2017-05-12 19:36:09",
+    "order_delivered_customer_date": "2017-05-30 09:30:17",
+    "order_estimated_delivery_date": "2017-06-27 00:00:00"
+  },
+  {
+    "order_id": "96e7a3c4942a286dc88f85fffcdfbf50",
+    "customer_id": "c32d792dfee718dffd6cd61fc89f23d6",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-05-21 08:01:38",
+    "order_approved_at": "2017-05-21 09:05:10",
+    "order_delivered_carrier_date": "2017-05-22 16:13:58",
+    "order_delivered_customer_date": "2017-06-02 14:15:02",
+    "order_estimated_delivery_date": "2017-06-09 00:00:00"
+  },
+  {
+    "order_id": "95a87e0d2cf1cb63b02eba222ceaecc7",
+    "customer_id": "b93d757b24d7fe32863f81d69b43f2aa",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-06-04 17:04:40",
+    "order_approved_at": "2017-06-04 17:15:10",
+    "order_delivered_carrier_date": "2017-06-08 12:11:02",
+    "order_delivered_customer_date": "2017-06-19 18:48:42",
+    "order_estimated_delivery_date": "2017-07-07 00:00:00"
+  },
+  {
+    "order_id": "4bea1a1e7a264f908a38f818073ee923",
+    "customer_id": "2ea694334078726c7229c21f0a7cc021",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-06-19 11:35:40",
+    "order_approved_at": "2017-06-19 11:50:14",
+    "order_delivered_carrier_date": "2017-06-20 10:39:22",
+    "order_delivered_customer_date": "2017-06-28 14:37:45",
+    "order_estimated_delivery_date": "2017-07-20 00:00:00"
+  },
+  {
+    "order_id": "fd85ec210522091e1e3e0318218860c8",
+    "customer_id": "d34341f5b5a77c0a6af01365d9608371",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-07-05 20:56:59",
+    "order_approved_at": "2017-07-05 21:05:15",
+    "order_delivered_carrier_date": "2017-07-06 14:59:45",
+    "order_delivered_customer_date": "2017-07-19 20:54:48",
+    "order_estimated_delivery_date": "2017-08-04 00:00:00"
+  },
+  {
+    "order_id": "6f14ef9e1c67a1ca8e572a477c1b58b1",
+    "customer_id": "019dc2cd7ae165a706dd249829e0e1f1",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-07-18 14:32:15",
+    "order_approved_at": "2017-07-18 14:45:20",
+    "order_delivered_carrier_date": "2017-07-21 19:32:28",
+    "order_delivered_customer_date": "2017-07-28 20:57:38",
+    "order_estimated_delivery_date": "2017-08-09 00:00:00"
+  },
+  {
+    "order_id": "258dc8334fda68e1474385c00298c877",
+    "customer_id": "653e79d5d3fa5884c8c8c5d0ca18cdf5",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-07-31 15:00:07",
+    "order_approved_at": "2017-08-02 02:55:30",
+    "order_delivered_carrier_date": "2017-08-03 18:03:37",
+    "order_delivered_customer_date": "2017-08-17 18:43:08",
+    "order_estimated_delivery_date": "2017-08-22 00:00:00"
+  },
+  {
+    "order_id": "fd5c1e8106fe112adf074e53073aa76a",
+    "customer_id": "766145029046296846bb15b8fd581a25",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-08-12 09:10:30",
+    "order_approved_at": "2017-08-12 09:25:07",
+    "order_delivered_carrier_date": "2017-08-15 00:10:42",
+    "order_delivered_customer_date": "2017-08-28 22:03:33",
+    "order_estimated_delivery_date": "2017-09-08 00:00:00"
+  },
+  {
+    "order_id": "a547fb168e44ce6b79cdea200a3c9b45",
+    "customer_id": "1fc0dd80f3ef093992aafd0a8dcaf281",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-08-24 12:07:21",
+    "order_approved_at": "2017-08-24 12:24:25",
+    "order_delivered_carrier_date": "2017-08-25 13:50:06",
+    "order_delivered_customer_date": "2017-09-04 23:35:00",
+    "order_estimated_delivery_date": "2017-09-18 00:00:00"
+  },
+  {
+    "order_id": "2b4b69b119c4446626f617bd54ff3147",
+    "customer_id": "456664e611e20956682bafced4ecdb19",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-09-05 18:28:30",
+    "order_approved_at": "2017-09-05 18:44:08",
+    "order_delivered_carrier_date": "2017-09-06 17:06:54",
+    "order_delivered_customer_date": "2017-09-19 21:43:03",
+    "order_estimated_delivery_date": "2017-09-26 00:00:00"
+  },
+  {
+    "order_id": "a5699e91157fd53a3c93f645452e88bd",
+    "customer_id": "a87adc695f5034edd84b4e60f8188d44",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-09-16 23:27:24",
+    "order_approved_at": "2017-09-19 03:30:28",
+    "order_delivered_carrier_date": "2017-09-19 19:51:10",
+    "order_delivered_customer_date": "2017-10-18 21:38:52",
+    "order_estimated_delivery_date": "2017-10-09 00:00:00"
+  },
+  {
+    "order_id": "0504447548229e075dea8441b37b1e2a",
+    "customer_id": "4e2c1f15de98416a90c2ee06b55ccc9b",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-09-28 19:31:57",
+    "order_approved_at": "2017-09-30 02:14:42",
+    "order_delivered_carrier_date": "2017-10-02 19:33:19",
+    "order_delivered_customer_date": "2017-10-06 17:03:59",
+    "order_estimated_delivery_date": "2017-11-03 00:00:00"
+  },
+  {
+    "order_id": "8cf9ba649b9084cf9c9fe4031a1850ef",
+    "customer_id": "0ec522c4497afe657106a823242c5f16",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-10-10 16:30:04",
+    "order_approved_at": "2017-10-10 16:49:25",
+    "order_delivered_carrier_date": "2017-10-14 15:38:49",
+    "order_delivered_customer_date": "2017-10-21 11:45:26",
+    "order_estimated_delivery_date": "2017-11-03 00:00:00"
+  },
+  {
+    "order_id": "39519d02af9b0ab69cd51e3b81fe2dc5",
+    "customer_id": "591705dfee9322311501831348d98079",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-10-21 14:46:13",
+    "order_approved_at": "2017-10-21 14:56:20",
+    "order_delivered_carrier_date": "2017-10-23 14:53:56",
+    "order_delivered_customer_date": "2017-11-04 14:59:56",
+    "order_estimated_delivery_date": "2017-11-10 00:00:00"
+  },
+  {
+    "order_id": "17d1c72c26f43dbcb91705626271e2f0",
+    "customer_id": "a31825d0c893a0c13dd57cd8a6e22b93",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-02 17:18:08",
+    "order_approved_at": "2017-11-02 17:25:53",
+    "order_delivered_carrier_date": "2017-11-03 14:37:56",
+    "order_delivered_customer_date": "2017-11-23 17:41:06",
+    "order_estimated_delivery_date": "2017-12-07 00:00:00"
+  },
+  {
+    "order_id": "a48804f66ce775aaca8c304521669e80",
+    "customer_id": "4d77375c6dcb70bcc7e85e9745a7f61a",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-13 11:06:57",
+    "order_approved_at": "2017-11-14 04:10:24",
+    "order_delivered_carrier_date": "2017-11-16 17:06:00",
+    "order_delivered_customer_date": "2017-11-21 17:27:04",
+    "order_estimated_delivery_date": "2017-12-06 00:00:00"
+  },
+  {
+    "order_id": "e3a456432c2847da83a3cfb4fa72d9db",
+    "customer_id": "fd79d84ccc418c200ac0633a12166a71",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-21 21:40:05",
+    "order_approved_at": "2017-11-21 21:52:57",
+    "order_delivered_carrier_date": "2017-11-23 21:41:17",
+    "order_delivered_customer_date": "2018-01-05 21:18:48",
+    "order_estimated_delivery_date": "2017-12-08 00:00:00"
+  },
+  {
+    "order_id": "f96187641653e607ec1001aff62bdff0",
+    "customer_id": "d19e43bfc6c14d83b972cf699985898e",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-25 00:05:10",
+    "order_approved_at": "2017-11-25 02:54:34",
+    "order_delivered_carrier_date": "2017-11-27 20:02:59",
+    "order_delivered_customer_date": "2017-11-29 19:17:59",
+    "order_estimated_delivery_date": "2017-12-11 00:00:00"
+  },
+  {
+    "order_id": "19559da3ec491caeab77c1512d28399b",
+    "customer_id": "ced00a908ceed2bab37e22ec77bb4eaa",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-11-29 00:38:47",
+    "order_approved_at": "2017-11-29 01:31:26",
+    "order_delivered_carrier_date": "2017-11-29 22:21:18",
+    "order_delivered_customer_date": "2017-12-01 17:06:34",
+    "order_estimated_delivery_date": "2017-12-13 00:00:00"
+  },
+  {
+    "order_id": "5f5ef03caf7e16f975b0fbd9ac1d3db0",
+    "customer_id": "d994da78ae72999d6c55340049fe86b6",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-12-05 09:03:48",
+    "order_approved_at": "2017-12-05 11:02:59",
+    "order_delivered_carrier_date": "2017-12-19 22:20:05",
+    "order_delivered_customer_date": "2017-12-29 16:18:52",
+    "order_estimated_delivery_date": "2018-01-04 00:00:00"
+  },
+  {
+    "order_id": "6e584156fb694163bf7b2f005416589e",
+    "customer_id": "15b9ae31dc0100c5258609476904e5b2",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-12-12 14:27:50",
+    "order_approved_at": "2017-12-12 14:49:16",
+    "order_delivered_carrier_date": "2017-12-14 20:27:13",
+    "order_delivered_customer_date": "2017-12-22 14:10:11",
+    "order_estimated_delivery_date": "2018-01-10 00:00:00"
+  },
+  {
+    "order_id": "e2da042c42ce790c81ef3a9f666a92b6",
+    "customer_id": "cec841303d49ca5ab4756e8fee1fc554",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2017-12-21 16:15:32",
+    "order_approved_at": "2017-12-21 16:30:09",
+    "order_delivered_carrier_date": "2017-12-22 17:53:36",
+    "order_delivered_customer_date": "2018-01-04 00:14:43",
+    "order_estimated_delivery_date": "2018-01-31 00:00:00"
+  },
+  {
+    "order_id": "409e065598ea4a9dba359d894ab0cab9",
+    "customer_id": "672b006efdabc0ee13568350bb6f29d0",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-03 21:53:52",
+    "order_approved_at": "2018-01-04 05:12:33",
+    "order_delivered_carrier_date": "2018-01-04 15:32:54",
+    "order_delivered_customer_date": "2018-01-09 22:39:43",
+    "order_estimated_delivery_date": "2018-01-30 00:00:00"
+  },
+  {
+    "order_id": "46ab5f4b3a88ae05be005f9736c0e9e6",
+    "customer_id": "1a455c3578447cae5fde99531bb7dc8d",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-10 19:48:48",
+    "order_approved_at": "2018-01-12 02:36:41",
+    "order_delivered_carrier_date": "2018-01-19 19:52:26",
+    "order_delivered_customer_date": "2018-02-01 18:26:05",
+    "order_estimated_delivery_date": "2018-02-22 00:00:00"
+  },
+  {
+    "order_id": "58883d4d88a7a9be12c7343ecf8dcea5",
+    "customer_id": "bd7bf31df8713e97cef95685aa9963f7",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-17 10:22:35",
+    "order_approved_at": "2018-01-17 11:30:40",
+    "order_delivered_carrier_date": "2018-01-24 19:22:41",
+    "order_delivered_customer_date": "2018-02-09 23:12:58",
+    "order_estimated_delivery_date": "2018-03-08 00:00:00"
+  },
+  {
+    "order_id": "db738d19eb9fe6721be783d4e46f1c4d",
+    "customer_id": "adad0151d1c1f4c056b59dd6f9146d58",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-24 08:06:36",
+    "order_approved_at": "2018-01-24 17:59:15",
+    "order_delivered_carrier_date": "2018-01-29 16:28:14",
+    "order_delivered_customer_date": "2018-02-06 18:16:30",
+    "order_estimated_delivery_date": "2018-02-23 00:00:00"
+  },
+  {
+    "order_id": "902db2c98a98235e57479a2ba1b06136",
+    "customer_id": "77057b5a79eb9c5034ce257e0d9fe154",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-01-31 18:45:15",
+    "order_approved_at": "2018-01-31 19:10:49",
+    "order_delivered_carrier_date": "2018-02-01 20:57:04",
+    "order_delivered_customer_date": "2018-02-15 20:08:42",
+    "order_estimated_delivery_date": "2018-02-22 00:00:00"
+  },
+  {
+    "order_id": "d4e47f54a1b18883138da71a1f9d5855",
+    "customer_id": "d6184e6a56d0baf7b891bee8f43c5066",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-02-07 21:50:03",
+    "order_approved_at": "2018-02-08 07:35:44",
+    "order_delivered_carrier_date": "2018-02-08 18:42:42",
+    "order_delivered_customer_date": "2018-02-16 13:55:02",
+    "order_estimated_delivery_date": "2018-03-05 00:00:00"
+  },
+  {
+    "order_id": "ca01c525c19a77269bb9ab052e2a3eab",
+    "customer_id": "aa46592adf8954513da919ad33da2583",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-02-15 14:21:12",
+    "order_approved_at": "2018-02-16 08:30:58",
+    "order_delivered_carrier_date": "2018-02-19 23:31:18",
+    "order_delivered_customer_date": "2018-03-01 21:06:41",
+    "order_estimated_delivery_date": "2018-03-20 00:00:00"
+  },
+  {
+    "order_id": "497b870cbbeda496567b5d75b81c5722",
+    "customer_id": "eae775e65db9c286651ab68cfb76ecec",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-02-22 12:10:45",
+    "order_approved_at": "2018-02-23 02:10:58",
+    "order_delivered_carrier_date": "2018-02-26 23:26:55",
+    "order_delivered_customer_date": "2018-02-28 23:27:49",
+    "order_estimated_delivery_date": "2018-03-14 00:00:00"
+  },
+  {
+    "order_id": "965fd67b96c75d07ac90c1f7ba2728e7",
+    "customer_id": "3e8152cd9752470b9bae84e87f3bd3b1",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-02-28 18:37:40",
+    "order_approved_at": "2018-02-28 18:50:26",
+    "order_delivered_carrier_date": "2018-03-01 18:04:59",
+    "order_delivered_customer_date": "2018-03-14 21:28:44",
+    "order_estimated_delivery_date": "2018-03-21 00:00:00"
+  },
+  {
+    "order_id": "e15504d16c775034b44d4637a745a5a5",
+    "customer_id": "391a099850a406987b6f3019c0d98116",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-03-07 12:11:42",
+    "order_approved_at": "2018-03-07 12:49:42",
+    "order_delivered_carrier_date": "2018-03-09 23:33:15",
+    "order_delivered_customer_date": "2018-03-17 15:22:08",
+    "order_estimated_delivery_date": "2018-03-27 00:00:00"
+  },
+  {
+    "order_id": "303be864ad5419c9825b648397a8eb73",
+    "customer_id": "50fb584351c6138fc5f4e986b30a173e",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-03-14 22:36:53",
+    "order_approved_at": "2018-03-15 22:35:40",
+    "order_delivered_carrier_date": "2018-03-16 21:24:24",
+    "order_delivered_customer_date": "2018-03-20 20:18:53",
+    "order_estimated_delivery_date": "2018-03-29 00:00:00"
+  },
+  {
+    "order_id": "37d7fe3b89c5111a0bbed48ed650101a",
+    "customer_id": "9ac79dbd56c788bdaa3fd33476b5e31e",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-03-21 14:20:32",
+    "order_approved_at": "2018-03-21 14:35:24",
+    "order_delivered_carrier_date": "2018-03-23 01:21:00",
+    "order_delivered_customer_date": "2018-03-27 14:03:03",
+    "order_estimated_delivery_date": "2018-04-10 00:00:00"
+  },
+  {
+    "order_id": "1b6c5ab6683a19bca12106679e94fe4e",
+    "customer_id": "8ac8d9c1fb5ae04d995ea858252714e5",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-03-28 20:36:47",
+    "order_approved_at": "2018-03-30 03:15:44",
+    "order_delivered_carrier_date": "2018-04-02 18:04:13",
+    "order_delivered_customer_date": "2018-04-05 14:22:38",
+    "order_estimated_delivery_date": "2018-04-20 00:00:00"
+  },
+  {
+    "order_id": "acf579dc44e10bf23cabf01d80f9f62c",
+    "customer_id": "527b26bd8ea58b018efd96060cac5ccb",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-04-05 14:18:32",
+    "order_approved_at": "2018-04-05 14:30:26",
+    "order_delivered_carrier_date": "2018-04-07 01:22:39",
+    "order_delivered_customer_date": "2018-04-27 17:12:47",
+    "order_estimated_delivery_date": "2018-05-08 00:00:00"
+  },
+  {
+    "order_id": "0b3d8a1bbaa4e340e25adfd640f70308",
+    "customer_id": "62d5c37f279182017dcd13820676a511",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-04-13 01:14:51",
+    "order_approved_at": "2018-04-13 01:30:21",
+    "order_delivered_carrier_date": "2018-04-13 19:18:37",
+    "order_delivered_customer_date": "2018-05-07 21:11:43",
+    "order_estimated_delivery_date": "2018-05-16 00:00:00"
+  },
+  {
+    "order_id": "4340cfd191c9dc16061684e4575fb151",
+    "customer_id": "55761211ed951c99bab19617dad3e33b",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-04-19 22:27:41",
+    "order_approved_at": "2018-04-19 22:53:58",
+    "order_delivered_carrier_date": "2018-04-24 17:16:35",
+    "order_delivered_customer_date": "2018-05-05 01:34:48",
+    "order_estimated_delivery_date": "2018-05-21 00:00:00"
+  },
+  {
+    "order_id": "5454971549d855538eb746e4d263f9a5",
+    "customer_id": "210320fcc92cdf5c39245b92c8c42730",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-04-27 00:04:35",
+    "order_approved_at": "2018-04-27 00:15:22",
+    "order_delivered_carrier_date": "2018-04-27 13:22:00",
+    "order_delivered_customer_date": "2018-05-03 18:51:57",
+    "order_estimated_delivery_date": "2018-05-17 00:00:00"
+  },
+  {
+    "order_id": "adca0458be5f212699c94312c6bd9779",
+    "customer_id": "99037edd76af0e57ca1dd862cd7995a1",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-05-03 23:27:58",
+    "order_approved_at": "2018-05-03 23:50:45",
+    "order_delivered_carrier_date": "2018-05-04 14:13:00",
+    "order_delivered_customer_date": "2018-05-11 16:30:11",
+    "order_estimated_delivery_date": "2018-05-22 00:00:00"
+  },
+  {
+    "order_id": "873e00f0d09131c528f460aab0f488fb",
+    "customer_id": "08418b48e867cdb13eebbbc53c664e60",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-05-09 20:19:12",
+    "order_approved_at": "2018-05-09 20:32:54",
+    "order_delivered_carrier_date": "2018-05-12 08:14:00",
+    "order_delivered_customer_date": "2018-05-17 21:23:32",
+    "order_estimated_delivery_date": "2018-06-01 00:00:00"
+  },
+  {
+    "order_id": "4ed9c32a4e9d45ab8b3b9596e69f7346",
+    "customer_id": "3227fb6f17d3a5f8b131c9782516ed07",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-05-15 21:40:52",
+    "order_approved_at": "2018-05-15 21:55:25",
+    "order_delivered_carrier_date": "2018-05-16 15:11:00",
+    "order_delivered_customer_date": "2018-05-21 19:08:50",
+    "order_estimated_delivery_date": "2018-05-25 00:00:00"
+  },
+  {
+    "order_id": "1b900d4d10e97580eee435e3474110c8",
+    "customer_id": "7bea1627c3e438f1cf401aa2c53fea2d",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-05-23 18:32:43",
+    "order_approved_at": "2018-05-23 18:57:02",
+    "order_delivered_carrier_date": "2018-05-24 13:37:00",
+    "order_delivered_customer_date": "2018-06-06 20:19:03",
+    "order_estimated_delivery_date": "2018-06-25 00:00:00"
+  },
+  {
+    "order_id": "3d1a669c8ccacd61bf065e1537d5cad4",
+    "customer_id": "2096ad3b905d084c9496b1f4289d57db",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-06-04 15:52:44",
+    "order_approved_at": "2018-06-04 16:12:36",
+    "order_delivered_carrier_date": "2018-06-05 12:12:00",
+    "order_delivered_customer_date": "2018-06-06 18:14:59",
+    "order_estimated_delivery_date": "2018-07-11 00:00:00"
+  },
+  {
+    "order_id": "dc072ac65fce2a16ef5cc9473e91dfa8",
+    "customer_id": "ad2a892cb75797930dd37af669701f85",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-06-12 08:29:53",
+    "order_approved_at": "2018-06-12 19:46:43",
+    "order_delivered_carrier_date": "2018-06-18 14:22:00",
+    "order_delivered_customer_date": "2018-06-22 17:54:54",
+    "order_estimated_delivery_date": "2018-07-05 00:00:00"
+  },
+  {
+    "order_id": "669833f6af7254475316c8960bf742fc",
+    "customer_id": "a1e0ece6d8ce34235b8f5e3dc7a8e69f",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-06-19 23:00:45",
+    "order_approved_at": "2018-06-21 03:17:33",
+    "order_delivered_carrier_date": "2018-06-22 14:26:00",
+    "order_delivered_customer_date": "2018-07-03 21:41:48",
+    "order_estimated_delivery_date": "2018-07-13 00:00:00"
+  },
+  {
+    "order_id": "602a793bc5e2389ea3184fef278d8b0f",
+    "customer_id": "0d36ee8d591aef32f7955493243b4a41",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-06-27 19:50:35",
+    "order_approved_at": "2018-06-27 20:11:53",
+    "order_delivered_carrier_date": "2018-06-28 14:02:00",
+    "order_delivered_customer_date": "2018-07-03 18:05:08",
+    "order_estimated_delivery_date": "2018-08-01 00:00:00"
+  },
+  {
+    "order_id": "c8126d249a88b7218ea8af8a2ddfc024",
+    "customer_id": "8d507f583837f28f95948bf6acdf0c9a",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-07-06 14:23:32",
+    "order_approved_at": "2018-07-07 04:48:22",
+    "order_delivered_carrier_date": "2018-07-10 15:27:00",
+    "order_delivered_customer_date": "2018-07-12 20:33:44",
+    "order_estimated_delivery_date": "2018-07-25 00:00:00"
+  },
+  {
+    "order_id": "8d58703c7926bd13b718863681e60e42",
+    "customer_id": "f7457bbcdd912ef2a847361418a2c67a",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-07-17 19:19:04",
+    "order_approved_at": "2018-07-17 19:25:19",
+    "order_delivered_carrier_date": "2018-07-19 06:14:00",
+    "order_delivered_customer_date": "2018-07-24 21:24:36",
+    "order_estimated_delivery_date": "2018-07-31 00:00:00"
+  },
+  {
+    "order_id": "f1bdbadeb03d8a0e4c6c2f3ffaf32b35",
+    "customer_id": "3dd7e34382c3fae6bd89bf41b2c7c291",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-07-24 11:25:27",
+    "order_approved_at": "2018-07-24 11:35:32",
+    "order_delivered_carrier_date": "2018-07-25 14:34:00",
+    "order_delivered_customer_date": "2018-08-03 19:12:28",
+    "order_estimated_delivery_date": "2018-08-23 00:00:00"
+  },
+  {
+    "order_id": "ceecda7c9b24cbff643a6c5119a9ec6d",
+    "customer_id": "76127da03b20e432691fcc923788d9b3",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-07-31 14:31:45",
+    "order_approved_at": "2018-08-01 02:35:19",
+    "order_delivered_carrier_date": "2018-08-02 14:49:00",
+    "order_delivered_customer_date": "2018-08-06 18:05:43",
+    "order_estimated_delivery_date": "2018-08-06 00:00:00"
+  },
+  {
+    "order_id": "64bd3c2db3673ba37030ccfcbfce8fe3",
+    "customer_id": "ab0d603f0c96d5bc3f292d200df9809e",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-08-06 09:14:00",
+    "order_approved_at": "2018-08-08 03:15:14",
+    "order_delivered_carrier_date": "2018-08-15 05:41:00",
+    "order_delivered_customer_date": "2018-08-16 19:16:55",
+    "order_estimated_delivery_date": "2018-08-14 00:00:00"
+  },
+  {
+    "order_id": "2074522aabccf07984a2e77f7219ece5",
+    "customer_id": "c6a15026437250fd96680f784d665e01",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-08-11 18:40:05",
+    "order_approved_at": "2018-08-11 18:50:19",
+    "order_delivered_carrier_date": "2018-08-13 14:07:00",
+    "order_delivered_customer_date": "2018-08-17 21:48:29",
+    "order_estimated_delivery_date": "2018-08-23 00:00:00"
+  },
+  {
+    "order_id": "68f4e47ec61d740cefae31e2f624932b",
+    "customer_id": "31a22c96ba8050ae34ea9bd0833e1e99",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-08-17 17:20:21",
+    "order_approved_at": "2018-08-17 17:35:45",
+    "order_delivered_carrier_date": "2018-08-23 14:45:00",
+    "order_delivered_customer_date": "2018-08-24 17:38:44",
+    "order_estimated_delivery_date": "2018-08-31 00:00:00"
+  },
+  {
+    "order_id": "35a972d7f8436f405b56e36add1a7140",
+    "customer_id": "898b7fee99c4e42170ab69ba59be0a8b",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-08-29 15:00:37",
+    "order_approved_at": "2018-08-29 15:10:26",
+    "order_delivered_carrier_date": "2018-08-29 16:57:00",
+    "order_delivered_customer_date": "2018-08-30 16:23:36",
+    "order_estimated_delivery_date": "2018-09-05 00:00:00"
+  }
+]

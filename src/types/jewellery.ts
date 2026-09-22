@@ -1,8 +1,29 @@
-/** Jewellery template overlay — scopes, experiments, final assembly */
+/** Template overlay scopes — backed by Olist Brazilian e-commerce mock data */
 
-export type JewelleryCategory = 'Bridal' | 'Rings' | 'Earrings' | 'Necklaces';
-export type JewelleryRegion = 'North' | 'South' | 'East' | 'West';
-export type JewelleryCity = 'Mumbai' | 'Delhi' | 'Bengaluru' | 'Chennai' | 'Kolkata' | 'Hyderabad';
+export type JewelleryCategory =
+  | 'Health Beauty'
+  | 'Housewares'
+  | 'Furniture Decor'
+  | 'Stationery'
+  | 'Bed Bath Table'
+  | 'Computers Accessories'
+  | 'Sports Leisure'
+  | 'Garden Tools';
+
+export type JewelleryRegion =
+  | 'Southeast'
+  | 'South'
+  | 'Northeast'
+  | 'North'
+  | 'Central-West';
+
+export type JewelleryCity =
+  | 'Sao Paulo'
+  | 'Rio De Janeiro'
+  | 'Curitiba'
+  | 'Belo Horizonte'
+  | 'Brasilia'
+  | 'Niteroi';
 
 export type TemplateRunStatus = 'draft' | 'running' | 'complete' | 'approved';
 

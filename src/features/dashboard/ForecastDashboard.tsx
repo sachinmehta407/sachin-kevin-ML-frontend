@@ -22,10 +22,10 @@ import {
   polarVolumeByRegion,
   productsRequiringAttention,
   recommendedQuantities,
-  scatterActualVsForecast,
   topOverForecast,
   topUnderForecast,
   volumeByRegion,
+  forecastFunnelStages,
 } from '../../lib/metrics';
 import { ForecastDashboardFilters } from '../../types/forecast';
 import {
@@ -33,12 +33,12 @@ import {
   BarChartView,
   BubbleChartView,
   DoughnutChartView,
+  FunnelChartView,
   LineChartView,
   MixedChartView,
   PieChartView,
   PolarAreaChartView,
   RadarChartView,
-  ScatterChartView,
 } from './Charts';
 import { FilterBar } from './FilterBar';
 import { KpiCards } from './KpiCards';
@@ -71,8 +71,8 @@ export function ForecastDashboard() {
   const regionVol = useMemo(() => volumeByRegion(filtered), [filtered]);
   const pieShare = useMemo(() => pieShareByCategory(filtered), [filtered]);
   const polar = useMemo(() => polarVolumeByRegion(filtered), [filtered]);
-  const scatter = useMemo(() => scatterActualVsForecast(filtered, 80), [filtered]);
   const bubbles = useMemo(() => bubbleActualVsForecast(filtered, 40), [filtered]);
+  const funnel = useMemo(() => forecastFunnelStages(filtered), [filtered]);
   const modelRows = useMemo(() => aggregateModelPerformance(filteredModels), [filteredModels]);
   const radar = useMemo(() => modelRadarSeries(modelRows), [modelRows]);
   const mixedData = useMemo(
@@ -104,8 +104,8 @@ export function ForecastDashboard() {
               Intelligent AutoML Sales Forecasting
             </h1>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
-              Area, Bar, Bubble, Doughnut, Pie, Line, Mixed, Polar Area, Radar and Scatter — driven by
-              filtered mock data.
+              Area, Bar, Bubble, Doughnut, Pie, Line, Mixed, Polar Area, Radar and Funnel — driven by
+              filtered Olist mock data.
             </p>
           </div>
           <div className="rounded-xl border border-border/70 bg-surface/80 px-3.5 py-2.5 text-xs text-muted shadow-soft backdrop-blur">
@@ -139,7 +139,7 @@ export function ForecastDashboard() {
           <MixedChartView data={mixedData} />
           <PolarAreaChartView data={polar} />
           <RadarChartView data={radar} models={modelRows.map((m) => m.model)} />
-          <ScatterChartView data={scatter} />
+          <FunnelChartView data={funnel} />
         </div>
       </div>
 

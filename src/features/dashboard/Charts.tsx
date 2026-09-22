@@ -7,6 +7,9 @@ import {
   CartesianGrid,
   Cell,
   ComposedChart,
+  Funnel,
+  FunnelChart,
+  LabelList,
   Legend,
   Line,
   LineChart,
@@ -287,23 +290,32 @@ export function RadarChartView({
   );
 }
 
-/** 9. Scatter Chart */
-export function ScatterChartView({
+/** 9. Funnel Chart */
+export function FunnelChartView({
   data,
 }: {
-  data: Array<{ actual: number; forecast: number; sku: string }>;
+  data: Array<{ name: string; value: number; fill: string }>;
 }) {
   return (
-    <ChartCard title="Scatter Chart" subtitle="Each point is an evaluated actual vs forecast pair">
+    <ChartCard
+      title="Funnel Chart"
+      subtitle="Forecast volume funnel · total → evaluated → within tolerance → recommended"
+    >
       <ResponsiveContainer>
-        <ScatterChart margin={{ top: 8, right: 12, bottom: 8, left: 8 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke={chartGrid} />
-          <XAxis type="number" dataKey="actual" name="Actual" tick={chartTick} />
-          <YAxis type="number" dataKey="forecast" name="Forecast" tick={chartTick} />
-          <ZAxis range={[50, 50]} />
-          <Tooltip cursor={{ strokeDasharray: '3 3' }} contentStyle={chartTooltipStyle} />
-          <Scatter name="Evaluated points" data={data} fill={COLORS.teal} fillOpacity={0.75} />
-        </ScatterChart>
+        <FunnelChart margin={{ top: 8, right: 120, bottom: 8, left: 16 }}>
+          <Tooltip contentStyle={chartTooltipStyle} />
+          <Funnel dataKey="value" data={data} isAnimationActive nameKey="name">
+            {data.map((entry, i) => (
+              <Cell key={entry.name} fill={entry.fill ?? PIE_COLORS[i % PIE_COLORS.length]} />
+            ))}
+            <LabelList
+              position="right"
+              fill="rgb(var(--color-ink))"
+              stroke="none"
+              dataKey="name"
+            />
+          </Funnel>
+        </FunnelChart>
       </ResponsiveContainer>
     </ChartCard>
   );

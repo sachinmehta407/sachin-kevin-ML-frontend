@@ -6,7 +6,7 @@ import { Button } from '../../components/ui/Button';
 import { Card, CardTitle } from '../../components/ui/Card';
 import { PageHeader } from '../../components/ui/Page';
 import { acfSeries, seasonalitySeries, trendSeries } from '../../data/edaData';
-import { chartGrid, chartTickSm, chartTooltipStyle } from '../../lib/chartTheme';
+import { chartColors, chartGrid, chartTickSm, chartTooltipStyle } from '../../lib/chartTheme';
 import { useAppStore } from '../../store/useAppStore';
 
 const axes = chartTickSm;
@@ -35,8 +35,8 @@ export function ForecastEdaPage() {
                 <XAxis dataKey="month" tick={axes} />
                 <YAxis tick={axes} />
                 <Tooltip contentStyle={chartTooltipStyle} />
-                <Line dataKey="sales" stroke="#6D5CE0" strokeWidth={2} dot={false} />
-                <Line dataKey="trend" stroke="#0E9E8E" strokeWidth={2} dot={false} />
+                <Line dataKey="sales" stroke={chartColors.primary} strokeWidth={2} dot={false} />
+                <Line dataKey="trend" stroke={chartColors.accent} strokeWidth={2} dot={false} />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -49,7 +49,7 @@ export function ForecastEdaPage() {
                 <XAxis dataKey="month" tick={axes} />
                 <YAxis tick={axes} />
                 <Tooltip contentStyle={chartTooltipStyle} />
-                <Bar dataKey="index" fill="#2F6FED" radius={[5, 5, 0, 0]} />
+                <Bar dataKey="index" fill={chartColors.primary} radius={[5, 5, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -62,7 +62,7 @@ export function ForecastEdaPage() {
                 <XAxis dataKey="lag" tick={axes} />
                 <YAxis domain={[-1, 1]} tick={axes} />
                 <Tooltip contentStyle={chartTooltipStyle} />
-                <Bar dataKey="correlation" fill="#0E9E8E" />
+                <Bar dataKey="correlation" fill={chartColors.secondary} />
               </BarChart>
             </ResponsiveContainer>
           </div>

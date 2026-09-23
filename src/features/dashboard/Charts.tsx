@@ -30,22 +30,8 @@ import {
   YAxis,
   ZAxis,
 } from 'recharts';
-import { chartGrid, chartTick, chartTickSm, chartTooltipStyle } from '../../lib/chartTheme';
+import { chartGrid, chartTick, chartTickSm, chartTooltipStyle, COLORS, MODEL_COLORS, PIE_COLORS } from '../../lib/chartTheme';
 import { DirectionSlice, MonthSeriesPoint } from '../../lib/metrics';
-
-const COLORS = {
-  actual: '#2563EB',
-  forecast: '#5346D3',
-  teal: '#0B8F82',
-  coral: '#D44545',
-  amber: '#B86E08',
-  within: '#0B8F82',
-  over: '#D44545',
-  under: '#2563EB',
-};
-
-const PIE_COLORS = ['#5346D3', '#2563EB', '#0B8F82', '#B86E08', '#D44545', '#C23A8A', '#64748B'];
-const MODEL_COLORS = ['#5346D3', '#2563EB', '#0B8F82', '#B86E08', '#D44545', '#C23A8A'];
 
 function ChartCard({
   title,
@@ -211,7 +197,7 @@ export function MixedChartView({ data }: { data: MonthSeriesPoint[] }) {
           <Legend />
           <Bar yAxisId="left" dataKey="forecast" name="Forecast" fill={COLORS.forecast} radius={[4, 4, 0, 0]} />
           <Bar yAxisId="left" dataKey="actual" name="Actual" fill={COLORS.actual} radius={[4, 4, 0, 0]} />
-          <Line yAxisId="right" type="monotone" dataKey="wape" name="WAPE %" stroke={COLORS.coral} strokeWidth={2.5} dot />
+          <Line yAxisId="right" type="monotone" dataKey="wape" name="WAPE %" stroke={COLORS.wape} strokeWidth={2.5} dot />
         </ComposedChart>
       </ResponsiveContainer>
     </ChartCard>

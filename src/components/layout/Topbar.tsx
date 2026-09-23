@@ -1,5 +1,6 @@
 import { Bot, Menu, Monitor, Moon, Sun } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
+import logo from '../../assets/ai-tech-tures-labs-logo.png';
 import { useAppStore } from '../../store/useAppStore';
 import type { Theme } from '../../types/app';
 
@@ -67,9 +68,12 @@ export function Topbar({ onMenu }: { onMenu: () => void }) {
         >
           <Icon size={17} />
         </button>
-        <div className="grid h-9 w-9 place-items-center rounded-full bg-gradient-to-br from-violet via-blue to-teal text-[11px] font-bold text-white shadow-glow">
-          FC
-        </div>
+        <img
+          src={logo}
+          alt="Ai-Tech-Tures Labs"
+          title="Ai-Tech-Tures Labs"
+          className="h-9 w-9 rounded-full object-cover shadow-glow ring-1 ring-border/60"
+        />
       </div>
     </header>
   );

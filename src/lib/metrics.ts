@@ -1,4 +1,5 @@
 import { ForecastRecord, ModelPerformanceRecord, TOLERANCE_PCT } from '../types/forecast';
+import { chartColors, PIE_COLORS } from './chartTheme';
 
 export interface DashboardKpis {
   actualSales: number;
@@ -389,7 +390,7 @@ export function pieShareByCategory(
 export function polarVolumeByRegion(
   records: ForecastRecord[],
 ): Array<{ name: string; value: number; fill: string }> {
-  const fills = ['#5346D3', '#2563EB', '#0B8F82', '#B86E08', '#D44545', '#C23A8A'];
+  const fills = [...PIE_COLORS];
   return volumeByRegion(records).map((r, i) => ({
     name: r.name,
     value: r.forecast,
@@ -416,10 +417,10 @@ export function forecastFunnelStages(
     recommendedQuantities(records, 50).reduce((s, r) => s + r.recommendedQuantity, 0),
   );
   return [
-    { name: 'Total forecast', value: Math.max(totalForecast, 1), fill: '#5346D3' },
-    { name: 'Evaluated periods', value: Math.max(evaluated, 1), fill: '#2563EB' },
-    { name: 'Within ±10%', value: Math.max(within, 1), fill: '#0B8F82' },
-    { name: 'Recommended qty', value: Math.max(recommended, 1), fill: '#B86E08' },
+    { name: 'Total forecast', value: Math.max(totalForecast, 1), fill: chartColors.primary },
+    { name: 'Evaluated periods', value: Math.max(evaluated, 1), fill: chartColors.accent },
+    { name: 'Within ±10%', value: Math.max(within, 1), fill: chartColors.secondary },
+    { name: 'Recommended qty', value: Math.max(recommended, 1), fill: chartColors.primary },
   ];
 }
 
